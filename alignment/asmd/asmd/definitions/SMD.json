@@ -1,0 +1,844 @@
+{
+    "ensemble": false,
+    "groups": ["all"],
+    "ground_truth": {
+        "all": {
+            "broad_alignment": 0,
+            "f0": 0,
+            "misaligned": 2,
+            "score": 0,
+            "precise_alignment": 1,
+            "soft": 1,
+            "sostenuto": 1,
+            "sustain": 1,
+            "velocities": 1
+        }
+    },
+    "install": {
+        "conversion": [
+            [
+                "from_midi",
+                {}
+            ]
+        ],
+        "login": false,
+        "post-process": [
+            "wget https://resources.mpi-inf.mpg.de/SMD/SMD_MIDI-Audio-Piano-Music.html -e robots=off -r -l1 -nd --no-parent -A.{mp3,mid} --directory-prefix=SMD/",
+            "mv SMD/ &install_dir"
+        ],
+        "unpack": false,
+        "url": "unknown"
+    },
+    "instruments": [
+        "piano"
+    ],
+    "name": "SMD",
+    "recording": {
+        "format": "mp3"
+    },
+    "songs": [
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "SMD/Bach_BWV849-01_001_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Bach_BWV849-01_001_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Bach_BWV849-01_001_20090916-SMD"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "SMD/Bach_BWV849-02_001_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Bach_BWV849-02_001_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Bach_BWV849-02_001_20090916-SMD"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "SMD/Bach_BWV871-01_002_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Bach_BWV871-01_002_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Bach_BWV871-01_002_20090916-SMD"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "SMD/Bach_BWV871-02_002_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Bach_BWV871-02_002_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Bach_BWV871-02_002_20090916-SMD"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "SMD/Bach_BWV875-01_002_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Bach_BWV875-01_002_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Bach_BWV875-01_002_20090916-SMD"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "SMD/Bach_BWV875-02_002_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Bach_BWV875-02_002_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Bach_BWV875-02_002_20090916-SMD"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "SMD/Bach_BWV888-01_008_20110315-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Bach_BWV888-01_008_20110315-SMD.mp3"
+                ]
+            },
+            "title": "Bach_BWV888-01_008_20110315-SMD"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "SMD/Bach_BWV888-02_008_20110315-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Bach_BWV888-02_008_20110315-SMD.mp3"
+                ]
+            },
+            "title": "Bach_BWV888-02_008_20110315-SMD"
+        },
+        {
+            "composer": "Bartok",
+            "ground_truth": [
+                "SMD/Bartok_SZ080-01_002_20110315-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Bartok_SZ080-01_002_20110315-SMD.mp3"
+                ]
+            },
+            "title": "Bartok_SZ080-01_002_20110315-SMD"
+        },
+        {
+            "composer": "Bartok",
+            "ground_truth": [
+                "SMD/Bartok_SZ080-02_002_20110315-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Bartok_SZ080-02_002_20110315-SMD.mp3"
+                ]
+            },
+            "title": "Bartok_SZ080-02_002_20110315-SMD"
+        },
+        {
+            "composer": "Bartok",
+            "ground_truth": [
+                "SMD/Bartok_SZ080-03_002_20110315-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Bartok_SZ080-03_002_20110315-SMD.mp3"
+                ]
+            },
+            "title": "Bartok_SZ080-03_002_20110315-SMD"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "SMD/Beethoven_Op027No1-01_003_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Beethoven_Op027No1-01_003_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Beethoven_Op027No1-01_003_20090916-SMD"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "SMD/Beethoven_Op027No1-02_003_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Beethoven_Op027No1-02_003_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Beethoven_Op027No1-02_003_20090916-SMD"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "SMD/Beethoven_Op027No1-03_003_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Beethoven_Op027No1-03_003_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Beethoven_Op027No1-03_003_20090916-SMD"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "SMD/Beethoven_Op031No2-01_002_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Beethoven_Op031No2-01_002_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Beethoven_Op031No2-01_002_20090916-SMD"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "SMD/Beethoven_Op031No2-02_002_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Beethoven_Op031No2-02_002_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Beethoven_Op031No2-02_002_20090916-SMD"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "SMD/Beethoven_Op031No2-03_002_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Beethoven_Op031No2-03_002_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Beethoven_Op031No2-03_002_20090916-SMD"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "SMD/Beethoven_WoO080_001_20081107-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Beethoven_WoO080_001_20081107-SMD.mp3"
+                ]
+            },
+            "title": "Beethoven_WoO080_001_20081107-SMD"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "SMD/Brahms_Op005-01_002_20110315-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Brahms_Op005-01_002_20110315-SMD.mp3"
+                ]
+            },
+            "title": "Brahms_Op005-01_002_20110315-SMD"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "SMD/Brahms_Op010No1_003_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Brahms_Op010No1_003_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Brahms_Op010No1_003_20090916-SMD"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "SMD/Brahms_Op010No2_003_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Brahms_Op010No2_003_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Brahms_Op010No2_003_20090916-SMD"
+        },
+        {
+            "composer": "Chopin",
+            "ground_truth": [
+                "SMD/Chopin_Op010-03_007_20100611-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Chopin_Op010-03_007_20100611-SMD.mp3"
+                ]
+            },
+            "title": "Chopin_Op010-03_007_20100611-SMD"
+        },
+        {
+            "composer": "Chopin",
+            "ground_truth": [
+                "SMD/Chopin_Op010-04_007_20100611-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Chopin_Op010-04_007_20100611-SMD.mp3"
+                ]
+            },
+            "title": "Chopin_Op010-04_007_20100611-SMD"
+        },
+        {
+            "composer": "Chopin",
+            "ground_truth": [
+                "SMD/Chopin_Op026No1_003_20100611-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Chopin_Op026No1_003_20100611-SMD.mp3"
+                ]
+            },
+            "title": "Chopin_Op026No1_003_20100611-SMD"
+        },
+        {
+            "composer": "Chopin",
+            "ground_truth": [
+                "SMD/Chopin_Op026No2_005_20100611-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Chopin_Op026No2_005_20100611-SMD.mp3"
+                ]
+            },
+            "title": "Chopin_Op026No2_005_20100611-SMD"
+        },
+        {
+            "composer": "Chopin",
+            "ground_truth": [
+                "SMD/Chopin_Op028-01_003_20100611-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Chopin_Op028-01_003_20100611-SMD.mp3"
+                ]
+            },
+            "title": "Chopin_Op028-01_003_20100611-SMD"
+        },
+        {
+            "composer": "Chopin",
+            "ground_truth": [
+                "SMD/Chopin_Op028-03_003_20100611-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Chopin_Op028-03_003_20100611-SMD.mp3"
+                ]
+            },
+            "title": "Chopin_Op028-03_003_20100611-SMD"
+        },
+        {
+            "composer": "Chopin",
+            "ground_truth": [
+                "SMD/Chopin_Op028-04_003_20100611-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Chopin_Op028-04_003_20100611-SMD.mp3"
+                ]
+            },
+            "title": "Chopin_Op028-04_003_20100611-SMD"
+        },
+        {
+            "composer": "Chopin",
+            "ground_truth": [
+                "SMD/Chopin_Op028-11_003_20100611-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Chopin_Op028-11_003_20100611-SMD.mp3"
+                ]
+            },
+            "title": "Chopin_Op028-11_003_20100611-SMD"
+        },
+        {
+            "composer": "Chopin",
+            "ground_truth": [
+                "SMD/Chopin_Op028-15_006_20100611-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Chopin_Op028-15_006_20100611-SMD.mp3"
+                ]
+            },
+            "title": "Chopin_Op028-15_006_20100611-SMD"
+        },
+        {
+            "composer": "Chopin",
+            "ground_truth": [
+                "SMD/Chopin_Op028-17_005_20100611-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Chopin_Op028-17_005_20100611-SMD.mp3"
+                ]
+            },
+            "title": "Chopin_Op028-17_005_20100611-SMD"
+        },
+        {
+            "composer": "Chopin",
+            "ground_truth": [
+                "SMD/Chopin_Op029_004_20100611-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Chopin_Op029_004_20100611-SMD.mp3"
+                ]
+            },
+            "title": "Chopin_Op029_004_20100611-SMD"
+        },
+        {
+            "composer": "Chopin",
+            "ground_truth": [
+                "SMD/Chopin_Op048No1_007_20100611-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Chopin_Op048No1_007_20100611-SMD.mp3"
+                ]
+            },
+            "title": "Chopin_Op048No1_007_20100611-SMD"
+        },
+        {
+            "composer": "Chopin",
+            "ground_truth": [
+                "SMD/Chopin_Op066_006_20100611-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Chopin_Op066_006_20100611-SMD.mp3"
+                ]
+            },
+            "title": "Chopin_Op066_006_20100611-SMD"
+        },
+        {
+            "composer": "Haydn",
+            "ground_truth": [
+                "SMD/Haydn_Hob017No4_003_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Haydn_Hob017No4_003_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Haydn_Hob017No4_003_20090916-SMD"
+        },
+        {
+            "composer": "Haydn",
+            "ground_truth": [
+                "SMD/Haydn_HobXVINo52-01_008_20110315-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Haydn_HobXVINo52-01_008_20110315-SMD.mp3"
+                ]
+            },
+            "title": "Haydn_HobXVINo52-01_008_20110315-SMD"
+        },
+        {
+            "composer": "Haydn",
+            "ground_truth": [
+                "SMD/Haydn_HobXVINo52-02_008_20110315-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Haydn_HobXVINo52-02_008_20110315-SMD.mp3"
+                ]
+            },
+            "title": "Haydn_HobXVINo52-02_008_20110315-SMD"
+        },
+        {
+            "composer": "Haydn",
+            "ground_truth": [
+                "SMD/Haydn_HobXVINo52-03_008_20110315-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Haydn_HobXVINo52-03_008_20110315-SMD.mp3"
+                ]
+            },
+            "title": "Haydn_HobXVINo52-03_008_20110315-SMD"
+        },
+        {
+            "composer": "Liszt",
+            "ground_truth": [
+                "SMD/Liszt_AnnesDePelerinage-LectureDante_002_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Liszt_AnnesDePelerinage-LectureDante_002_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Liszt_AnnesDePelerinage-LectureDante_002_20090916-SMD"
+        },
+        {
+            "composer": "Liszt",
+            "ground_truth": [
+                "SMD/Liszt_KonzertetuedeNo2LaLeggierezza_003_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Liszt_KonzertetuedeNo2LaLeggierezza_003_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Liszt_KonzertetuedeNo2LaLeggierezza_003_20090916-SMD"
+        },
+        {
+            "composer": "Liszt",
+            "ground_truth": [
+                "SMD/Liszt_VariationenBachmotivWeinenKlagenSorgenZagen_001_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Liszt_VariationenBachmotivWeinenKlagenSorgenZagen_001_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Liszt_VariationenBachmotivWeinenKlagenSorgenZagen_001_20090916-SMD"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "SMD/Mozart_KV265_006_20110315-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Mozart_KV265_006_20110315-SMD.mp3"
+                ]
+            },
+            "title": "Mozart_KV265_006_20110315-SMD"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "SMD/Mozart_KV398_002_20110315-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Mozart_KV398_002_20110315-SMD.mp3"
+                ]
+            },
+            "title": "Mozart_KV398_002_20110315-SMD"
+        },
+        {
+            "composer": "Rachmaninoff",
+            "ground_truth": [
+                "SMD/Rachmaninoff_Op036-01_007_20110315-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Rachmaninoff_Op036-01_007_20110315-SMD.mp3"
+                ]
+            },
+            "title": "Rachmaninoff_Op036-01_007_20110315-SMD"
+        },
+        {
+            "composer": "Rachmaninoff",
+            "ground_truth": [
+                "SMD/Rachmaninoff_Op036-02_007_20110315-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Rachmaninoff_Op036-02_007_20110315-SMD.mp3"
+                ]
+            },
+            "title": "Rachmaninoff_Op036-02_007_20110315-SMD"
+        },
+        {
+            "composer": "Rachmaninoff",
+            "ground_truth": [
+                "SMD/Rachmaninoff_Op036-03_007_20110315-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Rachmaninoff_Op036-03_007_20110315-SMD.mp3"
+                ]
+            },
+            "title": "Rachmaninoff_Op036-03_007_20110315-SMD"
+        },
+        {
+            "composer": "Rachmaninov",
+            "ground_truth": [
+                "SMD/Rachmaninov_Op039No1_002_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Rachmaninov_Op039No1_002_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Rachmaninov_Op039No1_002_20090916-SMD"
+        },
+        {
+            "composer": "Ravel",
+            "ground_truth": [
+                "SMD/Ravel_JeuxDEau_008_20110315-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Ravel_JeuxDEau_008_20110315-SMD.mp3"
+                ]
+            },
+            "title": "Ravel_JeuxDEau_008_20110315-SMD"
+        },
+        {
+            "composer": "Ravel",
+            "ground_truth": [
+                "SMD/Ravel_ValsesNoblesEtSentimentales_003_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Ravel_ValsesNoblesEtSentimentales_003_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Ravel_ValsesNoblesEtSentimentales_003_20090916-SMD"
+        },
+        {
+            "composer": "Skryabin",
+            "ground_truth": [
+                "SMD/Skryabin_Op008No8_003_20090916-SMD-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "SMD/Skryabin_Op008No8_003_20090916-SMD.mp3"
+                ]
+            },
+            "title": "Skryabin_Op008No8_003_20090916-SMD"
+        }
+    ],
+    "sources": {
+        "format": "unknown"
+    }
+}

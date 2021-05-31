@@ -1,0 +1,517 @@
+{
+    "ensemble": false,
+    "groups": ["all"],
+    "ground_truth": {
+        "all": {
+            "broad_alignment": 0,
+            "f0": 0,
+            "misaligned": 2,
+            "score": 1,
+            "precise_alignment": 1,
+            "soft": 0,
+            "sostenuto": 0,
+            "sustain": 0,
+            "velocities": 0
+        }
+    },
+    "install": {
+        "conversion": [
+            [
+                "from_midi_remove_player",
+                {
+                    "alignment": "score",
+                    "beats": true,
+                    "merge": false,
+                    "pitches": true,
+                    "velocities": false
+                }
+            ],
+            [
+                "from_sonic_visualizer",
+                {}
+            ]
+        ],
+        "login": false,
+        "post-process": [
+            "mv &install_dir/traditional_flute/score/*.midi &install_dir/traditional_flute/ground_truth/"
+        ],
+        "unpack": true,
+        "url": "https://mega.nz/#!jUVT0CiC!IJgwfGuhG2-sWsoInnucIdkd-GHdrXowCSQ1hOHkEIY"
+    },
+    "instruments": [
+        "flute"
+    ],
+    "name": "traditional_flute",
+    "recording": {
+        "format": "wav"
+    },
+    "songs": [
+        {
+            "composer": "Johann Sebastian Bach",
+            "ground_truth": [
+                "traditional_flute/ground_truth/allemande_fifth_fragment_preston-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/allemande_fifth_fragment_preston.wav"
+                ]
+            },
+            "title": "BWV 1013 Allemande"
+        },
+        {
+            "composer": "Johann Sebastian Bach",
+            "ground_truth": [
+                "traditional_flute/ground_truth/allemande_fifth_fragment_rampal-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/allemande_fifth_fragment_rampal.wav"
+                ]
+            },
+            "title": "BWV 1013 Allemande"
+        },
+        {
+            "composer": "Johann Sebastian Bach",
+            "ground_truth": [
+                "traditional_flute/ground_truth/allemande_first_fragment_larrieu-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/allemande_first_fragment_larrieu.wav"
+                ]
+            },
+            "title": "BWV 1013 Allemande"
+        },
+        {
+            "composer": "Johann Sebastian Bach",
+            "ground_truth": [
+                "traditional_flute/ground_truth/allemande_first_fragment_nicolet-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/allemande_first_fragment_nicolet.wav"
+                ]
+            },
+            "title": "BWV 1013 Allemande"
+        },
+        {
+            "composer": "Johann Sebastian Bach",
+            "ground_truth": [
+                "traditional_flute/ground_truth/allemande_fourth_fragment_gerard-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/allemande_fourth_fragment_gerard.wav"
+                ]
+            },
+            "title": "BWV 1013 Allemande"
+        },
+        {
+            "composer": "Johann Sebastian Bach",
+            "ground_truth": [
+                "traditional_flute/ground_truth/allemande_fourth_fragment_larrieu-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/allemande_fourth_fragment_larrieu.wav"
+                ]
+            },
+            "title": "BWV 1013 Allemande"
+        },
+        {
+            "composer": "Johann Sebastian Bach",
+            "ground_truth": [
+                "traditional_flute/ground_truth/allemande_second_fragment_gerard-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/allemande_second_fragment_gerard.wav"
+                ]
+            },
+            "title": "BWV 1013 Allemande"
+        },
+        {
+            "composer": "Johann Sebastian Bach",
+            "ground_truth": [
+                "traditional_flute/ground_truth/allemande_second_fragment_preston-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/allemande_second_fragment_preston.wav"
+                ]
+            },
+            "title": "BWV 1013 Allemande"
+        },
+        {
+            "composer": "Johann Sebastian Bach",
+            "ground_truth": [
+                "traditional_flute/ground_truth/allemande_third_fragment_nicolet-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/allemande_third_fragment_nicolet.wav"
+                ]
+            },
+            "title": "BWV 1013 Allemande"
+        },
+        {
+            "composer": "Johann Sebastian Bach",
+            "ground_truth": [
+                "traditional_flute/ground_truth/allemande_third_fragment_rampal-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/allemande_third_fragment_rampal.wav"
+                ]
+            },
+            "title": "BWV 1013 Allemande"
+        },
+        {
+            "composer": "Edgar Varese",
+            "ground_truth": [
+                "traditional_flute/ground_truth/density_fifth_fragment_beauregard-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/density_fifth_fragment_beauregard.wav"
+                ]
+            },
+            "title": "Density"
+        },
+        {
+            "composer": "Edgar Varese",
+            "ground_truth": [
+                "traditional_flute/ground_truth/density_first_fragment_zoon-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/density_first_fragment_zoon.wav"
+                ]
+            },
+            "title": "Density"
+        },
+        {
+            "composer": "Edgar Varese",
+            "ground_truth": [
+                "traditional_flute/ground_truth/density_second_fragment_zoon-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/density_second_fragment_zoon.wav"
+                ]
+            },
+            "title": "Density"
+        },
+        {
+            "composer": "Edgar Varese",
+            "ground_truth": [
+                "traditional_flute/ground_truth/density_sixth_fragment_beauregard-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/density_sixth_fragment_beauregard.wav"
+                ]
+            },
+            "title": "Density"
+        },
+        {
+            "composer": "Edgar Varese",
+            "ground_truth": [
+                "traditional_flute/ground_truth/density_third_fragment_zoon-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/density_third_fragment_zoon.wav"
+                ]
+            },
+            "title": "Density"
+        },
+        {
+            "composer": "Luciano Berio",
+            "ground_truth": [
+                "traditional_flute/ground_truth/sequenza_first_fragment_robison-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/sequenza_first_fragment_robison.wav"
+                ]
+            },
+            "title": "Sequenza per flauto solo"
+        },
+        {
+            "composer": "Luciano Berio",
+            "ground_truth": [
+                "traditional_flute/ground_truth/sequenza_fourth_fragment_robison-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/sequenza_fourth_fragment_robison.wav"
+                ]
+            },
+            "title": "Sequenza per flauto solo"
+        },
+        {
+            "composer": "Luciano Berio",
+            "ground_truth": [
+                "traditional_flute/ground_truth/sequenza_second_fragment_robison-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/sequenza_second_fragment_robison.wav"
+                ]
+            },
+            "title": "Sequenza per flauto solo"
+        },
+        {
+            "composer": "Luciano Berio",
+            "ground_truth": [
+                "traditional_flute/ground_truth/sequenza_sixth_fragment_robison-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/sequenza_sixth_fragment_robison.wav"
+                ]
+            },
+            "title": "Sequenza per flauto solo"
+        },
+        {
+            "composer": "Claude Debussy",
+            "ground_truth": [
+                "traditional_flute/ground_truth/syrinx_fifth_fragment_bourdin-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/syrinx_fifth_fragment_bourdin.wav"
+                ]
+            },
+            "title": "Syrinx"
+        },
+        {
+            "composer": "Claude Debussy",
+            "ground_truth": [
+                "traditional_flute/ground_truth/syrinx_fifth_fragment_rhodes-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/syrinx_fifth_fragment_rhodes.wav"
+                ]
+            },
+            "title": "Syrinx"
+        },
+        {
+            "composer": "Claude Debussy",
+            "ground_truth": [
+                "traditional_flute/ground_truth/syrinx_first_fragment_bernold-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/syrinx_first_fragment_bernold.wav"
+                ]
+            },
+            "title": "Syrinx"
+        },
+        {
+            "composer": "Claude Debussy",
+            "ground_truth": [
+                "traditional_flute/ground_truth/syrinx_first_fragment_douglas-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/syrinx_first_fragment_douglas.wav"
+                ]
+            },
+            "title": "Syrinx"
+        },
+        {
+            "composer": "Claude Debussy",
+            "ground_truth": [
+                "traditional_flute/ground_truth/syrinx_fourth_fragment_bernold-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/syrinx_fourth_fragment_bernold.wav"
+                ]
+            },
+            "title": "Syrinx"
+        },
+        {
+            "composer": "Claude Debussy",
+            "ground_truth": [
+                "traditional_flute/ground_truth/syrinx_fourth_fragment_dwyer-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/syrinx_fourth_fragment_dwyer.wav"
+                ]
+            },
+            "title": "Syrinx"
+        },
+        {
+            "composer": "Claude Debussy",
+            "ground_truth": [
+                "traditional_flute/ground_truth/syrinx_second_fragment_bourdin-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/syrinx_second_fragment_bourdin.wav"
+                ]
+            },
+            "title": "Syrinx"
+        },
+        {
+            "composer": "Claude Debussy",
+            "ground_truth": [
+                "traditional_flute/ground_truth/syrinx_second_fragment_dwyer-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/syrinx_second_fragment_dwyer.wav"
+                ]
+            },
+            "title": "Syrinx"
+        },
+        {
+            "composer": "Claude Debussy",
+            "ground_truth": [
+                "traditional_flute/ground_truth/syrinx_third_fragment_douglas-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/syrinx_third_fragment_douglas.wav"
+                ]
+            },
+            "title": "Syrinx"
+        },
+        {
+            "composer": "Claude Debussy",
+            "ground_truth": [
+                "traditional_flute/ground_truth/syrinx_third_fragment_rhodes-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "traditional_flute/audio/syrinx_third_fragment_rhodes.wav"
+                ]
+            },
+            "title": "Syrinx"
+        }
+    ],
+    "sources": {
+        "format": "unknown"
+    }
+}

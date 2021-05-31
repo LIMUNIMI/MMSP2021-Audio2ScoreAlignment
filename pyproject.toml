@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "alignment"
+version = "0.1.0"
+description = ""
+authors = ["Federico Simonetta <federico.simonetta@unimi.it>"]
+license = "GPL 3"
+
+[tool.poetry.dependencies]
+python = "3.8.6"
+fastdtw = "^0.3.4"
+scipy = "^1.4.1"
+pretty_midi = "^0.2.9"
+plotly = "^4.14.3"
+pandas = "^1.1.2"
+fastcluster = "^1.1.28"
+dtw-python = "^1.1.6"
+piano-transcription-inference = "^0.0.4"
+torch = "^1.8.0"
+essentia = "^2.1b6.dev184"
+joblib = "^1.0.1"
+tqdm = "^4.59.0"
+omnizart = "^0.3.2"
+hmmlearn = "^0.2.5"
+statsmodels = "^0.12.2"
+mlflow = "^1.15.0"
+scikit-optimize = "^0.8.1"
+julia = "^0.5.6"
+visdom = "^0.1.8"
+alive-progress = "^1.6.2"
+"mega.py" = "^1.0.8"
+pyfiglet = "^0.8.post1"
+tensorflow = "2.3.0"
+tensorflow-gpu = "2.3.2"
+psutil = "^5.8.0"
+mir_eval = "^0.6"
+emcee = "^3.0.2"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.20.0"
+ipdb = "^0.13.4"
+snoop = "^0.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

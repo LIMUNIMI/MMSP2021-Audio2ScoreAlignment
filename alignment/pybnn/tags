@@ -1,0 +1,262 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/sapo/Develop/phd/alignment/alignment/pybnn/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210110.0/
+AdaptiveSGHMC	pybnn/sampler/adaptive_sghmc.py	/^class AdaptiveSGHMC(Optimizer):$/;"	c
+AppendLayer	pybnn/util/layers.py	/^class AppendLayer(nn.Module):$/;"	c
+Architecture	pybnn/bohamiann.py	/^    class Architecture(torch.nn.Module):$/;"	c	function:get_default_network	file:
+Architecture	pybnn/lcnet.py	/^    class Architecture(nn.Module):$/;"	c	function:get_lc_net_architecture	file:
+Architecture	pybnn/multi_task_bohamiann.py	/^    class Architecture(torch.nn.Module):$/;"	c	function:get_multitask_network	file:
+BaseModel	pybnn/base_model.py	/^class BaseModel(object):$/;"	c
+BayesianLinearRegression	pybnn/bayesian_linear_regression.py	/^class BayesianLinearRegression(BaseModel):$/;"	c
+Bohamiann	pybnn/bohamiann.py	/^class Bohamiann(BaseModel):$/;"	c
+CurveModel	pybnn/lc_extrapolation/curvemodels.py	/^class CurveModel(object):$/;"	c
+DNGO	pybnn/dngo.py	/^class DNGO(BaseModel):$/;"	c
+Installation	README.md	/^# Installation$/;"	c
+LCNet	pybnn/lcnet.py	/^class LCNet(Bohamiann):$/;"	c
+MCMCCurveModelCombination	pybnn/lc_extrapolation/learning_curves.py	/^class MCMCCurveModelCombination(object):$/;"	c
+MLCurveModel	pybnn/lc_extrapolation/curvemodels.py	/^class MLCurveModel(CurveModel):$/;"	c
+MultiTaskBohamiann	pybnn/multi_task_bohamiann.py	/^class MultiTaskBohamiann(Bohamiann):$/;"	c
+Net	pybnn/dngo.py	/^class Net(nn.Module):$/;"	c
+PreconditionedSGLD	pybnn/sampler/preconditioned_sgld.py	/^class PreconditionedSGLD(Optimizer):$/;"	c
+Prior	pybnn/bayesian_linear_regression.py	/^class Prior(object):$/;"	c
+PseudoPool	pybnn/lc_extrapolation/learning_curves.py	/^        class PseudoPool(object):$/;"	c	member:MCMCCurveModelCombination.fit_mcmc	file:
+SGHMC	pybnn/sampler/sghmc.py	/^class SGHMC(Optimizer):$/;"	c
+SGLD	pybnn/sampler/sgld.py	/^class SGLD(Optimizer):$/;"	c
+TestBohamiann	test/test_bohamiann.py	/^class TestBohamiann(unittest.TestCase):$/;"	c
+TestBohamiannSampler	test/test_bohamiann.py	/^class TestBohamiannSampler(unittest.TestCase):$/;"	c
+TestDNGO	test/test_dngo.py	/^class TestDNGO(unittest.TestCase):$/;"	c
+TestLCNet	test/test_lcnet.py	/^class TestLCNet(unittest.TestCase):$/;"	c
+TestMTBohamiann	test/test_mtbohamiann.py	/^class TestMTBohamiann(unittest.TestCase):$/;"	c
+TestNormalization	test/test_normalization.py	/^class TestNormalization(unittest.TestCase):$/;"	c
+__init__	pybnn/base_model.py	/^    def __init__(self):$/;"	m	class:BaseModel
+__init__	pybnn/bayesian_linear_regression.py	/^    def __init__(self, alpha=1, beta=1000, basis_func=linear_basis_func,$/;"	m	class:BayesianLinearRegression
+__init__	pybnn/bayesian_linear_regression.py	/^    def __init__(self, rng=None):$/;"	m	class:Prior
+__init__	pybnn/bohamiann.py	/^        def __init__(self, n_inputs, n_hidden=50):$/;"	m	class:get_default_network.Architecture
+__init__	pybnn/bohamiann.py	/^    def __init__(self,$/;"	m	class:Bohamiann	typeref:typename:None
+__init__	pybnn/dngo.py	/^    def __init__(self, batch_size=10, num_epochs=500,$/;"	m	class:DNGO
+__init__	pybnn/dngo.py	/^    def __init__(self, n_inputs, n_units=[50, 50, 50]):$/;"	m	class:Net
+__init__	pybnn/lc_extrapolation/curvemodels.py	/^    def __init__(self, recency_weighting=True, **kwargs):$/;"	m	class:MLCurveModel
+__init__	pybnn/lc_extrapolation/curvemodels.py	/^    def __init__(self,$/;"	m	class:CurveModel
+__init__	pybnn/lc_extrapolation/learning_curves.py	/^    def __init__(self,$/;"	m	class:MCMCCurveModelCombination
+__init__	pybnn/lcnet.py	/^        def __init__(self, n_inputs, n_hidden=50):$/;"	m	class:get_lc_net_architecture.Architecture
+__init__	pybnn/lcnet.py	/^    def __init__(self, **kwargs) -> None:$/;"	m	class:LCNet	typeref:typename:None
+__init__	pybnn/multi_task_bohamiann.py	/^        def __init__(self, n_inputs, n_tasks, emb_dim=5, n_hidden=50):$/;"	m	class:get_multitask_network.Architecture
+__init__	pybnn/multi_task_bohamiann.py	/^    def __init__(self,$/;"	m	class:MultiTaskBohamiann	typeref:typename:None
+__init__	pybnn/sampler/adaptive_sghmc.py	/^    def __init__(self,$/;"	m	class:AdaptiveSGHMC	typeref:typename:None
+__init__	pybnn/sampler/preconditioned_sgld.py	/^    def __init__(self,$/;"	m	class:PreconditionedSGLD	typeref:typename:None
+__init__	pybnn/sampler/sghmc.py	/^    def __init__(self,$/;"	m	class:SGHMC	typeref:typename:None
+__init__	pybnn/sampler/sgld.py	/^    def __init__(self,$/;"	m	class:SGLD	typeref:typename:None
+__init__	pybnn/util/layers.py	/^    def __init__(self, noise=1e-3, *args, **kwargs):$/;"	m	class:AppendLayer
+__metaclass__	pybnn/base_model.py	/^    __metaclass__ = abc.ABCMeta$/;"	v	class:BaseModel	file:
+_check_shapes_predict	pybnn/base_model.py	/^    def _check_shapes_predict(func):$/;"	m	class:BaseModel
+_check_shapes_train	pybnn/base_model.py	/^    def _check_shapes_train(func):$/;"	m	class:BaseModel
+_join_theta	pybnn/lc_extrapolation/learning_curves.py	/^    def _join_theta(self, model_params, sigma, model_weights):$/;"	m	class:MCMCCurveModelCombination
+_ln_likelihood	pybnn/lc_extrapolation/learning_curves.py	/^    def _ln_likelihood(self, theta, x, y):$/;"	m	class:MCMCCurveModelCombination
+_ln_model_prior	pybnn/lc_extrapolation/learning_curves.py	/^    def _ln_model_prior(self, model, params):$/;"	m	class:MCMCCurveModelCombination
+_ln_prior	pybnn/lc_extrapolation/learning_curves.py	/^    def _ln_prior(self, theta):$/;"	m	class:MCMCCurveModelCombination
+_ln_prob	pybnn/lc_extrapolation/learning_curves.py	/^    def _ln_prob(self, theta, x, y):$/;"	m	class:MCMCCurveModelCombination
+_predict_given_params	pybnn/lc_extrapolation/learning_curves.py	/^    def _predict_given_params(self, x, model_params, model_weights):$/;"	m	class:MCMCCurveModelCombination
+_predict_given_theta	pybnn/lc_extrapolation/learning_curves.py	/^    def _predict_given_theta(self, x, theta):$/;"	m	class:MCMCCurveModelCombination
+_split_theta	pybnn/lc_extrapolation/learning_curves.py	/^    def _split_theta(self, theta):$/;"	m	class:MCMCCurveModelCombination
+a	examples/example_lc_extrapolation.py	/^a = np.random.rand()$/;"	v
+aic	pybnn/lc_extrapolation/curvemodels.py	/^    def aic(self, x, y):$/;"	m	class:MLCurveModel
+all_models	pybnn/lc_extrapolation/curvefunctions.py	/^all_models = {}$/;"	v
+are_params_in_bounds	pybnn/lc_extrapolation/curvemodels.py	/^    def are_params_in_bounds(self, theta):$/;"	m	class:CurveModel
+b	examples/example_lc_extrapolation.py	/^b = np.random.rand()$/;"	v
+basis_funcs	pybnn/dngo.py	/^    def basis_funcs(self, x):$/;"	m	class:Net
+bertalanffy	pybnn/lc_extrapolation/curvefunctions.py	/^def bertalanffy(x, a, k):$/;"	f
+bf_layer	pybnn/lcnet.py	/^def bf_layer(theta, t):$/;"	f
+curve_combination_models	pybnn/lc_extrapolation/curvefunctions.py	/^curve_combination_models = ["weibull", "pow4", "mmf", "pow3", "loglog_linear",$/;"	v
+curve_combination_models_old	pybnn/lc_extrapolation/curvefunctions.py	/^curve_combination_models_old = ["vap", "ilog2", "weibull", "pow3", "pow4",$/;"	v
+curve_ensemble_models	pybnn/lc_extrapolation/curvefunctions.py	/^curve_ensemble_models = ["vap", "ilog2", "weibull", "pow3", "pow4",$/;"	v
+data_utils	pybnn/bohamiann.py	/^import torch.utils.data as data_utils$/;"	I	nameref:module:torch.utils.data
+default_function_param_array	pybnn/lc_extrapolation/curvemodels.py	/^    def default_function_param_array(self):$/;"	m	class:CurveModel
+display_name_mapping	pybnn/lc_extrapolation/curvefunctions.py	/^display_name_mapping = {}$/;"	v
+dr_hill	pybnn/lc_extrapolation/curvefunctions.py	/^def dr_hill(x, alpha, theta, eta, kappa):$/;"	f
+dr_hill_zero_background	pybnn/lc_extrapolation/curvefunctions.py	/^def dr_hill_zero_background(x, theta, eta, kappa):$/;"	f
+exp3	pybnn/lc_extrapolation/curvefunctions.py	/^def exp3(x, c, a, b):$/;"	f
+exp4	pybnn/lc_extrapolation/curvefunctions.py	/^def exp4(x, c, a, b, alpha):$/;"	f
+f_gradient	pybnn/bohamiann.py	/^    def f_gradient(self, x_test, weights):$/;"	m	class:Bohamiann
+fit	pybnn/lc_extrapolation/curvemodels.py	/^    def fit(self, x, y):$/;"	m	class:CurveModel
+fit	pybnn/lc_extrapolation/curvemodels.py	/^    def fit(self, x, y, weights=None, start_from_default=True):$/;"	m	class:MLCurveModel
+fit	pybnn/lc_extrapolation/learning_curves.py	/^    def fit(self, x, y, model_weights=None):$/;"	m	class:MCMCCurveModelCombination
+fit_bfgs	pybnn/lc_extrapolation/curvemodels.py	/^    def fit_bfgs(self, x, y, weights, start_from_default):$/;"	m	class:MLCurveModel
+fit_leastsq	pybnn/lc_extrapolation/curvemodels.py	/^    def fit_leastsq(self, x, y, weights, start_from_default):$/;"	m	class:MLCurveModel
+fit_mcmc	pybnn/lc_extrapolation/learning_curves.py	/^    def fit_mcmc(self, x, y):$/;"	m	class:MCMCCurveModelCombination
+fit_ml	pybnn/lc_extrapolation/curvemodels.py	/^    def fit_ml(self, x, y, weights, start_from_default):$/;"	m	class:MLCurveModel
+fit_ml_individual	pybnn/lc_extrapolation/learning_curves.py	/^    def fit_ml_individual(self, x, y, model_weights):$/;"	m	class:MCMCCurveModelCombination
+forward	pybnn/bohamiann.py	/^        def forward(self, input):$/;"	m	class:get_default_network.Architecture
+forward	pybnn/dngo.py	/^    def forward(self, x):$/;"	m	class:Net
+forward	pybnn/lcnet.py	/^        def forward(self, input):$/;"	m	class:get_lc_net_architecture.Architecture
+forward	pybnn/multi_task_bohamiann.py	/^        def forward(self, input):$/;"	m	class:get_multitask_network.Architecture
+forward	pybnn/util/layers.py	/^    def forward(self, x):$/;"	m	class:AppendLayer
+func_wrapper	pybnn/base_model.py	/^        def func_wrapper(self, X, *args, **kwargs):$/;"	f	member:BaseModel._check_shapes_predict	file:
+func_wrapper	pybnn/base_model.py	/^        def func_wrapper(self, X, y, *args, **kwargs):$/;"	f	member:BaseModel._check_shapes_train	file:
+get_burned_in_samples	pybnn/lc_extrapolation/learning_curves.py	/^    def get_burned_in_samples(self):$/;"	m	class:MCMCCurveModelCombination
+get_default_network	pybnn/bohamiann.py	/^def get_default_network(input_dimensionality: int) -> torch.nn.Module:$/;"	f	typeref:typename:torch.nn.Module
+get_incumbent	pybnn/base_model.py	/^    def get_incumbent(self):$/;"	m	class:BaseModel
+get_incumbent	pybnn/dngo.py	/^    def get_incumbent(self):$/;"	m	class:DNGO
+get_json_data	pybnn/base_model.py	/^    def get_json_data(self):$/;"	m	class:BaseModel
+get_lc_net_architecture	pybnn/lcnet.py	/^def get_lc_net_architecture(input_dimensionality: int) -> torch.nn.Module:$/;"	f	typeref:typename:torch.nn.Module
+get_ml_model_weights	pybnn/lc_extrapolation/learning_curves.py	/^    def get_ml_model_weights(self, x, y_target):$/;"	m	class:MCMCCurveModelCombination
+get_multitask_network	pybnn/multi_task_bohamiann.py	/^def get_multitask_network(input_dimensionality: int, n_tasks: int) -> torch.nn.Module:$/;"	f	typeref:typename:torch.nn.Module
+gompertz	pybnn/lc_extrapolation/curvefunctions.py	/^def gompertz(x, a, b, c):$/;"	f
+hill_3	pybnn/lcnet.py	/^def hill_3(x, a, b, c, *args):$/;"	f
+ilog2	pybnn/lc_extrapolation/curvefunctions.py	/^def ilog2(x, c, a):$/;"	f
+infinite_dataloader	pybnn/util/infinite_dataloader.py	/^def infinite_dataloader(dataloader):$/;"	f
+iterate_minibatches	pybnn/dngo.py	/^    def iterate_minibatches(self, inputs, targets, batchsize, shuffle=False):$/;"	m	class:DNGO
+janoschek	pybnn/lc_extrapolation/curvefunctions.py	/^def janoschek(x, a, beta, k, delta):$/;"	f
+lc	examples/example_lc_extrapolation.py	/^lc = [toy_example(t \/ n_epochs, a, b) for t in t_idx_full]$/;"	v
+likelihood	pybnn/lc_extrapolation/curvemodels.py	/^    def likelihood(self, x, y):$/;"	m	class:CurveModel
+linear	pybnn/lc_extrapolation/curvefunctions.py	/^def linear(x, a, b):$/;"	f
+linear_basis_func	pybnn/bayesian_linear_regression.py	/^def linear_basis_func(x):$/;"	f
+lnprob	pybnn/bayesian_linear_regression.py	/^    def lnprob(self, theta):$/;"	m	class:Prior
+log_func	pybnn/lcnet.py	/^def log_func(t, a, b, c, *args):$/;"	f
+log_power	pybnn/lc_extrapolation/curvefunctions.py	/^def log_power(x, a, b, c):$/;"	f
+log_variance_prior	pybnn/priors.py	/^def log_variance_prior(log_variance: torch.Tensor, mean: float = 1e-6, variance: float = 0.01) -/;"	f	typeref:typename:torch.Tensor
+logger	pybnn/bayesian_linear_regression.py	/^logger = logging.getLogger(__name__)$/;"	v
+logistic_curve	pybnn/lc_extrapolation/curvefunctions.py	/^def logistic_curve(x, a, k, b):$/;"	f
+loglog_linear	pybnn/lc_extrapolation/curvefunctions.py	/^def loglog_linear(x, a, b):$/;"	f
+logx_linear	pybnn/lc_extrapolation/curvefunctions.py	/^def logx_linear(x, a, b):$/;"	f
+m	examples/example_lc_extrapolation.py	/^m = np.zeros([n_epochs])$/;"	v
+map	pybnn/lc_extrapolation/learning_curves.py	/^            def map(self, func, proposals):$/;"	m	class:MCMCCurveModelCombination.fit_mcmc.PseudoPool
+marginal_log_likelihood	pybnn/bayesian_linear_regression.py	/^    def marginal_log_likelihood(self, theta):$/;"	m	class:BayesianLinearRegression
+marginal_log_likelihood	pybnn/dngo.py	/^    def marginal_log_likelihood(self, theta):$/;"	m	class:DNGO
+mean_mcmc	examples/example_lc_extrapolation.py	/^mean_mcmc = m[-1]$/;"	v
+ml_sigma	pybnn/lc_extrapolation/curvemodels.py	/^    def ml_sigma(self, x, y, popt, weights):$/;"	m	class:MLCurveModel
+mmf	pybnn/lc_extrapolation/curvefunctions.py	/^def mmf(x, alpha, beta, kappa, delta):$/;"	f
+model	examples/example_lc_extrapolation.py	/^model = MCMCCurveModelCombination(n_epochs + 1,$/;"	v
+model_defaults	pybnn/lc_extrapolation/curvefunctions.py	/^model_defaults = {}$/;"	v
+model_ln_prob	pybnn/lc_extrapolation/learning_curves.py	/^def model_ln_prob(theta, model, x, y):$/;"	f
+n_epochs	examples/example_lc_extrapolation.py	/^n_epochs = 100$/;"	v
+name	pybnn/sampler/sghmc.py	/^    name = "AdaptiveSGHMC"$/;"	v	class:SGHMC
+negative_mll	pybnn/bayesian_linear_regression.py	/^    def negative_mll(self, theta):$/;"	m	class:BayesianLinearRegression
+negative_mll	pybnn/dngo.py	/^    def negative_mll(self, theta):$/;"	m	class:DNGO
+network_predict	pybnn/bohamiann.py	/^        def network_predict(x_test_, weights):$/;"	f	member:Bohamiann.predict	file:
+network_predict	pybnn/bohamiann.py	/^        def network_predict(x_test_, weights):$/;"	f	member:Bohamiann.predict_single	file:
+network_weights	pybnn/bohamiann.py	/^    def network_weights(self) -> tuple:$/;"	m	class:Bohamiann	typeref:typename:tuple
+network_weights	pybnn/bohamiann.py	/^    def network_weights(self, weights: typing.List[np.ndarray]) -> None:$/;"	m	class:Bohamiann	typeref:typename:None
+nll	pybnn/bohamiann.py	/^def nll(input: torch.Tensor, target: torch.Tensor):$/;"	f
+nn	pybnn/bohamiann.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	pybnn/dngo.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	pybnn/lcnet.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	pybnn/multi_task_bohamiann.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+nn	pybnn/util/layers.py	/^import torch.nn as nn$/;"	I	nameref:module:torch.nn
+normalize_chain_model_weights	pybnn/lc_extrapolation/learning_curves.py	/^    def normalize_chain_model_weights(self):$/;"	m	class:MCMCCurveModelCombination
+normalize_input	pybnn/bohamiann.py	/^    def normalize_input(self, x, m=None, s=None):$/;"	m	class:Bohamiann
+normalize_input	pybnn/lcnet.py	/^    def normalize_input(x, m=None, s=None):$/;"	m	class:LCNet
+normalize_input	pybnn/multi_task_bohamiann.py	/^    def normalize_input(self, x, m=None, s=None):$/;"	m	class:MultiTaskBohamiann
+normalize_output	pybnn/bohamiann.py	/^    def normalize_output(self, x, m=None, s=None):$/;"	m	class:Bohamiann
+np	examples/example_lc_extrapolation.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	pybnn/base_model.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	pybnn/bayesian_linear_regression.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	pybnn/bohamiann.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	pybnn/dngo.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	pybnn/lc_extrapolation/curvefunctions.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	pybnn/lc_extrapolation/curvemodels.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	pybnn/lc_extrapolation/learning_curves.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	pybnn/lcnet.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	pybnn/multi_task_bohamiann.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	pybnn/priors.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	pybnn/sampler/preconditioned_sgld.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	pybnn/sampler/sghmc.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	pybnn/sampler/sgld.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	pybnn/util/layers.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	pybnn/util/normalization.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	test/test_bohamiann.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	test/test_dngo.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	test/test_lcnet.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	test/test_mtbohamiann.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	test/test_normalization.py	/^import numpy as np$/;"	I	nameref:module:numpy
+objective	pybnn/lc_extrapolation/curvemodels.py	/^            def objective(params):$/;"	f	member:MLCurveModel.fit_bfgs	file:
+objective	test/test_mtbohamiann.py	/^        def objective(x, task):$/;"	f	member:TestMTBohamiann.test_train_predict	file:
+observed	examples/example_lc_extrapolation.py	/^observed = 40$/;"	v
+optim	pybnn/dngo.py	/^import torch.optim as optim$/;"	I	nameref:module:torch.optim
+p	examples/example_lc_extrapolation.py	/^    p = model.predictive_distribution(i+1)$/;"	v
+p_greater	examples/example_lc_extrapolation.py	/^p_greater = model.posterior_prob_x_greater_than(n_epochs + 1, .5)$/;"	v
+plt	examples/example_lc_extrapolation.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
+posterior_prob_x_greater_than	pybnn/lc_extrapolation/learning_curves.py	/^    def posterior_prob_x_greater_than(self, x, y, thin=1):$/;"	m	class:MCMCCurveModelCombination
+pow2	pybnn/lc_extrapolation/curvefunctions.py	/^def pow2(x, a, alpha):$/;"	f
+pow3	pybnn/lc_extrapolation/curvefunctions.py	/^def pow3(x, c, a, alpha):$/;"	f
+pow4	pybnn/lc_extrapolation/curvefunctions.py	/^def pow4(x, c, a, b, alpha):$/;"	f
+predict	pybnn/base_model.py	/^    def predict(self, X_test):$/;"	m	class:BaseModel
+predict	pybnn/bayesian_linear_regression.py	/^    def predict(self, X_test):$/;"	m	class:BayesianLinearRegression
+predict	pybnn/bohamiann.py	/^    def predict(self, x_test: np.ndarray, return_individual_predictions: bool = False):$/;"	m	class:Bohamiann
+predict	pybnn/dngo.py	/^    def predict(self, X_test):$/;"	m	class:DNGO
+predict	pybnn/lc_extrapolation/curvemodels.py	/^    def predict(self, x):$/;"	m	class:CurveModel
+predict	pybnn/lc_extrapolation/curvemodels.py	/^    def predict(self, x):$/;"	m	class:MLCurveModel
+predict_given_theta	pybnn/lc_extrapolation/curvemodels.py	/^    def predict_given_theta(self, x, theta):$/;"	m	class:CurveModel
+predict_single	pybnn/bohamiann.py	/^    def predict_single(self, x_test: np.ndarray, sample_index: int):$/;"	m	class:Bohamiann
+predictive_distribution	pybnn/lc_extrapolation/learning_curves.py	/^    def predictive_distribution(self, x, thin=1):$/;"	m	class:MCMCCurveModelCombination
+predictive_mean_gradient	pybnn/bohamiann.py	/^    def predictive_mean_gradient(self, x_test: np.ndarray):$/;"	m	class:Bohamiann
+predictive_variance_gradient	pybnn/bohamiann.py	/^    def predictive_variance_gradient(self, x_test: np.ndarray):$/;"	m	class:Bohamiann
+print_probs	pybnn/lc_extrapolation/learning_curves.py	/^    def print_probs(self):$/;"	m	class:MCMCCurveModelCombination
+prob_x_greater_than	pybnn/lc_extrapolation/learning_curves.py	/^    def prob_x_greater_than(self, x, y, theta):$/;"	m	class:MCMCCurveModelCombination
+pybnn	README.md	/^# pybnn$/;"	c
+quadratic_basis_func	pybnn/bayesian_linear_regression.py	/^def quadratic_basis_func(x):$/;"	f
+recency_weights	pybnn/lc_extrapolation/curvemodels.py	/^def recency_weights(num):$/;"	f
+recency_weights	pybnn/lc_extrapolation/learning_curves.py	/^def recency_weights(num):$/;"	f
+residuals	pybnn/lc_extrapolation/curvemodels.py	/^                    residuals = lambda p: np.sqrt($/;"	f	member:MLCurveModel.fit_leastsq	file:
+residuals	pybnn/lc_extrapolation/curvemodels.py	/^                    residuals = lambda p: np.sqrt(recency_weights(len(y))) * ($/;"	f	member:MLCurveModel.fit_leastsq	file:
+s	examples/example_lc_extrapolation.py	/^s = np.zeros([n_epochs])$/;"	v
+sample_from_prior	pybnn/bayesian_linear_regression.py	/^    def sample_from_prior(self, n_samples):$/;"	m	class:Prior
+sat_growth	pybnn/lc_extrapolation/curvefunctions.py	/^def sat_growth(x, a, b):$/;"	f
+setUp	test/test_bohamiann.py	/^    def setUp(self):$/;"	m	class:TestBohamiann
+setUp	test/test_dngo.py	/^    def setUp(self):$/;"	m	class:TestDNGO
+split_theta	pybnn/lc_extrapolation/curvemodels.py	/^    def split_theta(self, theta):$/;"	m	class:CurveModel
+split_theta_to_array	pybnn/lc_extrapolation/curvemodels.py	/^    def split_theta_to_array(self, theta):$/;"	m	class:CurveModel
+st	examples/example_lc_extrapolation.py	/^st = time.time()$/;"	v
+std_mcmc	examples/example_lc_extrapolation.py	/^std_mcmc = s[-1]$/;"	v
+step	pybnn/sampler/adaptive_sghmc.py	/^    def step(self, closure=None):$/;"	m	class:AdaptiveSGHMC
+step	pybnn/sampler/preconditioned_sgld.py	/^    def step(self, closure=None):$/;"	m	class:PreconditionedSGLD
+step	pybnn/sampler/sghmc.py	/^    def step(self, closure=None):$/;"	m	class:SGHMC
+step	pybnn/sampler/sgld.py	/^    def step(self, closure=None):$/;"	m	class:SGLD
+t_idx	examples/example_lc_extrapolation.py	/^t_idx = np.arange(1, observed+1)$/;"	v
+t_idx_full	examples/example_lc_extrapolation.py	/^t_idx_full = np.arange(1, n_epochs+1)$/;"	v
+test_adaptive_sghmc	test/test_bohamiann.py	/^    def test_adaptive_sghmc(self):$/;"	m	class:TestBohamiannSampler
+test_gradient_mean	test/test_bohamiann.py	/^    def test_gradient_mean(self):$/;"	m	class:TestBohamiann
+test_gradient_variance	test/test_bohamiann.py	/^    def test_gradient_variance(self):$/;"	m	class:TestBohamiann
+test_incumbent	test/test_dngo.py	/^    def test_incumbent(self):$/;"	m	class:TestDNGO
+test_mcmc	test/test_dngo.py	/^    def test_mcmc(self):$/;"	m	class:TestDNGO
+test_ml	test/test_dngo.py	/^    def test_ml(self):$/;"	m	class:TestDNGO
+test_preconditioned_sgld	test/test_bohamiann.py	/^    def test_preconditioned_sgld(self):$/;"	m	class:TestBohamiannSampler
+test_predict	test/test_bohamiann.py	/^    def test_predict(self):$/;"	m	class:TestBohamiann
+test_sghmc	test/test_bohamiann.py	/^    def test_sghmc(self):$/;"	m	class:TestBohamiannSampler
+test_sgld	test/test_bohamiann.py	/^    def test_sgld(self):$/;"	m	class:TestBohamiannSampler
+test_train_predict	test/test_lcnet.py	/^    def test_train_predict(self):$/;"	m	class:TestLCNet
+test_train_predict	test/test_mtbohamiann.py	/^    def test_train_predict(self):$/;"	m	class:TestMTBohamiann
+test_without_normalization	test/test_dngo.py	/^    def test_without_normalization(self):$/;"	m	class:TestDNGO
+test_zero_mean_unit_var_normalization	test/test_normalization.py	/^    def test_zero_mean_unit_var_normalization(self):$/;"	m	class:TestNormalization
+test_zero_one_normalization	test/test_normalization.py	/^    def test_zero_one_normalization(self):$/;"	m	class:TestNormalization
+test_zero_one_unit_var_unnormalization	test/test_normalization.py	/^    def test_zero_one_unit_var_unnormalization(self):$/;"	m	class:TestNormalization
+test_zero_one_unnormalization	test/test_normalization.py	/^    def test_zero_one_unnormalization(self):$/;"	m	class:TestNormalization
+toy_example	examples/example_lc_extrapolation.py	/^def toy_example(t, a, b):$/;"	f
+toy_example	test/test_lcnet.py	/^        def toy_example(t, a, b):$/;"	f	member:TestLCNet.test_train_predict	file:
+train	pybnn/base_model.py	/^    def train(self, X, y):$/;"	m	class:BaseModel
+train	pybnn/bayesian_linear_regression.py	/^    def train(self, X, y, do_optimize=True):$/;"	m	class:BayesianLinearRegression
+train	pybnn/bohamiann.py	/^    def train(self, x_train: np.ndarray, y_train: np.ndarray,$/;"	m	class:Bohamiann
+train	pybnn/dngo.py	/^    def train(self, X, y, do_optimize=True):$/;"	m	class:DNGO
+train_and_evaluate	pybnn/bohamiann.py	/^    def train_and_evaluate(self, x_train: np.ndarray, y_train: np.ndarray,$/;"	m	class:Bohamiann
+update	pybnn/base_model.py	/^    def update(self, X, y):$/;"	m	class:BaseModel
+vap	pybnn/lc_extrapolation/curvefunctions.py	/^def vap(x, a, b, c):$/;"	f
+vapor_pressure	pybnn/lcnet.py	/^def vapor_pressure(x, a, b, c, *args):$/;"	f
+weibull	pybnn/lc_extrapolation/curvefunctions.py	/^def weibull(x, alpha, beta, kappa, delta):$/;"	f
+weight_prior	pybnn/priors.py	/^def weight_prior(parameters: Iterable[torch.Tensor], dtype=np.float64, wdecay: float = 1.) -> to/;"	f	typeref:typename:torch.Tensor
+wrapper	test/test_bohamiann.py	/^        def wrapper(x):$/;"	f	member:TestBohamiann.test_gradient_mean	file:
+wrapper	test/test_bohamiann.py	/^        def wrapper(x):$/;"	f	member:TestBohamiann.test_gradient_variance	file:
+wrapper_grad	test/test_bohamiann.py	/^        def wrapper_grad(x):$/;"	f	member:TestBohamiann.test_gradient_mean	file:
+wrapper_grad	test/test_bohamiann.py	/^        def wrapper_grad(x):$/;"	f	member:TestBohamiann.test_gradient_variance	file:
+y_lim_sanity_check	pybnn/lc_extrapolation/learning_curves.py	/^    def y_lim_sanity_check(self, ylim):$/;"	m	class:MCMCCurveModelCombination
+y_lim_sanity_check_array	pybnn/lc_extrapolation/learning_curves.py	/^    def y_lim_sanity_check_array(self, ylim):$/;"	m	class:MCMCCurveModelCombination
+zero_mean_unit_var_denormalization	pybnn/util/normalization.py	/^def zero_mean_unit_var_denormalization(X_normalized, mean, std):$/;"	f
+zero_mean_unit_var_normalization	pybnn/util/normalization.py	/^def zero_mean_unit_var_normalization(X, mean=None, std=None):$/;"	f
+zero_one_denormalization	pybnn/util/normalization.py	/^def zero_one_denormalization(X_normalized, lower, upper):$/;"	f
+zero_one_normalization	pybnn/util/normalization.py	/^def zero_one_normalization(X, lower=None, upper=None):$/;"	f

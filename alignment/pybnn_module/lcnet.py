@@ -1,0 +1,1 @@
+../pybnn/pybnn/lcnet.py

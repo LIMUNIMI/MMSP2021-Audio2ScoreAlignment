@@ -1,0 +1,5527 @@
+{
+    "ensemble": true,
+    "groups": ["all"],
+    "ground_truth": {
+        "all": {
+            "broad_alignment": 2,
+            "f0": 0,
+            "score": 1,
+            "misaligned": 2,
+            "precise_alignment": 0,
+            "soft": 0,
+            "sostenuto": 0,
+            "sustain": 0,
+            "velocities": 0
+        }
+    },
+    "install": {
+        "conversion": [
+            [
+                "from_musicnet_csv",
+                {}
+            ]
+        ],
+        "login": false,
+        "post-process": "unknown",
+        "unpack": true,
+        "url": "https://homes.cs.washington.edu/~thickstn/media/musicnet.tar.gz"
+    },
+    "instruments": [
+        "piano",
+        "violin",
+        "viola",
+        "cello",
+        "clarinet",
+        "bassoon",
+        "french horn",
+        "oboe",
+        "flute",
+        "harpsichord",
+        "string bass"
+    ],
+    "name": "MusicNet",
+    "recording": {
+        "format": "wav"
+    },
+    "songs": [
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1727-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1727.wav"
+                ]
+            },
+            "title": "OP114 2. Andante"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1728-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1728.wav"
+                ]
+            },
+            "title": "OP114 3. Scherzo Presto"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1729-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1729.wav"
+                ]
+            },
+            "title": "OP114 4. Andantino - Allegretto"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1730-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1730.wav"
+                ]
+            },
+            "title": "OP114 5. Allegro giusto"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1733-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1733.wav"
+                ]
+            },
+            "title": "D959 2. Andantino"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1734-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1734.wav"
+                ]
+            },
+            "title": "D959 3. Scherzo. Allegro vivace"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1735-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1735.wav"
+                ]
+            },
+            "title": "D959 4. Rondo. Allegretto"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1739-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1739.wav"
+                ]
+            },
+            "title": "OP99 4. Rondo. Allegro vivace"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1742-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "viola",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1742.wav"
+                ]
+            },
+            "title": "OP163 2. Adagio"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1749-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1749.wav"
+                ]
+            },
+            "title": "D845 1. Moderato"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1750-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1750.wav"
+                ]
+            },
+            "title": "D845 2. Andante poco mosso"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1751-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1751.wav"
+                ]
+            },
+            "title": "D845 3. Scherzo. Allegro vivace - Trio. Un poco piu lento"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1752-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1752.wav"
+                ]
+            },
+            "title": "D845 4. Rondo. Allegro vivace"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1755-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1755.wav"
+                ]
+            },
+            "title": "D784 2. Andante"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1756-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1756.wav"
+                ]
+            },
+            "title": "D784 3. Allegro vivace"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1757-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1757.wav"
+                ]
+            },
+            "title": "D958 1. Allegro"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1758-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1758.wav"
+                ]
+            },
+            "title": "D958 2. Adagio"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/test_labels/1759-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/test_data/1759.wav"
+                ]
+            },
+            "title": "D958 3. Menuetto and Trio"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1760-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1760.wav"
+                ]
+            },
+            "title": "D958 4. Allegro"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1763-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1763.wav"
+                ]
+            },
+            "title": "OP142 1. Impromptu in F minor"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1764-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1764.wav"
+                ]
+            },
+            "title": "OP142 2. Impromptu in A-flat major"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1765-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1765.wav"
+                ]
+            },
+            "title": "OP142 3. Impromptu in B-flat major"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1766-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1766.wav"
+                ]
+            },
+            "title": "OP142 4. Impromptu in F minor"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1768-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1768.wav"
+                ]
+            },
+            "title": "D664 2. Andante"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1771-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1771.wav"
+                ]
+            },
+            "title": "D568 1. Allegro moderato"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1772-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1772.wav"
+                ]
+            },
+            "title": "D568 2. Andante molto"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1773-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1773.wav"
+                ]
+            },
+            "title": "D568 3. Menuetto. Allegretto"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1775-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1775.wav"
+                ]
+            },
+            "title": "D850 1. Allegro vivace"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1776-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1776.wav"
+                ]
+            },
+            "title": "D850 2. Con moto"
+        },
+        {
+            "composer": "Schubert",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1777-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1777.wav"
+                ]
+            },
+            "title": "D850 3. Scherzo. Allegro vivace"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1788-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1788.wav"
+                ]
+            },
+            "title": "K465 1. Adagio - Allegro"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1789-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1789.wav"
+                ]
+            },
+            "title": "K465 2. Andante cantabile"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1790-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1790.wav"
+                ]
+            },
+            "title": "K465 3. Menuetto. Allegro"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1791-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1791.wav"
+                ]
+            },
+            "title": "K465 4. Allegro molto"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1792-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1792.wav"
+                ]
+            },
+            "title": "K465 1. Adagio - Allegro"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1793-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1793.wav"
+                ]
+            },
+            "title": "K465 2. Andante cantabile"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1805-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1805.wav"
+                ]
+            },
+            "title": "K387 1. Allegro vivace assai"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1807-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1807.wav"
+                ]
+            },
+            "title": "K387 3. Andante cantabile"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1811-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1811.wav"
+                ]
+            },
+            "title": "K581 2. Larghetto"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1812-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1812.wav"
+                ]
+            },
+            "title": "K581 3. Menuetto"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1813-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1813.wav"
+                ]
+            },
+            "title": "K581 4. Allegretto con variazioni"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1817-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "french horn",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1817.wav"
+                ]
+            },
+            "title": "K375 2. Menuetto"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1818-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "french horn",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1818.wav"
+                ]
+            },
+            "title": "K375 3. Adagio"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/test_labels/1819-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "french horn",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/test_data/1819.wav"
+                ]
+            },
+            "title": "K375 4. Menuetto"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1822-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1822.wav"
+                ]
+            },
+            "title": "K421 1. Allegro moderato"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1824-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1824.wav"
+                ]
+            },
+            "title": "K421 3. Menuetto and Trio. Allegretto"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1828-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1828.wav"
+                ]
+            },
+            "title": "K542 2. Andante grazioso"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1829-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1829.wav"
+                ]
+            },
+            "title": "K542 3. Allegro"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1835-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1835.wav"
+                ]
+            },
+            "title": "K590 3. Menuetto. Allegretto"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1859-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1859.wav"
+                ]
+            },
+            "title": "K464 2. Menuetto and Trio"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1872-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1872.wav"
+                ]
+            },
+            "title": "K502 2. Larghetto"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1873-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1873.wav"
+                ]
+            },
+            "title": "K502 3. Allegretto"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1876-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1876.wav"
+                ]
+            },
+            "title": "K496 2. Andante"
+        },
+        {
+            "composer": "Mozart",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1893-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1893.wav"
+                ]
+            },
+            "title": "K564 3. Allegretto"
+        },
+        {
+            "composer": "Dvorak",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1916-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1916.wav"
+                ]
+            },
+            "title": "OP51 1. Allegro ma non troppo"
+        },
+        {
+            "composer": "Dvorak",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1918-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1918.wav"
+                ]
+            },
+            "title": "OP51 3. Romanza"
+        },
+        {
+            "composer": "Dvorak",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1919-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1919.wav"
+                ]
+            },
+            "title": "OP51 4. Finale"
+        },
+        {
+            "composer": "Dvorak",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1922-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1922.wav"
+                ]
+            },
+            "title": "OP51 3. Romanza"
+        },
+        {
+            "composer": "Dvorak",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1923-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1923.wav"
+                ]
+            },
+            "title": "OP51 4. Finale"
+        },
+        {
+            "composer": "Dvorak",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1931-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1931.wav"
+                ]
+            },
+            "title": "OP96 2. Lento"
+        },
+        {
+            "composer": "Dvorak",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1932-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1932.wav"
+                ]
+            },
+            "title": "OP96 3. Molto vivace"
+        },
+        {
+            "composer": "Dvorak",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/1933-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/1933.wav"
+                ]
+            },
+            "title": "OP96 4. Finale vivace ma non troppo"
+        },
+        {
+            "composer": "Cambini",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2075-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2075.wav"
+                ]
+            },
+            "title": "JOHN1 1. Allegro maestoso"
+        },
+        {
+            "composer": "Cambini",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2076-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2076.wav"
+                ]
+            },
+            "title": "JOHN1 2. Larghetto cantabile"
+        },
+        {
+            "composer": "Cambini",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2077-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2077.wav"
+                ]
+            },
+            "title": "JOHN1 3. Rondo Allegretto grazioso"
+        },
+        {
+            "composer": "Cambini",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2078-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2078.wav"
+                ]
+            },
+            "title": "JOHN2 1. Allegro espressivo"
+        },
+        {
+            "composer": "Cambini",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2079-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2079.wav"
+                ]
+            },
+            "title": "JOHN2 2. Larghetto sostenuto ma con moto"
+        },
+        {
+            "composer": "Cambini",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2080-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2080.wav"
+                ]
+            },
+            "title": "JOHN2 3. Presto ma non tanto"
+        },
+        {
+            "composer": "Cambini",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2081-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2081.wav"
+                ]
+            },
+            "title": "JOHN3 1. Allegro maestoso"
+        },
+        {
+            "composer": "Cambini",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2082-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2082.wav"
+                ]
+            },
+            "title": "JOHN3 2. Larghetto sostenuto"
+        },
+        {
+            "composer": "Cambini",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2083-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2083.wav"
+                ]
+            },
+            "title": "JOHN3 3. Rondo Allegro con brio"
+        },
+        {
+            "composer": "Haydn",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2104-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2104.wav"
+                ]
+            },
+            "title": "OP64NO5 1. Allegro moderato"
+        },
+        {
+            "composer": "Haydn",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2105-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2105.wav"
+                ]
+            },
+            "title": "OP64NO5 2. Adagio - Cantabile"
+        },
+        {
+            "composer": "Haydn",
+            "ground_truth": [
+                "MusicNet/musicnet/test_labels/2106-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/test_data/2106.wav"
+                ]
+            },
+            "title": "OP64NO5 3. Menuetto Allegretto"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2112-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2112.wav"
+                ]
+            },
+            "title": "OP38 1. Allegro non troppo"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2113-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2113.wav"
+                ]
+            },
+            "title": "OP38 2. Allegretto quasi Menuetto"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2114-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2114.wav"
+                ]
+            },
+            "title": "OP38 3. Allegro"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2116-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2116.wav"
+                ]
+            },
+            "title": "OP120NO1 1. Allegro appassionato"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2117-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2117.wav"
+                ]
+            },
+            "title": "OP120NO1 2. Andante un poco Adagio"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2118-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2118.wav"
+                ]
+            },
+            "title": "OP120NO1 3. Allegretto grazioso"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2119-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2119.wav"
+                ]
+            },
+            "title": "OP120NO1 4. Vivace"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2127-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2127.wav"
+                ]
+            },
+            "title": "OP11 2. Scherzo. Allegro non troppo"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2131-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2131.wav"
+                ]
+            },
+            "title": "OP11 6. Rondo. Allegro"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2138-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2138.wav"
+                ]
+            },
+            "title": "OP51NO1 2. Romanze Poco adagio"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2140-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2140.wav"
+                ]
+            },
+            "title": "OP51NO1 4. Allegro"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2147-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2147.wav"
+                ]
+            },
+            "title": "OP36 4. Poco allegro"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2148-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2148.wav"
+                ]
+            },
+            "title": "OP25 1. Allegro"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2149-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2149.wav"
+                ]
+            },
+            "title": "OP25 2. Intermezzo Allegro ma non troppo"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2150-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2150.wav"
+                ]
+            },
+            "title": "OP25 3. Andante con moto"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2151-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2151.wav"
+                ]
+            },
+            "title": "OP25 4. Rondo alla Zingarese Presto"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2154-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2154.wav"
+                ]
+            },
+            "title": "OP18 1. Allegro ma non troppo"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2155-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2155.wav"
+                ]
+            },
+            "title": "OP18 2. Andante, ma moderato"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2156-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2156.wav"
+                ]
+            },
+            "title": "OP18 3. Scherzo. Allegro molto"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2157-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2157.wav"
+                ]
+            },
+            "title": "OP18 4. Rondo Poco Allegretto e grazioso"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2158-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "french horn",
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2158.wav"
+                ]
+            },
+            "title": "OP40 1. Andante"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2159-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "french horn",
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2159.wav"
+                ]
+            },
+            "title": "OP40 2. Scherzo (Allegro)"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2160-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "french horn",
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2160.wav"
+                ]
+            },
+            "title": "OP40 3. Adagio mesto"
+        },
+        {
+            "composer": "Brahms",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2161-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "french horn",
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2161.wav"
+                ]
+            },
+            "title": "OP40 4. Allegro con brio"
+        },
+        {
+            "composer": "Faure",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2166-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2166.wav"
+                ]
+            },
+            "title": "OP45 1. Allegro molto moderato"
+        },
+        {
+            "composer": "Faure",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2167-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2167.wav"
+                ]
+            },
+            "title": "OP45 2. Allegro molto"
+        },
+        {
+            "composer": "Faure",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2168-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2168.wav"
+                ]
+            },
+            "title": "OP45 3. Adagio non troppo"
+        },
+        {
+            "composer": "Faure",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2169-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2169.wav"
+                ]
+            },
+            "title": "OP45 4. Allegro molto"
+        },
+        {
+            "composer": "Ravel",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2177-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2177.wav"
+                ]
+            },
+            "title": "35 1. Allegro moderato - tres doux"
+        },
+        {
+            "composer": "Ravel",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2178-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2178.wav"
+                ]
+            },
+            "title": "35 2. Assez vif - tres rythme"
+        },
+        {
+            "composer": "Ravel",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2179-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2179.wav"
+                ]
+            },
+            "title": "35 3. Tres lent"
+        },
+        {
+            "composer": "Ravel",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2180-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2180.wav"
+                ]
+            },
+            "title": "35 4. Vif et agite"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2186-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2186.wav"
+                ]
+            },
+            "title": "BWV1006 1. Preludio"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/test_labels/2191-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/test_data/2191.wav"
+                ]
+            },
+            "title": "BWV1006 6. Bourree"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2194-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2194.wav"
+                ]
+            },
+            "title": "BWV858 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2195-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2195.wav"
+                ]
+            },
+            "title": "BWV848 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2196-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2196.wav"
+                ]
+            },
+            "title": "BWV848 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2198-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2198.wav"
+                ]
+            },
+            "title": "BWV867 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2200-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2200.wav"
+                ]
+            },
+            "title": "BWV861 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2201-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2201.wav"
+                ]
+            },
+            "title": "BWV861 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2202-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2202.wav"
+                ]
+            },
+            "title": "BWV1013 1. Allemande"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2203-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2203.wav"
+                ]
+            },
+            "title": "BWV1013 2. Corrente"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2204-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "flute"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2204.wav"
+                ]
+            },
+            "title": "BWV1013 3. Sarabande"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2207-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2207.wav"
+                ]
+            },
+            "title": "BWV855 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2208-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2208.wav"
+                ]
+            },
+            "title": "BWV855 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2209-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2209.wav"
+                ]
+            },
+            "title": "BWV849 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2210-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2210.wav"
+                ]
+            },
+            "title": "BWV849 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2211-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2211.wav"
+                ]
+            },
+            "title": "BWV857 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2212-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2212.wav"
+                ]
+            },
+            "title": "BWV857 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2213-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2213.wav"
+                ]
+            },
+            "title": "BWV847 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2214-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2214.wav"
+                ]
+            },
+            "title": "BWV847 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2215-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2215.wav"
+                ]
+            },
+            "title": "BWV846 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2217-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2217.wav"
+                ]
+            },
+            "title": "BWV1009 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2218-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2218.wav"
+                ]
+            },
+            "title": "BWV1009 2. Allemande"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2219-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2219.wav"
+                ]
+            },
+            "title": "BWV1009 3. Courante"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2220-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2220.wav"
+                ]
+            },
+            "title": "BWV1009 4. Sarabande"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2221-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2221.wav"
+                ]
+            },
+            "title": "BWV1009 5. Bouree"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2222-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2222.wav"
+                ]
+            },
+            "title": "BWV1009 6. Gigue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2224-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2224.wav"
+                ]
+            },
+            "title": "BWV852 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2225-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2225.wav"
+                ]
+            },
+            "title": "BWV852 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2227-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2227.wav"
+                ]
+            },
+            "title": "BWV851 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2228-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2228.wav"
+                ]
+            },
+            "title": "BWV851 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2229-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2229.wav"
+                ]
+            },
+            "title": "BWV865 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2230-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2230.wav"
+                ]
+            },
+            "title": "BWV865 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2231-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2231.wav"
+                ]
+            },
+            "title": "BWV866 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2232-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2232.wav"
+                ]
+            },
+            "title": "BWV866 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2234-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2234.wav"
+                ]
+            },
+            "title": "BWV856 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2237-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2237.wav"
+                ]
+            },
+            "title": "BWV868 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2238-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2238.wav"
+                ]
+            },
+            "title": "BWV868 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2239-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2239.wav"
+                ]
+            },
+            "title": "BWV862 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2240-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2240.wav"
+                ]
+            },
+            "title": "BWV862 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2241-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2241.wav"
+                ]
+            },
+            "title": "BWV1001 1. Adagio"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2242-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2242.wav"
+                ]
+            },
+            "title": "BWV1001 2. Fuga"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2243-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2243.wav"
+                ]
+            },
+            "title": "BWV1001 3. Siciliana"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2244-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2244.wav"
+                ]
+            },
+            "title": "BWV1001 4. Presto"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2247-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2247.wav"
+                ]
+            },
+            "title": "BWV854 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2248-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2248.wav"
+                ]
+            },
+            "title": "BWV854 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2282-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "harpsicord"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2282.wav"
+                ]
+            },
+            "title": "BWV1014 1. Adagio"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2283-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "harpsicord"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2283.wav"
+                ]
+            },
+            "title": "BWV1014 2. Allegro"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2284-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "harpsicord"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2284.wav"
+                ]
+            },
+            "title": "BWV1014 3. Andante"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2285-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "harpsicord"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2285.wav"
+                ]
+            },
+            "title": "BWV1014 4. Allegro"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2288-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2288.wav"
+                ]
+            },
+            "title": "BWV1002 2. Corrente"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2289-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2289.wav"
+                ]
+            },
+            "title": "BWV1002 3. Sarabande"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2292-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2292.wav"
+                ]
+            },
+            "title": "BWV864 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2293-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2293.wav"
+                ]
+            },
+            "title": "BWV1010 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2294-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2294.wav"
+                ]
+            },
+            "title": "BWV1010 2. Allemande"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2295-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2295.wav"
+                ]
+            },
+            "title": "BWV1010 3. Courante"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2296-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2296.wav"
+                ]
+            },
+            "title": "BWV1010 4. Sarabande"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2297-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2297.wav"
+                ]
+            },
+            "title": "BWV1010 5. Bouree"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/test_labels/2298-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/test_data/2298.wav"
+                ]
+            },
+            "title": "BWV1010 6. Gigue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2300-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2300.wav"
+                ]
+            },
+            "title": "BWV853 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2302-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2302.wav"
+                ]
+            },
+            "title": "BWV850 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/test_labels/2303-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/test_data/2303.wav"
+                ]
+            },
+            "title": "BWV850 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2304-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2304.wav"
+                ]
+            },
+            "title": "BWV859 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2305-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2305.wav"
+                ]
+            },
+            "title": "BWV859 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2307-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2307.wav"
+                ]
+            },
+            "title": "BWV863 2. Fugue"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2308-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2308.wav"
+                ]
+            },
+            "title": "BWV863 1. Prelude"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2310-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2310.wav"
+                ]
+            },
+            "title": "BWV860 1. Prelude"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2313-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2313.wav"
+                ]
+            },
+            "title": "OP132 1. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2314-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2314.wav"
+                ]
+            },
+            "title": "OP132 2. Allegro ma non tanto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2315-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2315.wav"
+                ]
+            },
+            "title": "OP132 3. Molto Adagio; Andante"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2318-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "cello",
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2318.wav"
+                ]
+            },
+            "title": "OP38 1. Allegro moderato"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2319-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "cello",
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2319.wav"
+                ]
+            },
+            "title": "OP38 2. Scherzo Allegro ma non troppo"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2320-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "cello",
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2320.wav"
+                ]
+            },
+            "title": "OP38 3. Rondo Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2322-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2322.wav"
+                ]
+            },
+            "title": "OP57 1. Allegro assai"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2325-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2325.wav"
+                ]
+            },
+            "title": "OP57 1. Allegro assai"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2330-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2330.wav"
+                ]
+            },
+            "title": "OP12NO1 1. Allegro con brio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2334-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2334.wav"
+                ]
+            },
+            "title": "OP30NO3 1. Allegro assai"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2335-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2335.wav"
+                ]
+            },
+            "title": "OP30NO3 2. Tempo di minuetto, ma molto moderato e grazioso"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2336-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2336.wav"
+                ]
+            },
+            "title": "OP30NO3 3. Allegro vivace"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2341-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2341.wav"
+                ]
+            },
+            "title": "OP30NO3 2. Tempo di minuetto, ma molto moderato e grazioso"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2342-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2342.wav"
+                ]
+            },
+            "title": "OP30NO3 3. Allegro vivace"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2343-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2343.wav"
+                ]
+            },
+            "title": "OP27NO2 1. Adagio sostenuto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2345-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2345.wav"
+                ]
+            },
+            "title": "OP27NO2 3. Presto agitato"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2346-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2346.wav"
+                ]
+            },
+            "title": "OP27NO2 1. Adagio sostenuto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2348-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2348.wav"
+                ]
+            },
+            "title": "OP27NO2 3. Presto agitato"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2350-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2350.wav"
+                ]
+            },
+            "title": "OP27NO2 1. Adagio sostenuto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2357-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2357.wav"
+                ]
+            },
+            "title": "OP28 2. Andante"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2358-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2358.wav"
+                ]
+            },
+            "title": "OP28 3. Scherzo Allegro vivace"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2359-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2359.wav"
+                ]
+            },
+            "title": "OP28 4. Rondo Allegro ma non troppo"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2364-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2364.wav"
+                ]
+            },
+            "title": "OP28 4. Rondo Allegro ma non troppo"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2365-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2365.wav"
+                ]
+            },
+            "title": "OP127 1. Maestoso - Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2366-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2366.wav"
+                ]
+            },
+            "title": "OP127 2. Adagio, ma non troppo e molto cantabile"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2368-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2368.wav"
+                ]
+            },
+            "title": "OP127 4. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2371-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2371.wav"
+                ]
+            },
+            "title": "OP14NO1 2. Allegretto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2372-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2372.wav"
+                ]
+            },
+            "title": "OP14NO1 3. Rondo - Allegro comodo"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2373-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2373.wav"
+                ]
+            },
+            "title": "OP49NO1 1. Andante"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2374-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2374.wav"
+                ]
+            },
+            "title": "OP49NO1 2. Rondo Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2376-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2376.wav"
+                ]
+            },
+            "title": "OP59NO2 1. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2377-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2377.wav"
+                ]
+            },
+            "title": "OP59NO2 2. Molto adagio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2379-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2379.wav"
+                ]
+            },
+            "title": "OP59NO2 4. Finale, Presto, alla breve"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2381-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2381.wav"
+                ]
+            },
+            "title": "OP130 1. Adagio, ma non troppo - Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/test_labels/2382-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/test_data/2382.wav"
+                ]
+            },
+            "title": "OP130 2. Presto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2383-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2383.wav"
+                ]
+            },
+            "title": "OP130 3. Andante con moto, ma non troppo. Poco scherzoso"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2384-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2384.wav"
+                ]
+            },
+            "title": "OP130 4. Alla danza tedesca. Allegro assai"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2388-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2388.wav"
+                ]
+            },
+            "title": "OP31NO2 1. Largo - Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2389-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2389.wav"
+                ]
+            },
+            "title": "OP31NO2 2. Adagio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2390-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2390.wav"
+                ]
+            },
+            "title": "OP31NO2 3. Allegretto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2391-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2391.wav"
+                ]
+            },
+            "title": "OP31NO2 1. Largo - Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2392-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2392.wav"
+                ]
+            },
+            "title": "OP31NO2 2. Adagio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2393-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2393.wav"
+                ]
+            },
+            "title": "OP31NO2 3. Allegretto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2397-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2397.wav"
+                ]
+            },
+            "title": "OP47 1. Adagio sostenuto - Presto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2398-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2398.wav"
+                ]
+            },
+            "title": "OP47 2. Andante con variazioni"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2403-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2403.wav"
+                ]
+            },
+            "title": "OP18NO1 4. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2404-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2404.wav"
+                ]
+            },
+            "title": "OP110 1. Moderato cantabile molto espressivo"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2405-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2405.wav"
+                ]
+            },
+            "title": "OP110 2. Allegro molto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2406-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2406.wav"
+                ]
+            },
+            "title": "OP110 3. Adagio ma non troppo"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2410-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2410.wav"
+                ]
+            },
+            "title": "OP27NO1 1. Andante - Allegro - Andante"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2411-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2411.wav"
+                ]
+            },
+            "title": "OP27NO1 2. Allegro molto e vivace"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2415-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "french horn",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2415.wav"
+                ]
+            },
+            "title": "OP71 2. Adagio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/test_labels/2416-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "french horn",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/test_data/2416.wav"
+                ]
+            },
+            "title": "OP71 3. Menuetto. Quasi Allegretto - Trio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2417-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "clarinet",
+                "french horn",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2417.wav"
+                ]
+            },
+            "title": "OP71 4. Rondo. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2420-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2420.wav"
+                ]
+            },
+            "title": "OP12NO2 3. Allegro piacevole"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2422-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2422.wav"
+                ]
+            },
+            "title": "OP2NO1 1. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2423-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2423.wav"
+                ]
+            },
+            "title": "OP2NO1 2. Adagio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2424-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2424.wav"
+                ]
+            },
+            "title": "OP2NO1 3. Menuetto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2431-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2431.wav"
+                ]
+            },
+            "title": "OP135 1. Allegretto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2432-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2432.wav"
+                ]
+            },
+            "title": "OP135 2. Vivace"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2433-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2433.wav"
+                ]
+            },
+            "title": "OP135 3. Lento assai, cantante e tranquillo"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2436-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2436.wav"
+                ]
+            },
+            "title": "OP53 1. Allegro con brio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2441-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2441.wav"
+                ]
+            },
+            "title": "OP106 1. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2442-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2442.wav"
+                ]
+            },
+            "title": "OP106 2. Scherzo Assai vivace"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2443-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2443.wav"
+                ]
+            },
+            "title": "OP106 3. Adagio sostenuto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2444-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2444.wav"
+                ]
+            },
+            "title": "OP106 4. Introduzione Largo...Allegro - Fuga Allegro risoluto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2451-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2451.wav"
+                ]
+            },
+            "title": "OP18NO6 2. Adagio ma non troppo"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2462-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2462.wav"
+                ]
+            },
+            "title": "OP23 2. Andante scherzoso, piu allegretto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2463-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2463.wav"
+                ]
+            },
+            "title": "OP23 3. Allegro molto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2466-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2466.wav"
+                ]
+            },
+            "title": "OP23 3. Allegro molto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2471-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2471.wav"
+                ]
+            },
+            "title": "OP2NO3 2. Adagio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2472-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2472.wav"
+                ]
+            },
+            "title": "OP2NO3 3. Scherzo Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2473-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2473.wav"
+                ]
+            },
+            "title": "OP2NO3 4. Allegro assai"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2476-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2476.wav"
+                ]
+            },
+            "title": "OP2NO3 2. Adagio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2477-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2477.wav"
+                ]
+            },
+            "title": "OP2NO3 3. Scherzo Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2478-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2478.wav"
+                ]
+            },
+            "title": "OP2NO3 4. Allegro assai"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2480-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2480.wav"
+                ]
+            },
+            "title": "OP18NO5 1. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2481-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2481.wav"
+                ]
+            },
+            "title": "OP18NO5 2. Menuetto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2482-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2482.wav"
+                ]
+            },
+            "title": "OP18NO5 3. Andante cantabile (Theme with variations"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2483-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2483.wav"
+                ]
+            },
+            "title": "OP18NO5 4. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2486-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2486.wav"
+                ]
+            },
+            "title": "OP7 2. Largo, con gran espressione"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2487-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2487.wav"
+                ]
+            },
+            "title": "OP7 3. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2488-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2488.wav"
+                ]
+            },
+            "title": "OP7 4. Rondo Poco allegretto e grazioso"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2490-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2490.wav"
+                ]
+            },
+            "title": "OP7 2. Largo, con gran espressione"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2491-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2491.wav"
+                ]
+            },
+            "title": "OP7 3. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2492-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2492.wav"
+                ]
+            },
+            "title": "OP7 4. Rondo Poco allegretto e grazioso"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2494-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2494.wav"
+                ]
+            },
+            "title": "OP95 1. Allegro con brio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2497-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2497.wav"
+                ]
+            },
+            "title": "OP95 4. Larghetto espressivo; Allegretto agitato; Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2501-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2501.wav"
+                ]
+            },
+            "title": "OP12NO3 2. Adagio con molta espressione"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2502-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2502.wav"
+                ]
+            },
+            "title": "OP12NO3 3. Rondo Allegro molto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2504-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2504.wav"
+                ]
+            },
+            "title": "OP103 1. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2505-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2505.wav"
+                ]
+            },
+            "title": "OP103 2. Andante"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2506-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2506.wav"
+                ]
+            },
+            "title": "OP103 3. Menuetto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2507-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2507.wav"
+                ]
+            },
+            "title": "OP103 4. Presto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2509-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2509.wav"
+                ]
+            },
+            "title": "OP2NO2 1. Allegro vivace"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2510-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2510.wav"
+                ]
+            },
+            "title": "OP2NO2 2. Largo appassionato"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2512-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2512.wav"
+                ]
+            },
+            "title": "OP2NO2 4. Rondo Grazioso"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2514-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2514.wav"
+                ]
+            },
+            "title": "OP2NO2 2. Largo appassionato"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2516-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2516.wav"
+                ]
+            },
+            "title": "OP2NO2 4. Rondo Grazioso"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2521-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2521.wav"
+                ]
+            },
+            "title": "OP69 1. Allegro ma non tanto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2522-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2522.wav"
+                ]
+            },
+            "title": "OP69 2. Scherzo. Allegro molto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2523-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2523.wav"
+                ]
+            },
+            "title": "OP69 3. Adagio cantabile - Allegro vivace"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2527-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2527.wav"
+                ]
+            },
+            "title": "OP10NO1 1. Allegro molto e con brio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2528-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2528.wav"
+                ]
+            },
+            "title": "OP10NO1 2. Adagio molto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2529-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2529.wav"
+                ]
+            },
+            "title": "OP10NO1 3. Finale Prestissimo"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2530-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2530.wav"
+                ]
+            },
+            "title": "OP111 1. Maestoso - Allegro con brio ed appassionato"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2531-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2531.wav"
+                ]
+            },
+            "title": "OP111 2. Arietta Adagio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2532-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2532.wav"
+                ]
+            },
+            "title": "OP111 1. Maestoso - Allegro con brio ed appassionato"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2533-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2533.wav"
+                ]
+            },
+            "title": "OP111 2. Arietta Adagio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2537-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2537.wav"
+                ]
+            },
+            "title": "OP49NO2 1. Allegro ma non troppo"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2538-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2538.wav"
+                ]
+            },
+            "title": "OP49NO2 2. Tempo di Menuetto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2540-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2540.wav"
+                ]
+            },
+            "title": "OP101 1. Etwas lebhaft und mit der innigsten Empfindung"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2542-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2542.wav"
+                ]
+            },
+            "title": "OP101 3. Langsam und sehnsuchtsvoll"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2550-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2550.wav"
+                ]
+            },
+            "title": "OP78 2. Allegro vivace"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2555-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2555.wav"
+                ]
+            },
+            "title": "OP109 1. Vivace ma non troppo / Adagio espresivo"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/test_labels/2556-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/test_data/2556.wav"
+                ]
+            },
+            "title": "OP109 2. Prestissimo"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2557-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2557.wav"
+                ]
+            },
+            "title": "OP109 3. Gesangvoll, mit innigster Empfindung"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2560-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2560.wav"
+                ]
+            },
+            "title": "OP18NO2 2. Adagio cantabile - Allegro - Tempo I"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2562-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2562.wav"
+                ]
+            },
+            "title": "OP18NO2 4. Allegro molto, quasi presto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2564-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2564.wav"
+                ]
+            },
+            "title": "OP22 2. Adagio con molto espressione"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2566-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2566.wav"
+                ]
+            },
+            "title": "OP22 4. Rondo Allegretto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2567-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2567.wav"
+                ]
+            },
+            "title": "OP90 1. Mit Lebhaftigkeit und durchaus mit Empfindung und Ausdruck"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2568-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2568.wav"
+                ]
+            },
+            "title": "OP90 2. Nicht zu geschwind und sehr singbar vorgetragen"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2570-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2570.wav"
+                ]
+            },
+            "title": "OP30NO2 1. Allegro con brio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2571-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2571.wav"
+                ]
+            },
+            "title": "OP30NO2 2. Adagio cantibile"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2572-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2572.wav"
+                ]
+            },
+            "title": "OP30NO2 3. Scherzo Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2573-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2573.wav"
+                ]
+            },
+            "title": "OP30NO2 4. Finale Allegro; Presto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2575-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2575.wav"
+                ]
+            },
+            "title": "OP13 2. Adagio cantabile"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2576-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2576.wav"
+                ]
+            },
+            "title": "OP13 3. Rondo Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2581-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2581.wav"
+                ]
+            },
+            "title": "OP54 1. tempo d un menuetto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2582-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2582.wav"
+                ]
+            },
+            "title": "OP54 2. Allegretto - Piu allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2586-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "cello",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2586.wav"
+                ]
+            },
+            "title": "OP102NO1 2. Adagio - Tempo d andante - Allegro vivace"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2588-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2588.wav"
+                ]
+            },
+            "title": "OP26 1. Andante con variazioni"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2590-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2590.wav"
+                ]
+            },
+            "title": "OP26 3. Maestoso andante"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2591-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2591.wav"
+                ]
+            },
+            "title": "OP26 4. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2593-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2593.wav"
+                ]
+            },
+            "title": "OP31NO3 1. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2594-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2594.wav"
+                ]
+            },
+            "title": "OP31NO3 2. Scherzo Allegretto vivace"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2595-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2595.wav"
+                ]
+            },
+            "title": "OP31NO3 3. Menuetto. Moderato e grazioso"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2596-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2596.wav"
+                ]
+            },
+            "title": "OP31NO3 4. Presto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2603-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2603.wav"
+                ]
+            },
+            "title": "OP81NO1 1. Das Lebewohl"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2607-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2607.wav"
+                ]
+            },
+            "title": "OP31NO1 2. Adagio grazioso"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2608-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2608.wav"
+                ]
+            },
+            "title": "OP31NO1 3. Rondo, allegretto - presto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2611-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2611.wav"
+                ]
+            },
+            "title": "OP10NO3 2. Largo e mesto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2614-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2614.wav"
+                ]
+            },
+            "title": "OP10NO3 2. Largo e mesto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2618-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2618.wav"
+                ]
+            },
+            "title": "OP10NO2 1. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2619-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2619.wav"
+                ]
+            },
+            "title": "OP10NO2 2. Allegretto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2620-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2620.wav"
+                ]
+            },
+            "title": "OP10NO2 3. Presto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2621-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2621.wav"
+                ]
+            },
+            "title": "OP59NO1 1. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2622-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "viola",
+                "cello"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2622.wav"
+                ]
+            },
+            "title": "OP59NO1 2. Allegretto vivace e sempre scherzando"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2626-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2626.wav"
+                ]
+            },
+            "title": "OP96 1. Allegro moderato"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2627-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2627.wav"
+                ]
+            },
+            "title": "OP96 2. Adagio espressivo"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/test_labels/2628-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/test_data/2628.wav"
+                ]
+            },
+            "title": "OP96 3. Scherzo Allegro - Trio"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2629-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "unknown"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2629.wav"
+                ]
+            },
+            "title": "OP96 4. Poco allegretto"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2632-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2632.wav"
+                ]
+            },
+            "title": "OP14NO2 2. Andante"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2633-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2633.wav"
+                ]
+            },
+            "title": "OP14NO2 3. Scherzo Allegro assai"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2659-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2659.wav"
+                ]
+            },
+            "title": "BWV1002 6. Double"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2677-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2677.wav"
+                ]
+            },
+            "title": "OP14NO1 1. Allegro"
+        },
+        {
+            "composer": "Beethoven",
+            "ground_truth": [
+                "MusicNet/musicnet/train_labels/2678-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "MusicNet/musicnet/train_data/2678.wav"
+                ]
+            },
+            "title": "OP14NO2 1. Allegro"
+        }
+    ],
+    "sources": {
+        "format": "unknown"
+    }
+}

@@ -1,0 +1,358 @@
+{
+    "ensemble": true,
+    "groups": ["all"],
+    "ground_truth": {
+        "all": {
+            "broad_alignment": 0,
+            "f0": 2,
+            "misaligned": 2,
+            "score": 1,
+            "precise_alignment": 1,
+            "soft": 0,
+            "sostenuto": 0,
+            "sustain": 0,
+            "velocities": 0
+        }
+    },
+    "install": {
+        "conversion": [
+            [
+                "from_bach10_f0",
+                {}
+            ],
+            [
+                "from_bach10_mat",
+                {}
+            ],
+            [
+                "from_midi",
+                {
+                    "alignment": "score",
+                    "beats": true,
+                    "merge": false,
+                    "pitches": true,
+                    "velocities": false
+                }
+            ]
+        ],
+        "login": false,
+        "post-process": "unknown",
+        "unpack": true,
+        "url": "http://www.ece.rochester.edu/projects/air/datasets/Bach10.zip"
+    },
+    "instruments": [
+        "violin",
+        "clarinet",
+        "tenor sax",
+        "bassoon"
+    ],
+    "name": "Bach10",
+    "recording": {
+        "format": "wav"
+    },
+    "songs": [
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "Bach10/Bach10_v1.1/01-AchGottundHerr/01-AchGottundHerr-0.json.gz",
+                "Bach10/Bach10_v1.1/01-AchGottundHerr/01-AchGottundHerr-1.json.gz",
+                "Bach10/Bach10_v1.1/01-AchGottundHerr/01-AchGottundHerr-2.json.gz",
+                "Bach10/Bach10_v1.1/01-AchGottundHerr/01-AchGottundHerr-3.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "clarinet",
+                "tenor sax",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "Bach10/Bach10_v1.1/01-AchGottundHerr/01-AchGottundHerr.wav"
+                ]
+            },
+            "sources": {
+                "path": [
+                    "Bach10/Bach10_v1.1/01-AchGottundHerr/01-AchGottundHerr-violin.wav",
+                    "Bach10/Bach10_v1.1/01-AchGottundHerr/01-AchGottundHerr-clarinet.wav",
+                    "Bach10/Bach10_v1.1/01-AchGottundHerr/01-AchGottundHerr-saxophone.wav",
+                    "Bach10/Bach10_v1.1/01-AchGottundHerr/01-AchGottundHerr-bassoon.wav"
+                ]
+            },
+            "title": "AchGottundHerr"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "Bach10/Bach10_v1.1/02-AchLiebenChristen/02-AchLiebenChristen-0.json.gz",
+                "Bach10/Bach10_v1.1/02-AchLiebenChristen/02-AchLiebenChristen-1.json.gz",
+                "Bach10/Bach10_v1.1/02-AchLiebenChristen/02-AchLiebenChristen-2.json.gz",
+                "Bach10/Bach10_v1.1/02-AchLiebenChristen/02-AchLiebenChristen-3.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "clarinet",
+                "tenor sax",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "Bach10/Bach10_v1.1/02-AchLiebenChristen/02-AchLiebenChristen.wav"
+                ]
+            },
+            "sources": {
+                "path": [
+                    "Bach10/Bach10_v1.1/02-AchLiebenChristen/02-AchLiebenChristen-violin.wav",
+                    "Bach10/Bach10_v1.1/02-AchLiebenChristen/02-AchLiebenChristen-clarinet.wav",
+                    "Bach10/Bach10_v1.1/02-AchLiebenChristen/02-AchLiebenChristen-saxophone.wav",
+                    "Bach10/Bach10_v1.1/02-AchLiebenChristen/02-AchLiebenChristen-bassoon.wav"
+                ]
+            },
+            "title": "AchLiebenChristen"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "Bach10/Bach10_v1.1/03-ChristederdubistTagundLicht/03-ChristederdubistTagundLicht-0.json.gz",
+                "Bach10/Bach10_v1.1/03-ChristederdubistTagundLicht/03-ChristederdubistTagundLicht-1.json.gz",
+                "Bach10/Bach10_v1.1/03-ChristederdubistTagundLicht/03-ChristederdubistTagundLicht-2.json.gz",
+                "Bach10/Bach10_v1.1/03-ChristederdubistTagundLicht/03-ChristederdubistTagundLicht-3.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "clarinet",
+                "tenor sax",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "Bach10/Bach10_v1.1/03-ChristederdubistTagundLicht/03-ChristederdubistTagundLicht.wav"
+                ]
+            },
+            "sources": {
+                "path": [
+                    "Bach10/Bach10_v1.1/03-ChristederdubistTagundLicht/03-ChristederdubistTagundLicht-violin.wav",
+                    "Bach10/Bach10_v1.1/03-ChristederdubistTagundLicht/03-ChristederdubistTagundLicht-clarinet.wav",
+                    "Bach10/Bach10_v1.1/03-ChristederdubistTagundLicht/03-ChristederdubistTagundLicht-saxophone.wav",
+                    "Bach10/Bach10_v1.1/03-ChristederdubistTagundLicht/03-ChristederdubistTagundLicht-bassoon.wav"
+                ]
+            },
+            "title": "ChristederdubistTagundLicht"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "Bach10/Bach10_v1.1/04-ChristeDuBeistand/04-ChristeDuBeistand-0.json.gz",
+                "Bach10/Bach10_v1.1/04-ChristeDuBeistand/04-ChristeDuBeistand-1.json.gz",
+                "Bach10/Bach10_v1.1/04-ChristeDuBeistand/04-ChristeDuBeistand-2.json.gz",
+                "Bach10/Bach10_v1.1/04-ChristeDuBeistand/04-ChristeDuBeistand-3.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "clarinet",
+                "tenor sax",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "Bach10/Bach10_v1.1/04-ChristeDuBeistand/04-ChristeDuBeistand.wav"
+                ]
+            },
+            "sources": {
+                "path": [
+                    "Bach10/Bach10_v1.1/04-ChristeDuBeistand/04-ChristeDuBeistand-violin.wav",
+                    "Bach10/Bach10_v1.1/04-ChristeDuBeistand/04-ChristeDuBeistand-clarinet.wav",
+                    "Bach10/Bach10_v1.1/04-ChristeDuBeistand/04-ChristeDuBeistand-saxophone.wav",
+                    "Bach10/Bach10_v1.1/04-ChristeDuBeistand/04-ChristeDuBeistand-bassoon.wav"
+                ]
+            },
+            "title": "ChristeDuBeistand"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "Bach10/Bach10_v1.1/05-DieNacht/05-DieNacht-0.json.gz",
+                "Bach10/Bach10_v1.1/05-DieNacht/05-DieNacht-1.json.gz",
+                "Bach10/Bach10_v1.1/05-DieNacht/05-DieNacht-2.json.gz",
+                "Bach10/Bach10_v1.1/05-DieNacht/05-DieNacht-3.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "clarinet",
+                "tenor sax",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "Bach10/Bach10_v1.1/05-DieNacht/05-DieNacht.wav"
+                ]
+            },
+            "sources": {
+                "path": [
+                    "Bach10/Bach10_v1.1/05-DieNacht/05-DieNacht-violin.wav",
+                    "Bach10/Bach10_v1.1/05-DieNacht/05-DieNacht-clarinet.wav",
+                    "Bach10/Bach10_v1.1/05-DieNacht/05-DieNacht-saxophone.wav",
+                    "Bach10/Bach10_v1.1/05-DieNacht/05-DieNacht-bassoon.wav"
+                ]
+            },
+            "title": "DieNacht"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "Bach10/Bach10_v1.1/06-DieSonne/06-DieSonne-0.json.gz",
+                "Bach10/Bach10_v1.1/06-DieSonne/06-DieSonne-1.json.gz",
+                "Bach10/Bach10_v1.1/06-DieSonne/06-DieSonne-2.json.gz",
+                "Bach10/Bach10_v1.1/06-DieSonne/06-DieSonne-3.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "clarinet",
+                "tenor sax",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "Bach10/Bach10_v1.1/06-DieSonne/06-DieSonne.wav"
+                ]
+            },
+            "sources": {
+                "path": [
+                    "Bach10/Bach10_v1.1/06-DieSonne/06-DieSonne-violin.wav",
+                    "Bach10/Bach10_v1.1/06-DieSonne/06-DieSonne-clarinet.wav",
+                    "Bach10/Bach10_v1.1/06-DieSonne/06-DieSonne-saxophone.wav",
+                    "Bach10/Bach10_v1.1/06-DieSonne/06-DieSonne-bassoon.wav"
+                ]
+            },
+            "title": "DieSonne"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "Bach10/Bach10_v1.1/07-HerrGott/07-HerrGott-0.json.gz",
+                "Bach10/Bach10_v1.1/07-HerrGott/07-HerrGott-1.json.gz",
+                "Bach10/Bach10_v1.1/07-HerrGott/07-HerrGott-2.json.gz",
+                "Bach10/Bach10_v1.1/07-HerrGott/07-HerrGott-3.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "clarinet",
+                "tenor sax",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "Bach10/Bach10_v1.1/07-HerrGott/07-HerrGott.wav"
+                ]
+            },
+            "sources": {
+                "path": [
+                    "Bach10/Bach10_v1.1/07-HerrGott/07-HerrGott-violin.wav",
+                    "Bach10/Bach10_v1.1/07-HerrGott/07-HerrGott-clarinet.wav",
+                    "Bach10/Bach10_v1.1/07-HerrGott/07-HerrGott-saxophone.wav",
+                    "Bach10/Bach10_v1.1/07-HerrGott/07-HerrGott-bassoon.wav"
+                ]
+            },
+            "title": "HerrGott"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "Bach10/Bach10_v1.1/08-FuerDeinenThron/08-FuerDeinenThron-0.json.gz",
+                "Bach10/Bach10_v1.1/08-FuerDeinenThron/08-FuerDeinenThron-1.json.gz",
+                "Bach10/Bach10_v1.1/08-FuerDeinenThron/08-FuerDeinenThron-2.json.gz",
+                "Bach10/Bach10_v1.1/08-FuerDeinenThron/08-FuerDeinenThron-3.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "clarinet",
+                "tenor sax",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "Bach10/Bach10_v1.1/08-FuerDeinenThron/08-FuerDeinenThron.wav"
+                ]
+            },
+            "sources": {
+                "path": [
+                    "Bach10/Bach10_v1.1/08-FuerDeinenThron/08-FuerDeinenThron-violin.wav",
+                    "Bach10/Bach10_v1.1/08-FuerDeinenThron/08-FuerDeinenThron-clarinet.wav",
+                    "Bach10/Bach10_v1.1/08-FuerDeinenThron/08-FuerDeinenThron-saxophone.wav",
+                    "Bach10/Bach10_v1.1/08-FuerDeinenThron/08-FuerDeinenThron-bassoon.wav"
+                ]
+            },
+            "title": "FuerDeinenThron"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "Bach10/Bach10_v1.1/09-Jesus/09-Jesus-0.json.gz",
+                "Bach10/Bach10_v1.1/09-Jesus/09-Jesus-1.json.gz",
+                "Bach10/Bach10_v1.1/09-Jesus/09-Jesus-2.json.gz",
+                "Bach10/Bach10_v1.1/09-Jesus/09-Jesus-3.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "clarinet",
+                "tenor sax",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "Bach10/Bach10_v1.1/09-Jesus/09-Jesus.wav"
+                ]
+            },
+            "sources": {
+                "path": [
+                    "Bach10/Bach10_v1.1/09-Jesus/09-Jesus-violin.wav",
+                    "Bach10/Bach10_v1.1/09-Jesus/09-Jesus-clarinet.wav",
+                    "Bach10/Bach10_v1.1/09-Jesus/09-Jesus-saxophone.wav",
+                    "Bach10/Bach10_v1.1/09-Jesus/09-Jesus-bassoon.wav"
+                ]
+            },
+            "title": "Jesus"
+        },
+        {
+            "composer": "Bach",
+            "ground_truth": [
+                "Bach10/Bach10_v1.1/10-NunBitten/10-NunBitten-0.json.gz",
+                "Bach10/Bach10_v1.1/10-NunBitten/10-NunBitten-1.json.gz",
+                "Bach10/Bach10_v1.1/10-NunBitten/10-NunBitten-2.json.gz",
+                "Bach10/Bach10_v1.1/10-NunBitten/10-NunBitten-3.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "violin",
+                "clarinet",
+                "tenor sax",
+                "bassoon"
+            ],
+            "recording": {
+                "path": [
+                    "Bach10/Bach10_v1.1/10-NunBitten/10-NunBitten.wav"
+                ]
+            },
+            "sources": {
+                "path": [
+                    "Bach10/Bach10_v1.1/10-NunBitten/10-NunBitten-violin.wav",
+                    "Bach10/Bach10_v1.1/10-NunBitten/10-NunBitten-clarinet.wav",
+                    "Bach10/Bach10_v1.1/10-NunBitten/10-NunBitten-saxophone.wav",
+                    "Bach10/Bach10_v1.1/10-NunBitten/10-NunBitten-bassoon.wav"
+                ]
+            },
+            "title": "NunBitten"
+        }
+    ],
+    "sources": {
+        "format": "wav"
+    }
+}

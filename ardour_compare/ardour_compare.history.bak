@@ -1,0 +1,2117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UndoHistory>
+  <UndoTransaction tv-sec="1615583404" tv-usec="796316" name="remove region">
+    <StatefulDiffCommand obj-id="9414" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="9641"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="336" left-frame="139264" y-origin="0">
+        <Selection/>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="336" left-frame="139264" y-origin="0">
+        <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1615583412" tv-usec="97592" name="insert file">
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="336" left-frame="139264" y-origin="0">
+        <Selection/>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="336" left-frame="139264" y-origin="0">
+        <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1615583416" tv-usec="528162" name="insert region">
+    <StatefulDiffCommand obj-id="9414" type-name="ARDOUR::MidiPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="12463"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="336" left-frame="139264" y-origin="0">
+        <Selection/>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="336" left-frame="139264" y-origin="0">
+        <Selection/>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1615583424" tv-usec="522384" name="region drag">
+    <StatefulDiffCommand obj-id="12463" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <position from="158752" to="42780"/>
+        <beat from="6.6146666666666674" to="1.7825"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="316" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="12463"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="316" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="12463"/>
+          </Regions>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1615583648" tv-usec="702079" name="change velocities">
+    <NoteDiffCommand midi-source="12456">
+      <ChangedNotes>
+        <Change property="Velocity" old="54" new="55" id="514042"/>
+        <Change property="Velocity" old="91" new="92" id="514068"/>
+        <Change property="Velocity" old="81" new="82" id="514061"/>
+        <Change property="Velocity" old="70" new="71" id="514050"/>
+        <Change property="Velocity" old="92" new="93" id="514069"/>
+        <Change property="Velocity" old="41" new="42" id="514037"/>
+        <Change property="Velocity" old="54" new="55" id="514063"/>
+        <Change property="Velocity" old="50" new="51" id="514062"/>
+        <Change property="Velocity" old="70" new="71" id="514049"/>
+        <Change property="Velocity" old="58" new="59" id="514035"/>
+        <Change property="Velocity" old="50" new="51" id="514055"/>
+        <Change property="Velocity" old="45" new="46" id="514048"/>
+        <Change property="Velocity" old="76" new="77" id="514059"/>
+        <Change property="Velocity" old="44" new="45" id="513856"/>
+        <Change property="Velocity" old="41" new="42" id="513855"/>
+        <Change property="Velocity" old="46" new="47" id="513552"/>
+        <Change property="Velocity" old="49" new="50" id="513553"/>
+        <Change property="Velocity" old="36" new="37" id="513554"/>
+        <Change property="Velocity" old="46" new="47" id="513551"/>
+        <Change property="Velocity" old="64" new="65" id="514040"/>
+        <Change property="Velocity" old="68" new="69" id="514066"/>
+        <Change property="Velocity" old="70" new="71" id="514033"/>
+        <Change property="Velocity" old="42" new="43" id="514038"/>
+        <Change property="Velocity" old="46" new="47" id="514039"/>
+        <Change property="Velocity" old="67" new="68" id="514060"/>
+        <Change property="Velocity" old="49" new="50" id="514064"/>
+        <Change property="Velocity" old="50" new="51" id="514071"/>
+        <Change property="Velocity" old="55" new="56" id="514072"/>
+        <Change property="Velocity" old="38" new="39" id="514027"/>
+        <Change property="Velocity" old="43" new="44" id="514029"/>
+        <Change property="Velocity" old="19" new="20" id="514019"/>
+        <Change property="Velocity" old="44" new="45" id="514026"/>
+        <Change property="Velocity" old="35" new="36" id="514014"/>
+        <Change property="Velocity" old="38" new="39" id="514013"/>
+        <Change property="Velocity" old="27" new="28" id="514018"/>
+        <Change property="Velocity" old="39" new="40" id="514010"/>
+        <Change property="Velocity" old="39" new="40" id="514016"/>
+        <Change property="Velocity" old="38" new="39" id="514012"/>
+        <Change property="Velocity" old="47" new="48" id="514003"/>
+        <Change property="Velocity" old="41" new="42" id="514004"/>
+        <Change property="Velocity" old="44" new="45" id="513994"/>
+        <Change property="Velocity" old="55" new="56" id="513987"/>
+        <Change property="Velocity" old="41" new="42" id="513989"/>
+        <Change property="Velocity" old="86" new="87" id="514075"/>
+        <Change property="Velocity" old="66" new="67" id="513986"/>
+        <Change property="Velocity" old="53" new="54" id="514009"/>
+        <Change property="Velocity" old="38" new="39" id="513982"/>
+        <Change property="Velocity" old="40" new="41" id="513983"/>
+        <Change property="Velocity" old="72" new="73" id="513978"/>
+        <Change property="Velocity" old="47" new="48" id="513981"/>
+        <Change property="Velocity" old="52" new="53" id="513975"/>
+        <Change property="Velocity" old="63" new="64" id="513969"/>
+        <Change property="Velocity" old="62" new="63" id="513970"/>
+        <Change property="Velocity" old="65" new="66" id="513964"/>
+        <Change property="Velocity" old="84" new="85" id="513960"/>
+        <Change property="Velocity" old="81" new="82" id="513963"/>
+        <Change property="Velocity" old="74" new="75" id="513965"/>
+        <Change property="Velocity" old="79" new="80" id="513968"/>
+        <Change property="Velocity" old="85" new="86" id="513954"/>
+        <Change property="Velocity" old="65" new="66" id="513991"/>
+        <Change property="Velocity" old="39" new="40" id="513992"/>
+        <Change property="Velocity" old="64" new="65" id="513957"/>
+        <Change property="Velocity" old="64" new="65" id="513958"/>
+        <Change property="Velocity" old="57" new="58" id="514002"/>
+        <Change property="Velocity" old="42" new="43" id="513995"/>
+        <Change property="Velocity" old="39" new="40" id="514000"/>
+        <Change property="Velocity" old="40" new="41" id="514015"/>
+        <Change property="Velocity" old="79" new="80" id="513947"/>
+        <Change property="Velocity" old="71" new="72" id="513953"/>
+        <Change property="Velocity" old="75" new="76" id="513945"/>
+        <Change property="Velocity" old="82" new="83" id="513946"/>
+        <Change property="Velocity" old="76" new="77" id="513943"/>
+        <Change property="Velocity" old="89" new="90" id="513944"/>
+        <Change property="Velocity" old="44" new="45" id="513798"/>
+        <Change property="Velocity" old="41" new="42" id="513799"/>
+        <Change property="Velocity" old="51" new="52" id="513788"/>
+        <Change property="Velocity" old="72" new="73" id="513786"/>
+        <Change property="Velocity" old="49" new="50" id="513787"/>
+        <Change property="Velocity" old="55" new="56" id="513713"/>
+        <Change property="Velocity" old="56" new="57" id="513714"/>
+        <Change property="Velocity" old="85" new="86" id="513716"/>
+        <Change property="Velocity" old="48" new="49" id="513778"/>
+        <Change property="Velocity" old="53" new="54" id="513779"/>
+        <Change property="Velocity" old="62" new="63" id="513776"/>
+        <Change property="Velocity" old="64" new="65" id="513777"/>
+        <Change property="Velocity" old="47" new="48" id="513768"/>
+        <Change property="Velocity" old="49" new="50" id="513765"/>
+        <Change property="Velocity" old="39" new="40" id="513767"/>
+        <Change property="Velocity" old="76" new="77" id="513762"/>
+        <Change property="Velocity" old="59" new="60" id="513760"/>
+        <Change property="Velocity" old="71" new="72" id="513758"/>
+        <Change property="Velocity" old="58" new="59" id="513759"/>
+        <Change property="Velocity" old="82" new="83" id="513754"/>
+        <Change property="Velocity" old="93" new="94" id="513756"/>
+        <Change property="Velocity" old="77" new="78" id="513753"/>
+        <Change property="Velocity" old="72" new="73" id="513747"/>
+        <Change property="Velocity" old="80" new="81" id="513749"/>
+        <Change property="Velocity" old="67" new="68" id="513745"/>
+        <Change property="Velocity" old="67" new="68" id="513780"/>
+        <Change property="Velocity" old="51" new="52" id="513785"/>
+        <Change property="Velocity" old="83" new="84" id="513741"/>
+        <Change property="Velocity" old="73" new="74" id="513744"/>
+        <Change property="Velocity" old="64" new="65" id="513735"/>
+        <Change property="Velocity" old="63" new="64" id="513736"/>
+        <Change property="Velocity" old="80" new="81" id="513726"/>
+        <Change property="Velocity" old="83" new="84" id="513734"/>
+        <Change property="Velocity" old="87" new="88" id="513721"/>
+        <Change property="Velocity" old="61" new="62" id="513722"/>
+        <Change property="Velocity" old="61" new="62" id="513724"/>
+        <Change property="Velocity" old="50" new="51" id="513794"/>
+        <Change property="Velocity" old="60" new="61" id="513795"/>
+        <Change property="Velocity" old="57" new="58" id="513720"/>
+        <Change property="Velocity" old="88" new="89" id="513737"/>
+        <Change property="Velocity" old="92" new="93" id="513740"/>
+        <Change property="Velocity" old="62" new="63" id="513800"/>
+        <Change property="Velocity" old="44" new="45" id="513854"/>
+        <Change property="Velocity" old="41" new="42" id="513796"/>
+        <Change property="Velocity" old="45" new="46" id="513797"/>
+        <Change property="Velocity" old="66" new="67" id="513711"/>
+        <Change property="Velocity" old="64" new="65" id="513712"/>
+        <Change property="Velocity" old="46" new="47" id="513707"/>
+        <Change property="Velocity" old="40" new="41" id="513708"/>
+        <Change property="Velocity" old="71" new="72" id="513709"/>
+        <Change property="Velocity" old="65" new="66" id="513702"/>
+        <Change property="Velocity" old="46" new="47" id="513706"/>
+        <Change property="Velocity" old="42" new="43" id="513699"/>
+        <Change property="Velocity" old="31" new="32" id="513700"/>
+        <Change property="Velocity" old="51" new="52" id="513693"/>
+        <Change property="Velocity" old="39" new="40" id="513697"/>
+        <Change property="Velocity" old="50" new="51" id="513698"/>
+        <Change property="Velocity" old="43" new="44" id="513685"/>
+        <Change property="Velocity" old="52" new="53" id="513682"/>
+        <Change property="Velocity" old="40" new="41" id="513683"/>
+        <Change property="Velocity" old="39" new="40" id="513684"/>
+        <Change property="Velocity" old="24" new="25" id="513678"/>
+        <Change property="Velocity" old="33" new="34" id="513680"/>
+        <Change property="Velocity" old="37" new="38" id="513674"/>
+        <Change property="Velocity" old="58" new="59" id="513675"/>
+        <Change property="Velocity" old="38" new="39" id="513672"/>
+        <Change property="Velocity" old="34" new="35" id="513673"/>
+        <Change property="Velocity" old="40" new="41" id="513664"/>
+        <Change property="Velocity" old="36" new="37" id="513666"/>
+        <Change property="Velocity" old="56" new="57" id="513670"/>
+        <Change property="Velocity" old="34" new="35" id="513662"/>
+        <Change property="Velocity" old="38" new="39" id="513663"/>
+        <Change property="Velocity" old="35" new="36" id="513661"/>
+        <Change property="Velocity" old="43" new="44" id="514194"/>
+        <Change property="Velocity" old="66" new="67" id="513655"/>
+        <Change property="Velocity" old="28" new="29" id="513857"/>
+        <Change property="Velocity" old="66" new="67" id="513657"/>
+        <Change property="Velocity" old="61" new="62" id="513903"/>
+        <Change property="Velocity" old="38" new="39" id="513652"/>
+        <Change property="Velocity" old="41" new="42" id="513653"/>
+        <Change property="Velocity" old="47" new="48" id="513863"/>
+        <Change property="Velocity" old="59" new="60" id="513650"/>
+        <Change property="Velocity" old="82" new="83" id="513904"/>
+        <Change property="Velocity" old="40" new="41" id="513810"/>
+        <Change property="Velocity" old="46" new="47" id="513806"/>
+        <Change property="Velocity" old="42" new="43" id="513804"/>
+        <Change property="Velocity" old="56" new="57" id="513803"/>
+        <Change property="Velocity" old="77" new="78" id="513908"/>
+        <Change property="Velocity" old="40" new="41" id="513639"/>
+        <Change property="Velocity" old="82" new="83" id="513909"/>
+        <Change property="Velocity" old="42" new="43" id="513630"/>
+        <Change property="Velocity" old="41" new="42" id="513631"/>
+        <Change property="Velocity" old="51" new="52" id="513867"/>
+        <Change property="Velocity" old="52" new="53" id="513629"/>
+        <Change property="Velocity" old="28" new="29" id="513822"/>
+        <Change property="Velocity" old="29" new="30" id="513821"/>
+        <Change property="Velocity" old="45" new="46" id="513626"/>
+        <Change property="Velocity" old="44" new="45" id="513868"/>
+        <Change property="Velocity" old="48" new="49" id="513628"/>
+        <Change property="Velocity" old="63" new="64" id="513912"/>
+        <Change property="Velocity" old="39" new="40" id="514189"/>
+        <Change property="Velocity" old="31" new="32" id="514190"/>
+        <Change property="Velocity" old="38" new="39" id="514187"/>
+        <Change property="Velocity" old="43" new="44" id="514183"/>
+        <Change property="Velocity" old="53" new="54" id="514182"/>
+        <Change property="Velocity" old="34" new="35" id="513826"/>
+        <Change property="Velocity" old="50" new="51" id="513824"/>
+        <Change property="Velocity" old="32" new="33" id="513820"/>
+        <Change property="Velocity" old="55" new="56" id="513817"/>
+        <Change property="Velocity" old="28" new="29" id="514180"/>
+        <Change property="Velocity" old="39" new="40" id="514175"/>
+        <Change property="Velocity" old="49" new="50" id="513621"/>
+        <Change property="Velocity" old="70" new="71" id="513875"/>
+        <Change property="Velocity" old="45" new="46" id="513624"/>
+        <Change property="Velocity" old="72" new="73" id="513914"/>
+        <Change property="Velocity" old="63" new="64" id="513876"/>
+        <Change property="Velocity" old="78" new="79" id="513619"/>
+        <Change property="Velocity" old="44" new="45" id="513831"/>
+        <Change property="Velocity" old="39" new="40" id="513830"/>
+        <Change property="Velocity" old="39" new="40" id="514172"/>
+        <Change property="Velocity" old="58" new="59" id="514171"/>
+        <Change property="Velocity" old="85" new="86" id="513609"/>
+        <Change property="Velocity" old="43" new="44" id="513880"/>
+        <Change property="Velocity" old="87" new="88" id="513611"/>
+        <Change property="Velocity" old="51" new="52" id="513617"/>
+        <Change property="Velocity" old="53" new="54" id="513618"/>
+        <Change property="Velocity" old="63" new="64" id="514164"/>
+        <Change property="Velocity" old="36" new="37" id="513625"/>
+        <Change property="Velocity" old="73" new="74" id="514162"/>
+        <Change property="Velocity" old="29" new="30" id="513835"/>
+        <Change property="Velocity" old="33" new="34" id="513834"/>
+        <Change property="Velocity" old="53" new="54" id="514160"/>
+        <Change property="Velocity" old="85" new="86" id="513920"/>
+        <Change property="Velocity" old="43" new="44" id="514174"/>
+        <Change property="Velocity" old="70" new="71" id="513601"/>
+        <Change property="Velocity" old="36" new="37" id="513882"/>
+        <Change property="Velocity" old="80" new="81" id="513603"/>
+        <Change property="Velocity" old="72" new="73" id="514159"/>
+        <Change property="Velocity" old="51" new="52" id="514154"/>
+        <Change property="Velocity" old="30" new="31" id="513883"/>
+        <Change property="Velocity" old="60" new="61" id="513599"/>
+        <Change property="Velocity" old="83" new="84" id="513608"/>
+        <Change property="Velocity" old="54" new="55" id="513866"/>
+        <Change property="Velocity" old="66" new="67" id="513632"/>
+        <Change property="Velocity" old="65" new="66" id="514153"/>
+        <Change property="Velocity" old="78" new="79" id="514151"/>
+        <Change property="Velocity" old="33" new="34" id="514196"/>
+        <Change property="Velocity" old="60" new="61" id="513879"/>
+        <Change property="Velocity" old="62" new="63" id="513616"/>
+        <Change property="Velocity" old="33" new="34" id="513640"/>
+        <Change property="Velocity" old="66" new="67" id="513864"/>
+        <Change property="Velocity" old="36" new="37" id="513649"/>
+        <Change property="Velocity" old="90" new="91" id="514107"/>
+        <Change property="Velocity" old="68" new="69" id="514150"/>
+        <Change property="Velocity" old="62" new="63" id="513597"/>
+        <Change property="Velocity" old="66" new="67" id="513598"/>
+        <Change property="Velocity" old="63" new="64" id="514148"/>
+        <Change property="Velocity" old="40" new="41" id="513844"/>
+        <Change property="Velocity" old="72" new="73" id="514147"/>
+        <Change property="Velocity" old="68" new="69" id="514146"/>
+        <Change property="Velocity" old="61" new="62" id="513925"/>
+        <Change property="Velocity" old="63" new="64" id="513926"/>
+        <Change property="Velocity" old="60" new="61" id="513590"/>
+        <Change property="Velocity" old="83" new="84" id="513887"/>
+        <Change property="Velocity" old="83" new="84" id="513592"/>
+        <Change property="Velocity" old="36" new="37" id="513812"/>
+        <Change property="Velocity" old="28" new="29" id="513811"/>
+        <Change property="Velocity" old="33" new="34" id="513836"/>
+        <Change property="Velocity" old="53" new="54" id="513858"/>
+        <Change property="Velocity" old="37" new="38" id="513654"/>
+        <Change property="Velocity" old="84" new="85" id="514143"/>
+        <Change property="Velocity" old="60" new="61" id="513589"/>
+        <Change property="Velocity" old="70" new="71" id="514141"/>
+        <Change property="Velocity" old="15" new="16" id="513846"/>
+        <Change property="Velocity" old="67" new="68" id="514140"/>
+        <Change property="Velocity" old="69" new="70" id="513927"/>
+        <Change property="Velocity" old="70" new="71" id="513635"/>
+        <Change property="Velocity" old="72" new="73" id="513865"/>
+        <Change property="Velocity" old="45" new="46" id="513636"/>
+        <Change property="Velocity" old="48" new="49" id="514188"/>
+        <Change property="Velocity" old="55" new="56" id="513581"/>
+        <Change property="Velocity" old="23" new="24" id="513847"/>
+        <Change property="Velocity" old="73" new="74" id="514136"/>
+        <Change property="Velocity" old="55" new="56" id="513579"/>
+        <Change property="Velocity" old="54" new="55" id="513890"/>
+        <Change property="Velocity" old="52" new="53" id="513580"/>
+        <Change property="Velocity" old="53" new="54" id="514168"/>
+        <Change property="Velocity" old="32" new="33" id="513833"/>
+        <Change property="Velocity" old="35" new="36" id="513832"/>
+        <Change property="Velocity" old="83" new="84" id="514128"/>
+        <Change property="Velocity" old="66" new="67" id="513891"/>
+        <Change property="Velocity" old="80" new="81" id="513578"/>
+        <Change property="Velocity" old="85" new="86" id="514127"/>
+        <Change property="Velocity" old="36" new="37" id="513850"/>
+        <Change property="Velocity" old="34" new="35" id="514193"/>
+        <Change property="Velocity" old="83" new="84" id="514126"/>
+        <Change property="Velocity" old="81" new="82" id="514125"/>
+        <Change property="Velocity" old="56" new="57" id="513572"/>
+        <Change property="Velocity" old="80" new="81" id="513573"/>
+        <Change property="Velocity" old="66" new="67" id="513928"/>
+        <Change property="Velocity" old="32" new="33" id="514197"/>
+        <Change property="Velocity" old="81" new="82" id="514138"/>
+        <Change property="Velocity" old="85" new="86" id="513894"/>
+        <Change property="Velocity" old="59" new="60" id="513570"/>
+        <Change property="Velocity" old="62" new="63" id="513571"/>
+        <Change property="Velocity" old="93" new="94" id="514124"/>
+        <Change property="Velocity" old="87" new="88" id="513932"/>
+        <Change property="Velocity" old="80" new="81" id="513933"/>
+        <Change property="Velocity" old="85" new="86" id="514120"/>
+        <Change property="Velocity" old="64" new="65" id="513885"/>
+        <Change property="Velocity" old="89" new="90" id="513595"/>
+        <Change property="Velocity" old="85" new="86" id="513922"/>
+        <Change property="Velocity" old="77" new="78" id="514119"/>
+        <Change property="Velocity" old="79" new="80" id="513934"/>
+        <Change property="Velocity" old="44" new="45" id="513563"/>
+        <Change property="Velocity" old="85" new="86" id="513895"/>
+        <Change property="Velocity" old="60" new="61" id="513569"/>
+        <Change property="Velocity" old="82" new="83" id="514116"/>
+        <Change property="Velocity" old="58" new="59" id="513853"/>
+        <Change property="Velocity" old="44" new="45" id="513561"/>
+        <Change property="Velocity" old="51" new="52" id="513558"/>
+        <Change property="Velocity" old="66" new="67" id="513901"/>
+        <Change property="Velocity" old="73" new="74" id="513559"/>
+        <Change property="Velocity" old="83" new="84" id="514115"/>
+        <Change property="Velocity" old="92" new="93" id="514112"/>
+        <Change property="Velocity" old="84" new="85" id="513936"/>
+        <Change property="Velocity" old="80" new="81" id="513937"/>
+        <Change property="Velocity" old="67" new="68" id="514111"/>
+        <Change property="Velocity" old="60" new="61" id="514110"/>
+        <Change property="Velocity" old="85" new="86" id="514117"/>
+        <Change property="Velocity" old="71" new="72" id="513585"/>
+        <Change property="Velocity" old="81" new="82" id="513888"/>
+        <Change property="Velocity" old="75" new="76" id="513588"/>
+        <Change property="Velocity" old="64" new="65" id="513911"/>
+        <Change property="Velocity" old="74" new="75" id="513942"/>
+        <Change property="Velocity" old="79" new="80" id="513921"/>
+        <Change property="Velocity" old="48" new="49" id="514167"/>
+        <Change property="Velocity" old="77" new="78" id="514109"/>
+        <Change property="Velocity" old="59" new="60" id="513902"/>
+        <Change property="Velocity" old="61" new="62" id="513555"/>
+        <Change property="Velocity" old="86" new="87" id="514106"/>
+        <Change property="Velocity" old="87" new="88" id="514105"/>
+        <Change property="Velocity" old="73" new="74" id="514097"/>
+        <Change property="Velocity" old="61" new="62" id="514096"/>
+        <Change property="Velocity" old="71" new="72" id="514095"/>
+        <Change property="Velocity" old="87" new="88" id="514094"/>
+        <Change property="Velocity" old="66" new="67" id="514093"/>
+        <Change property="Velocity" old="87" new="88" id="514092"/>
+        <Change property="Velocity" old="82" new="83" id="514086"/>
+        <Change property="Velocity" old="61" new="62" id="514084"/>
+        <Change property="Velocity" old="59" new="60" id="514085"/>
+        <Change property="Velocity" old="69" new="70" id="514083"/>
+        <Change property="Velocity" old="90" new="91" id="514076"/>
+        <Change property="Velocity" old="52" new="53" id="514047"/>
+        <Change property="Velocity" old="50" new="51" id="513550"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1728" left-frame="959904" y-origin="239">
+        <Selection>
+          <Regions>
+            <Region id="12463"/>
+          </Regions>
+          <MIDINotes region-id="12463">
+            <note note-id="513559"/>
+            <note note-id="514105"/>
+            <note note-id="514109"/>
+            <note note-id="514107"/>
+            <note note-id="514110"/>
+            <note note-id="514180"/>
+            <note note-id="513908"/>
+            <note note-id="513912"/>
+            <note note-id="514009"/>
+            <note note-id="514014"/>
+            <note note-id="513853"/>
+            <note note-id="513846"/>
+            <note note-id="513709"/>
+            <note note-id="513716"/>
+            <note note-id="513753"/>
+            <note note-id="514143"/>
+            <note note-id="514136"/>
+            <note note-id="514126"/>
+            <note note-id="514116"/>
+            <note note-id="514106"/>
+            <note note-id="513875"/>
+            <note note-id="513895"/>
+            <note note-id="513553"/>
+            <note note-id="513558"/>
+            <note note-id="513741"/>
+            <note note-id="513735"/>
+            <note note-id="513991"/>
+            <note note-id="513762"/>
+            <note note-id="513711"/>
+            <note note-id="513975"/>
+            <note note-id="513981"/>
+            <note note-id="513986"/>
+            <note note-id="513552"/>
+            <note note-id="513826"/>
+            <note note-id="513817"/>
+            <note note-id="513821"/>
+            <note note-id="513822"/>
+            <note note-id="514094"/>
+            <note note-id="513608"/>
+            <note note-id="514194"/>
+            <note note-id="514083"/>
+            <note note-id="514093"/>
+            <note note-id="514112"/>
+            <note note-id="514095"/>
+            <note note-id="513693"/>
+            <note note-id="513706"/>
+            <note note-id="513867"/>
+            <note note-id="513636"/>
+            <note note-id="513640"/>
+            <note note-id="513664"/>
+            <note note-id="513653"/>
+            <note note-id="513824"/>
+            <note note-id="513885"/>
+            <note note-id="513903"/>
+            <note note-id="513609"/>
+            <note note-id="513590"/>
+            <note note-id="514016"/>
+            <note note-id="513655"/>
+            <note note-id="513639"/>
+            <note note-id="513708"/>
+            <note note-id="513713"/>
+            <note note-id="513624"/>
+            <note note-id="513631"/>
+            <note note-id="514035"/>
+            <note note-id="514038"/>
+            <note note-id="513765"/>
+            <note note-id="513787"/>
+            <note note-id="513883"/>
+            <note note-id="513925"/>
+            <note note-id="513850"/>
+            <note note-id="513844"/>
+            <note note-id="514096"/>
+            <note note-id="514072"/>
+            <note note-id="514167"/>
+            <note note-id="514159"/>
+            <note note-id="514164"/>
+            <note note-id="514162"/>
+            <note note-id="513726"/>
+            <note note-id="513798"/>
+            <note note-id="513661"/>
+            <note note-id="513683"/>
+            <note note-id="513663"/>
+            <note note-id="514015"/>
+            <note note-id="513811"/>
+            <note note-id="513803"/>
+            <note note-id="513942"/>
+            <note note-id="513947"/>
+            <note note-id="513944"/>
+            <note note-id="513745"/>
+            <note note-id="513744"/>
+            <note note-id="514175"/>
+            <note note-id="514174"/>
+            <note note-id="513832"/>
+            <note note-id="513700"/>
+            <note note-id="513699"/>
+            <note note-id="513702"/>
+            <note note-id="513982"/>
+            <note note-id="513983"/>
+            <note note-id="513714"/>
+            <note note-id="513953"/>
+            <note note-id="513968"/>
+            <note note-id="513963"/>
+            <note note-id="513987"/>
+            <note note-id="514092"/>
+            <note note-id="513902"/>
+            <note note-id="513894"/>
+            <note note-id="514055"/>
+            <note note-id="514071"/>
+            <note note-id="513657"/>
+            <note note-id="513785"/>
+            <note note-id="513795"/>
+            <note note-id="513922"/>
+            <note note-id="513836"/>
+            <note note-id="513833"/>
+            <note note-id="514086"/>
+            <note note-id="514084"/>
+            <note note-id="514075"/>
+            <note note-id="513958"/>
+            <note note-id="513989"/>
+            <note note-id="514010"/>
+            <note note-id="514117"/>
+            <note note-id="514097"/>
+            <note note-id="514119"/>
+            <note note-id="513891"/>
+            <note note-id="513863"/>
+            <note note-id="513868"/>
+            <note note-id="513865"/>
+            <note note-id="514172"/>
+            <note note-id="514171"/>
+            <note note-id="513856"/>
+            <note note-id="513847"/>
+            <note note-id="514002"/>
+            <note note-id="513992"/>
+            <note note-id="513550"/>
+            <note note-id="514029"/>
+            <note note-id="514049"/>
+            <note note-id="514037"/>
+            <note note-id="514048"/>
+            <note note-id="513754"/>
+            <note note-id="514111"/>
+            <note note-id="514068"/>
+            <note note-id="514069"/>
+            <note note-id="513965"/>
+            <note note-id="513943"/>
+            <note note-id="513927"/>
+            <note note-id="513779"/>
+            <note note-id="513778"/>
+            <note note-id="513780"/>
+            <note note-id="513759"/>
+            <note note-id="513760"/>
+            <note note-id="513756"/>
+            <note note-id="513721"/>
+            <note note-id="513866"/>
+            <note note-id="513854"/>
+            <note note-id="513794"/>
+            <note note-id="513857"/>
+            <note note-id="513835"/>
+            <note note-id="513879"/>
+            <note note-id="514151"/>
+            <note note-id="514140"/>
+            <note note-id="514197"/>
+            <note note-id="513621"/>
+            <note note-id="513588"/>
+            <note note-id="513578"/>
+            <note note-id="513597"/>
+            <note note-id="513570"/>
+            <note note-id="513555"/>
+            <note note-id="513579"/>
+            <note note-id="513581"/>
+            <note note-id="513599"/>
+            <note note-id="513616"/>
+            <note note-id="513630"/>
+            <note note-id="513580"/>
+            <note note-id="513598"/>
+            <note note-id="513618"/>
+            <note note-id="513585"/>
+            <note note-id="513595"/>
+            <note note-id="513601"/>
+            <note note-id="513617"/>
+            <note note-id="513625"/>
+            <note note-id="513632"/>
+            <note note-id="513611"/>
+            <note note-id="513628"/>
+            <note note-id="513603"/>
+            <note note-id="513626"/>
+            <note note-id="513619"/>
+            <note note-id="513551"/>
+            <note note-id="513563"/>
+            <note note-id="514064"/>
+            <note note-id="514018"/>
+            <note note-id="514050"/>
+            <note note-id="513629"/>
+            <note note-id="513969"/>
+            <note note-id="513964"/>
+            <note note-id="514076"/>
+            <note note-id="514085"/>
+            <note note-id="514062"/>
+            <note note-id="513777"/>
+            <note note-id="513776"/>
+            <note note-id="513936"/>
+            <note note-id="513932"/>
+            <note note-id="513712"/>
+            <note note-id="513684"/>
+            <note note-id="513678"/>
+            <note note-id="513978"/>
+            <note note-id="513957"/>
+            <note note-id="513954"/>
+            <note note-id="513960"/>
+            <note note-id="514061"/>
+            <note note-id="514063"/>
+            <note note-id="514190"/>
+            <note note-id="514183"/>
+            <note note-id="513650"/>
+            <note note-id="513649"/>
+            <note note-id="513654"/>
+            <note note-id="513734"/>
+            <note note-id="513737"/>
+            <note note-id="513736"/>
+            <note note-id="513675"/>
+            <note note-id="513697"/>
+            <note note-id="513749"/>
+            <note note-id="513747"/>
+            <note note-id="513722"/>
+            <note note-id="513724"/>
+            <note note-id="513720"/>
+            <note note-id="513680"/>
+            <note note-id="513682"/>
+            <note note-id="513937"/>
+            <note note-id="513946"/>
+            <note note-id="513995"/>
+            <note note-id="514047"/>
+            <note note-id="514060"/>
+            <note note-id="514059"/>
+            <note note-id="514066"/>
+            <note note-id="514150"/>
+            <note note-id="514147"/>
+            <note note-id="513740"/>
+            <note note-id="513674"/>
+            <note note-id="513685"/>
+            <note note-id="513670"/>
+            <note note-id="514189"/>
+            <note note-id="514182"/>
+            <note note-id="514128"/>
+            <note note-id="514127"/>
+            <note note-id="514124"/>
+            <note note-id="514160"/>
+            <note note-id="514168"/>
+            <note note-id="514154"/>
+            <note note-id="514120"/>
+            <note note-id="514125"/>
+            <note note-id="514115"/>
+            <note note-id="514019"/>
+            <note note-id="514027"/>
+            <note note-id="514040"/>
+            <note note-id="513673"/>
+            <note note-id="513820"/>
+            <note note-id="513830"/>
+            <note note-id="513561"/>
+            <note note-id="513812"/>
+            <note note-id="513834"/>
+            <note note-id="513810"/>
+            <note note-id="513970"/>
+            <note note-id="514196"/>
+            <note note-id="513672"/>
+            <note note-id="513652"/>
+            <note note-id="513662"/>
+            <note note-id="514003"/>
+            <note note-id="514004"/>
+            <note note-id="513888"/>
+            <note note-id="513887"/>
+            <note note-id="513804"/>
+            <note note-id="513799"/>
+            <note note-id="513806"/>
+            <note note-id="513928"/>
+            <note note-id="513592"/>
+            <note note-id="513831"/>
+            <note note-id="513926"/>
+            <note note-id="513909"/>
+            <note note-id="513788"/>
+            <note note-id="513767"/>
+            <note note-id="513666"/>
+            <note note-id="513635"/>
+            <note note-id="513768"/>
+            <note note-id="513758"/>
+            <note note-id="513786"/>
+            <note note-id="513698"/>
+            <note note-id="513707"/>
+            <note note-id="513911"/>
+            <note note-id="513554"/>
+            <note note-id="513796"/>
+            <note note-id="514153"/>
+            <note note-id="514148"/>
+            <note note-id="514193"/>
+            <note note-id="513890"/>
+            <note note-id="513934"/>
+            <note note-id="513945"/>
+            <note note-id="513933"/>
+            <note note-id="514188"/>
+            <note note-id="514187"/>
+            <note note-id="513855"/>
+            <note note-id="513858"/>
+            <note note-id="513864"/>
+            <note note-id="513573"/>
+            <note note-id="513572"/>
+            <note note-id="513569"/>
+            <note note-id="513904"/>
+            <note note-id="513901"/>
+            <note note-id="513921"/>
+            <note note-id="513800"/>
+            <note note-id="513797"/>
+            <note note-id="514042"/>
+            <note note-id="513589"/>
+            <note note-id="514146"/>
+            <note note-id="514138"/>
+            <note note-id="513914"/>
+            <note note-id="513920"/>
+            <note note-id="513994"/>
+            <note note-id="514012"/>
+            <note note-id="514141"/>
+            <note note-id="513571"/>
+            <note note-id="514000"/>
+            <note note-id="514013"/>
+            <note note-id="514026"/>
+            <note note-id="514033"/>
+            <note note-id="514039"/>
+            <note note-id="513882"/>
+            <note note-id="513876"/>
+            <note note-id="513880"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="1728" left-frame="959904" y-origin="239">
+        <Selection>
+          <Regions>
+            <Region id="12463"/>
+          </Regions>
+          <MIDINotes region-id="12463">
+            <note note-id="513559"/>
+            <note note-id="514105"/>
+            <note note-id="514109"/>
+            <note note-id="514107"/>
+            <note note-id="514110"/>
+            <note note-id="514180"/>
+            <note note-id="513908"/>
+            <note note-id="513912"/>
+            <note note-id="514009"/>
+            <note note-id="514014"/>
+            <note note-id="513853"/>
+            <note note-id="513846"/>
+            <note note-id="513709"/>
+            <note note-id="513716"/>
+            <note note-id="513753"/>
+            <note note-id="514143"/>
+            <note note-id="514136"/>
+            <note note-id="514126"/>
+            <note note-id="514116"/>
+            <note note-id="514106"/>
+            <note note-id="513875"/>
+            <note note-id="513895"/>
+            <note note-id="513553"/>
+            <note note-id="513558"/>
+            <note note-id="513741"/>
+            <note note-id="513735"/>
+            <note note-id="513991"/>
+            <note note-id="513762"/>
+            <note note-id="513711"/>
+            <note note-id="513975"/>
+            <note note-id="513981"/>
+            <note note-id="513986"/>
+            <note note-id="513552"/>
+            <note note-id="513826"/>
+            <note note-id="513817"/>
+            <note note-id="513821"/>
+            <note note-id="513822"/>
+            <note note-id="514094"/>
+            <note note-id="513608"/>
+            <note note-id="514194"/>
+            <note note-id="514083"/>
+            <note note-id="514093"/>
+            <note note-id="514112"/>
+            <note note-id="514095"/>
+            <note note-id="513693"/>
+            <note note-id="513706"/>
+            <note note-id="513867"/>
+            <note note-id="513636"/>
+            <note note-id="513640"/>
+            <note note-id="513664"/>
+            <note note-id="513653"/>
+            <note note-id="513824"/>
+            <note note-id="513885"/>
+            <note note-id="513903"/>
+            <note note-id="513609"/>
+            <note note-id="513590"/>
+            <note note-id="514016"/>
+            <note note-id="513655"/>
+            <note note-id="513639"/>
+            <note note-id="513708"/>
+            <note note-id="513713"/>
+            <note note-id="513624"/>
+            <note note-id="513631"/>
+            <note note-id="514035"/>
+            <note note-id="514038"/>
+            <note note-id="513765"/>
+            <note note-id="513787"/>
+            <note note-id="513883"/>
+            <note note-id="513925"/>
+            <note note-id="513850"/>
+            <note note-id="513844"/>
+            <note note-id="514096"/>
+            <note note-id="514072"/>
+            <note note-id="514167"/>
+            <note note-id="514159"/>
+            <note note-id="514164"/>
+            <note note-id="514162"/>
+            <note note-id="513726"/>
+            <note note-id="513798"/>
+            <note note-id="513661"/>
+            <note note-id="513683"/>
+            <note note-id="513663"/>
+            <note note-id="514015"/>
+            <note note-id="513811"/>
+            <note note-id="513803"/>
+            <note note-id="513942"/>
+            <note note-id="513947"/>
+            <note note-id="513944"/>
+            <note note-id="513745"/>
+            <note note-id="513744"/>
+            <note note-id="514175"/>
+            <note note-id="514174"/>
+            <note note-id="513832"/>
+            <note note-id="513700"/>
+            <note note-id="513699"/>
+            <note note-id="513702"/>
+            <note note-id="513982"/>
+            <note note-id="513983"/>
+            <note note-id="513714"/>
+            <note note-id="513953"/>
+            <note note-id="513968"/>
+            <note note-id="513963"/>
+            <note note-id="513987"/>
+            <note note-id="514092"/>
+            <note note-id="513902"/>
+            <note note-id="513894"/>
+            <note note-id="514055"/>
+            <note note-id="514071"/>
+            <note note-id="513657"/>
+            <note note-id="513785"/>
+            <note note-id="513795"/>
+            <note note-id="513922"/>
+            <note note-id="513836"/>
+            <note note-id="513833"/>
+            <note note-id="514086"/>
+            <note note-id="514084"/>
+            <note note-id="514075"/>
+            <note note-id="513958"/>
+            <note note-id="513989"/>
+            <note note-id="514010"/>
+            <note note-id="514117"/>
+            <note note-id="514097"/>
+            <note note-id="514119"/>
+            <note note-id="513891"/>
+            <note note-id="513863"/>
+            <note note-id="513868"/>
+            <note note-id="513865"/>
+            <note note-id="514172"/>
+            <note note-id="514171"/>
+            <note note-id="513856"/>
+            <note note-id="513847"/>
+            <note note-id="514002"/>
+            <note note-id="513992"/>
+            <note note-id="513550"/>
+            <note note-id="514029"/>
+            <note note-id="514049"/>
+            <note note-id="514037"/>
+            <note note-id="514048"/>
+            <note note-id="513754"/>
+            <note note-id="514111"/>
+            <note note-id="514068"/>
+            <note note-id="514069"/>
+            <note note-id="513965"/>
+            <note note-id="513943"/>
+            <note note-id="513927"/>
+            <note note-id="513779"/>
+            <note note-id="513778"/>
+            <note note-id="513780"/>
+            <note note-id="513759"/>
+            <note note-id="513760"/>
+            <note note-id="513756"/>
+            <note note-id="513721"/>
+            <note note-id="513866"/>
+            <note note-id="513854"/>
+            <note note-id="513794"/>
+            <note note-id="513857"/>
+            <note note-id="513835"/>
+            <note note-id="513879"/>
+            <note note-id="514151"/>
+            <note note-id="514140"/>
+            <note note-id="514197"/>
+            <note note-id="513621"/>
+            <note note-id="513588"/>
+            <note note-id="513578"/>
+            <note note-id="513597"/>
+            <note note-id="513570"/>
+            <note note-id="513555"/>
+            <note note-id="513579"/>
+            <note note-id="513581"/>
+            <note note-id="513599"/>
+            <note note-id="513616"/>
+            <note note-id="513630"/>
+            <note note-id="513580"/>
+            <note note-id="513598"/>
+            <note note-id="513618"/>
+            <note note-id="513585"/>
+            <note note-id="513595"/>
+            <note note-id="513601"/>
+            <note note-id="513617"/>
+            <note note-id="513625"/>
+            <note note-id="513632"/>
+            <note note-id="513611"/>
+            <note note-id="513628"/>
+            <note note-id="513603"/>
+            <note note-id="513626"/>
+            <note note-id="513619"/>
+            <note note-id="513551"/>
+            <note note-id="513563"/>
+            <note note-id="514064"/>
+            <note note-id="514018"/>
+            <note note-id="514050"/>
+            <note note-id="513629"/>
+            <note note-id="513969"/>
+            <note note-id="513964"/>
+            <note note-id="514076"/>
+            <note note-id="514085"/>
+            <note note-id="514062"/>
+            <note note-id="513777"/>
+            <note note-id="513776"/>
+            <note note-id="513936"/>
+            <note note-id="513932"/>
+            <note note-id="513712"/>
+            <note note-id="513684"/>
+            <note note-id="513678"/>
+            <note note-id="513978"/>
+            <note note-id="513957"/>
+            <note note-id="513954"/>
+            <note note-id="513960"/>
+            <note note-id="514061"/>
+            <note note-id="514063"/>
+            <note note-id="514190"/>
+            <note note-id="514183"/>
+            <note note-id="513650"/>
+            <note note-id="513649"/>
+            <note note-id="513654"/>
+            <note note-id="513734"/>
+            <note note-id="513737"/>
+            <note note-id="513736"/>
+            <note note-id="513675"/>
+            <note note-id="513697"/>
+            <note note-id="513749"/>
+            <note note-id="513747"/>
+            <note note-id="513722"/>
+            <note note-id="513724"/>
+            <note note-id="513720"/>
+            <note note-id="513680"/>
+            <note note-id="513682"/>
+            <note note-id="513937"/>
+            <note note-id="513946"/>
+            <note note-id="513995"/>
+            <note note-id="514047"/>
+            <note note-id="514060"/>
+            <note note-id="514059"/>
+            <note note-id="514066"/>
+            <note note-id="514150"/>
+            <note note-id="514147"/>
+            <note note-id="513740"/>
+            <note note-id="513674"/>
+            <note note-id="513685"/>
+            <note note-id="513670"/>
+            <note note-id="514189"/>
+            <note note-id="514182"/>
+            <note note-id="514128"/>
+            <note note-id="514127"/>
+            <note note-id="514124"/>
+            <note note-id="514160"/>
+            <note note-id="514168"/>
+            <note note-id="514154"/>
+            <note note-id="514120"/>
+            <note note-id="514125"/>
+            <note note-id="514115"/>
+            <note note-id="514019"/>
+            <note note-id="514027"/>
+            <note note-id="514040"/>
+            <note note-id="513673"/>
+            <note note-id="513820"/>
+            <note note-id="513830"/>
+            <note note-id="513561"/>
+            <note note-id="513812"/>
+            <note note-id="513834"/>
+            <note note-id="513810"/>
+            <note note-id="513970"/>
+            <note note-id="514196"/>
+            <note note-id="513672"/>
+            <note note-id="513652"/>
+            <note note-id="513662"/>
+            <note note-id="514003"/>
+            <note note-id="514004"/>
+            <note note-id="513888"/>
+            <note note-id="513887"/>
+            <note note-id="513804"/>
+            <note note-id="513799"/>
+            <note note-id="513806"/>
+            <note note-id="513928"/>
+            <note note-id="513592"/>
+            <note note-id="513831"/>
+            <note note-id="513926"/>
+            <note note-id="513909"/>
+            <note note-id="513788"/>
+            <note note-id="513767"/>
+            <note note-id="513666"/>
+            <note note-id="513635"/>
+            <note note-id="513768"/>
+            <note note-id="513758"/>
+            <note note-id="513786"/>
+            <note note-id="513698"/>
+            <note note-id="513707"/>
+            <note note-id="513911"/>
+            <note note-id="513554"/>
+            <note note-id="513796"/>
+            <note note-id="514153"/>
+            <note note-id="514148"/>
+            <note note-id="514193"/>
+            <note note-id="513890"/>
+            <note note-id="513934"/>
+            <note note-id="513945"/>
+            <note note-id="513933"/>
+            <note note-id="514188"/>
+            <note note-id="514187"/>
+            <note note-id="513855"/>
+            <note note-id="513858"/>
+            <note note-id="513864"/>
+            <note note-id="513573"/>
+            <note note-id="513572"/>
+            <note note-id="513569"/>
+            <note note-id="513904"/>
+            <note note-id="513901"/>
+            <note note-id="513921"/>
+            <note note-id="513800"/>
+            <note note-id="513797"/>
+            <note note-id="514042"/>
+            <note note-id="513589"/>
+            <note note-id="514146"/>
+            <note note-id="514138"/>
+            <note note-id="513914"/>
+            <note note-id="513920"/>
+            <note note-id="513994"/>
+            <note note-id="514012"/>
+            <note note-id="514141"/>
+            <note note-id="513571"/>
+            <note note-id="514000"/>
+            <note note-id="514013"/>
+            <note note-id="514026"/>
+            <note note-id="514033"/>
+            <note note-id="514039"/>
+            <note note-id="513882"/>
+            <note note-id="513876"/>
+            <note note-id="513880"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1615583742" tv-usec="582139" name="transform">
+    <NoteDiffCommand midi-source="12456">
+      <ChangedNotes>
+        <Change property="Velocity" old="51" new="64" id="513550"/>
+        <Change property="Velocity" old="47" new="64" id="513551"/>
+        <Change property="Velocity" old="50" new="64" id="513553"/>
+        <Change property="Velocity" old="47" new="64" id="513552"/>
+        <Change property="Velocity" old="37" new="64" id="513554"/>
+        <Change property="Velocity" old="62" new="64" id="513555"/>
+        <Change property="Velocity" old="74" new="64" id="513559"/>
+        <Change property="Velocity" old="52" new="64" id="513558"/>
+        <Change property="Velocity" old="45" new="64" id="513561"/>
+        <Change property="Velocity" old="45" new="64" id="513563"/>
+        <Change property="Velocity" old="61" new="64" id="513569"/>
+        <Change property="Velocity" old="60" new="64" id="513570"/>
+        <Change property="Velocity" old="63" new="64" id="513571"/>
+        <Change property="Velocity" old="57" new="64" id="513572"/>
+        <Change property="Velocity" old="81" new="64" id="513573"/>
+        <Change property="Velocity" old="81" new="64" id="513578"/>
+        <Change property="Velocity" old="56" new="64" id="513579"/>
+        <Change property="Velocity" old="56" new="64" id="513581"/>
+        <Change property="Velocity" old="53" new="64" id="513580"/>
+        <Change property="Velocity" old="72" new="64" id="513585"/>
+        <Change property="Velocity" old="76" new="64" id="513588"/>
+        <Change property="Velocity" old="61" new="64" id="513590"/>
+        <Change property="Velocity" old="61" new="64" id="513589"/>
+        <Change property="Velocity" old="84" new="64" id="513592"/>
+        <Change property="Velocity" old="90" new="64" id="513595"/>
+        <Change property="Velocity" old="63" new="64" id="513597"/>
+        <Change property="Velocity" old="67" new="64" id="513598"/>
+        <Change property="Velocity" old="61" new="64" id="513599"/>
+        <Change property="Velocity" old="71" new="64" id="513601"/>
+        <Change property="Velocity" old="81" new="64" id="513603"/>
+        <Change property="Velocity" old="84" new="64" id="513608"/>
+        <Change property="Velocity" old="86" new="64" id="513609"/>
+        <Change property="Velocity" old="88" new="64" id="513611"/>
+        <Change property="Velocity" old="63" new="64" id="513616"/>
+        <Change property="Velocity" old="52" new="64" id="513617"/>
+        <Change property="Velocity" old="54" new="64" id="513618"/>
+        <Change property="Velocity" old="79" new="64" id="513619"/>
+        <Change property="Velocity" old="50" new="64" id="513621"/>
+        <Change property="Velocity" old="46" new="64" id="513624"/>
+        <Change property="Velocity" old="37" new="64" id="513625"/>
+        <Change property="Velocity" old="46" new="64" id="513626"/>
+        <Change property="Velocity" old="49" new="64" id="513628"/>
+        <Change property="Velocity" old="53" new="64" id="513629"/>
+        <Change property="Velocity" old="43" new="64" id="513630"/>
+        <Change property="Velocity" old="42" new="64" id="513631"/>
+        <Change property="Velocity" old="67" new="64" id="513632"/>
+        <Change property="Velocity" old="71" new="64" id="513635"/>
+        <Change property="Velocity" old="46" new="64" id="513636"/>
+        <Change property="Velocity" old="41" new="64" id="513639"/>
+        <Change property="Velocity" old="34" new="64" id="513640"/>
+        <Change property="Velocity" old="37" new="64" id="513649"/>
+        <Change property="Velocity" old="60" new="64" id="513650"/>
+        <Change property="Velocity" old="39" new="64" id="513652"/>
+        <Change property="Velocity" old="42" new="64" id="513653"/>
+        <Change property="Velocity" old="38" new="64" id="513654"/>
+        <Change property="Velocity" old="67" new="64" id="513655"/>
+        <Change property="Velocity" old="67" new="64" id="513657"/>
+        <Change property="Velocity" old="36" new="64" id="513661"/>
+        <Change property="Velocity" old="35" new="64" id="513662"/>
+        <Change property="Velocity" old="39" new="64" id="513663"/>
+        <Change property="Velocity" old="41" new="64" id="513664"/>
+        <Change property="Velocity" old="37" new="64" id="513666"/>
+        <Change property="Velocity" old="57" new="64" id="513670"/>
+        <Change property="Velocity" old="39" new="64" id="513672"/>
+        <Change property="Velocity" old="38" new="64" id="513674"/>
+        <Change property="Velocity" old="35" new="64" id="513673"/>
+        <Change property="Velocity" old="59" new="64" id="513675"/>
+        <Change property="Velocity" old="25" new="64" id="513678"/>
+        <Change property="Velocity" old="34" new="64" id="513680"/>
+        <Change property="Velocity" old="53" new="64" id="513682"/>
+        <Change property="Velocity" old="40" new="64" id="513684"/>
+        <Change property="Velocity" old="41" new="64" id="513683"/>
+        <Change property="Velocity" old="44" new="64" id="513685"/>
+        <Change property="Velocity" old="52" new="64" id="513693"/>
+        <Change property="Velocity" old="40" new="64" id="513697"/>
+        <Change property="Velocity" old="51" new="64" id="513698"/>
+        <Change property="Velocity" old="43" new="64" id="513699"/>
+        <Change property="Velocity" old="32" new="64" id="513700"/>
+        <Change property="Velocity" old="66" new="64" id="513702"/>
+        <Change property="Velocity" old="47" new="64" id="513707"/>
+        <Change property="Velocity" old="47" new="64" id="513706"/>
+        <Change property="Velocity" old="72" new="64" id="513709"/>
+        <Change property="Velocity" old="41" new="64" id="513708"/>
+        <Change property="Velocity" old="67" new="64" id="513711"/>
+        <Change property="Velocity" old="65" new="64" id="513712"/>
+        <Change property="Velocity" old="56" new="64" id="513713"/>
+        <Change property="Velocity" old="57" new="64" id="513714"/>
+        <Change property="Velocity" old="86" new="64" id="513716"/>
+        <Change property="Velocity" old="58" new="64" id="513720"/>
+        <Change property="Velocity" old="88" new="64" id="513721"/>
+        <Change property="Velocity" old="62" new="64" id="513722"/>
+        <Change property="Velocity" old="62" new="64" id="513724"/>
+        <Change property="Velocity" old="81" new="64" id="513726"/>
+        <Change property="Velocity" old="84" new="64" id="513734"/>
+        <Change property="Velocity" old="65" new="64" id="513735"/>
+        <Change property="Velocity" old="89" new="64" id="513737"/>
+        <Change property="Velocity" old="93" new="64" id="513740"/>
+        <Change property="Velocity" old="84" new="64" id="513741"/>
+        <Change property="Velocity" old="74" new="64" id="513744"/>
+        <Change property="Velocity" old="68" new="64" id="513745"/>
+        <Change property="Velocity" old="73" new="64" id="513747"/>
+        <Change property="Velocity" old="81" new="64" id="513749"/>
+        <Change property="Velocity" old="78" new="64" id="513753"/>
+        <Change property="Velocity" old="83" new="64" id="513754"/>
+        <Change property="Velocity" old="94" new="64" id="513756"/>
+        <Change property="Velocity" old="72" new="64" id="513758"/>
+        <Change property="Velocity" old="60" new="64" id="513760"/>
+        <Change property="Velocity" old="59" new="64" id="513759"/>
+        <Change property="Velocity" old="77" new="64" id="513762"/>
+        <Change property="Velocity" old="50" new="64" id="513765"/>
+        <Change property="Velocity" old="40" new="64" id="513767"/>
+        <Change property="Velocity" old="48" new="64" id="513768"/>
+        <Change property="Velocity" old="63" new="64" id="513776"/>
+        <Change property="Velocity" old="65" new="64" id="513777"/>
+        <Change property="Velocity" old="54" new="64" id="513779"/>
+        <Change property="Velocity" old="49" new="64" id="513778"/>
+        <Change property="Velocity" old="68" new="64" id="513780"/>
+        <Change property="Velocity" old="52" new="64" id="513785"/>
+        <Change property="Velocity" old="73" new="64" id="513786"/>
+        <Change property="Velocity" old="50" new="64" id="513787"/>
+        <Change property="Velocity" old="52" new="64" id="513788"/>
+        <Change property="Velocity" old="51" new="64" id="513794"/>
+        <Change property="Velocity" old="61" new="64" id="513795"/>
+        <Change property="Velocity" old="46" new="64" id="513797"/>
+        <Change property="Velocity" old="42" new="64" id="513796"/>
+        <Change property="Velocity" old="45" new="64" id="513798"/>
+        <Change property="Velocity" old="42" new="64" id="513799"/>
+        <Change property="Velocity" old="63" new="64" id="513800"/>
+        <Change property="Velocity" old="57" new="64" id="513803"/>
+        <Change property="Velocity" old="43" new="64" id="513804"/>
+        <Change property="Velocity" old="47" new="64" id="513806"/>
+        <Change property="Velocity" old="41" new="64" id="513810"/>
+        <Change property="Velocity" old="29" new="64" id="513811"/>
+        <Change property="Velocity" old="37" new="64" id="513812"/>
+        <Change property="Velocity" old="56" new="64" id="513817"/>
+        <Change property="Velocity" old="33" new="64" id="513820"/>
+        <Change property="Velocity" old="30" new="64" id="513821"/>
+        <Change property="Velocity" old="29" new="64" id="513822"/>
+        <Change property="Velocity" old="51" new="64" id="513824"/>
+        <Change property="Velocity" old="35" new="64" id="513826"/>
+        <Change property="Velocity" old="40" new="64" id="513830"/>
+        <Change property="Velocity" old="45" new="64" id="513831"/>
+        <Change property="Velocity" old="36" new="64" id="513832"/>
+        <Change property="Velocity" old="33" new="64" id="513833"/>
+        <Change property="Velocity" old="34" new="64" id="513834"/>
+        <Change property="Velocity" old="30" new="64" id="513835"/>
+        <Change property="Velocity" old="34" new="64" id="513836"/>
+        <Change property="Velocity" old="41" new="64" id="513844"/>
+        <Change property="Velocity" old="24" new="64" id="513847"/>
+        <Change property="Velocity" old="16" new="64" id="513846"/>
+        <Change property="Velocity" old="37" new="64" id="513850"/>
+        <Change property="Velocity" old="59" new="64" id="513853"/>
+        <Change property="Velocity" old="45" new="64" id="513854"/>
+        <Change property="Velocity" old="42" new="64" id="513855"/>
+        <Change property="Velocity" old="45" new="64" id="513856"/>
+        <Change property="Velocity" old="29" new="64" id="513857"/>
+        <Change property="Velocity" old="54" new="64" id="513858"/>
+        <Change property="Velocity" old="48" new="64" id="513863"/>
+        <Change property="Velocity" old="73" new="64" id="513865"/>
+        <Change property="Velocity" old="67" new="64" id="513864"/>
+        <Change property="Velocity" old="55" new="64" id="513866"/>
+        <Change property="Velocity" old="52" new="64" id="513867"/>
+        <Change property="Velocity" old="45" new="64" id="513868"/>
+        <Change property="Velocity" old="71" new="64" id="513875"/>
+        <Change property="Velocity" old="61" new="64" id="513879"/>
+        <Change property="Velocity" old="44" new="64" id="513880"/>
+        <Change property="Velocity" old="37" new="64" id="513882"/>
+        <Change property="Velocity" old="31" new="64" id="513883"/>
+        <Change property="Velocity" old="65" new="64" id="513885"/>
+        <Change property="Velocity" old="84" new="64" id="513887"/>
+        <Change property="Velocity" old="82" new="64" id="513888"/>
+        <Change property="Velocity" old="55" new="64" id="513890"/>
+        <Change property="Velocity" old="67" new="64" id="513891"/>
+        <Change property="Velocity" old="86" new="64" id="513895"/>
+        <Change property="Velocity" old="86" new="64" id="513894"/>
+        <Change property="Velocity" old="67" new="64" id="513901"/>
+        <Change property="Velocity" old="62" new="64" id="513903"/>
+        <Change property="Velocity" old="60" new="64" id="513902"/>
+        <Change property="Velocity" old="83" new="64" id="513904"/>
+        <Change property="Velocity" old="78" new="64" id="513908"/>
+        <Change property="Velocity" old="83" new="64" id="513909"/>
+        <Change property="Velocity" old="65" new="64" id="513911"/>
+        <Change property="Velocity" old="73" new="64" id="513914"/>
+        <Change property="Velocity" old="86" new="64" id="513920"/>
+        <Change property="Velocity" old="80" new="64" id="513921"/>
+        <Change property="Velocity" old="86" new="64" id="513922"/>
+        <Change property="Velocity" old="70" new="64" id="513927"/>
+        <Change property="Velocity" old="62" new="64" id="513925"/>
+        <Change property="Velocity" old="67" new="64" id="513928"/>
+        <Change property="Velocity" old="88" new="64" id="513932"/>
+        <Change property="Velocity" old="81" new="64" id="513933"/>
+        <Change property="Velocity" old="80" new="64" id="513934"/>
+        <Change property="Velocity" old="85" new="64" id="513936"/>
+        <Change property="Velocity" old="81" new="64" id="513937"/>
+        <Change property="Velocity" old="77" new="64" id="513943"/>
+        <Change property="Velocity" old="90" new="64" id="513944"/>
+        <Change property="Velocity" old="75" new="64" id="513942"/>
+        <Change property="Velocity" old="83" new="64" id="513946"/>
+        <Change property="Velocity" old="76" new="64" id="513945"/>
+        <Change property="Velocity" old="80" new="64" id="513947"/>
+        <Change property="Velocity" old="72" new="64" id="513953"/>
+        <Change property="Velocity" old="86" new="64" id="513954"/>
+        <Change property="Velocity" old="65" new="64" id="513957"/>
+        <Change property="Velocity" old="65" new="64" id="513958"/>
+        <Change property="Velocity" old="85" new="64" id="513960"/>
+        <Change property="Velocity" old="82" new="64" id="513963"/>
+        <Change property="Velocity" old="75" new="64" id="513965"/>
+        <Change property="Velocity" old="66" new="64" id="513964"/>
+        <Change property="Velocity" old="80" new="64" id="513968"/>
+        <Change property="Velocity" old="63" new="64" id="513970"/>
+        <Change property="Velocity" old="53" new="64" id="513975"/>
+        <Change property="Velocity" old="73" new="64" id="513978"/>
+        <Change property="Velocity" old="39" new="64" id="513982"/>
+        <Change property="Velocity" old="48" new="64" id="513981"/>
+        <Change property="Velocity" old="41" new="64" id="513983"/>
+        <Change property="Velocity" old="67" new="64" id="513986"/>
+        <Change property="Velocity" old="56" new="64" id="513987"/>
+        <Change property="Velocity" old="42" new="64" id="513989"/>
+        <Change property="Velocity" old="66" new="64" id="513991"/>
+        <Change property="Velocity" old="40" new="64" id="513992"/>
+        <Change property="Velocity" old="45" new="64" id="513994"/>
+        <Change property="Velocity" old="43" new="64" id="513995"/>
+        <Change property="Velocity" old="40" new="64" id="514000"/>
+        <Change property="Velocity" old="58" new="64" id="514002"/>
+        <Change property="Velocity" old="48" new="64" id="514003"/>
+        <Change property="Velocity" old="42" new="64" id="514004"/>
+        <Change property="Velocity" old="54" new="64" id="514009"/>
+        <Change property="Velocity" old="40" new="64" id="514010"/>
+        <Change property="Velocity" old="39" new="64" id="514012"/>
+        <Change property="Velocity" old="39" new="64" id="514013"/>
+        <Change property="Velocity" old="36" new="64" id="514014"/>
+        <Change property="Velocity" old="41" new="64" id="514015"/>
+        <Change property="Velocity" old="40" new="64" id="514016"/>
+        <Change property="Velocity" old="20" new="64" id="514019"/>
+        <Change property="Velocity" old="28" new="64" id="514018"/>
+        <Change property="Velocity" old="45" new="64" id="514026"/>
+        <Change property="Velocity" old="39" new="64" id="514027"/>
+        <Change property="Velocity" old="44" new="64" id="514029"/>
+        <Change property="Velocity" old="71" new="64" id="514033"/>
+        <Change property="Velocity" old="59" new="64" id="514035"/>
+        <Change property="Velocity" old="43" new="64" id="514038"/>
+        <Change property="Velocity" old="42" new="64" id="514037"/>
+        <Change property="Velocity" old="47" new="64" id="514039"/>
+        <Change property="Velocity" old="65" new="64" id="514040"/>
+        <Change property="Velocity" old="55" new="64" id="514042"/>
+        <Change property="Velocity" old="53" new="64" id="514047"/>
+        <Change property="Velocity" old="71" new="64" id="514049"/>
+        <Change property="Velocity" old="46" new="64" id="514048"/>
+        <Change property="Velocity" old="71" new="64" id="514050"/>
+        <Change property="Velocity" old="51" new="64" id="514055"/>
+        <Change property="Velocity" old="77" new="64" id="514059"/>
+        <Change property="Velocity" old="68" new="64" id="514060"/>
+        <Change property="Velocity" old="82" new="64" id="514061"/>
+        <Change property="Velocity" old="51" new="64" id="514062"/>
+        <Change property="Velocity" old="55" new="64" id="514063"/>
+        <Change property="Velocity" old="50" new="64" id="514064"/>
+        <Change property="Velocity" old="69" new="64" id="514066"/>
+        <Change property="Velocity" old="92" new="64" id="514068"/>
+        <Change property="Velocity" old="93" new="64" id="514069"/>
+        <Change property="Velocity" old="51" new="64" id="514071"/>
+        <Change property="Velocity" old="56" new="64" id="514072"/>
+        <Change property="Velocity" old="87" new="64" id="514075"/>
+        <Change property="Velocity" old="91" new="64" id="514076"/>
+        <Change property="Velocity" old="70" new="64" id="514083"/>
+        <Change property="Velocity" old="62" new="64" id="514084"/>
+        <Change property="Velocity" old="60" new="64" id="514085"/>
+        <Change property="Velocity" old="83" new="64" id="514086"/>
+        <Change property="Velocity" old="88" new="64" id="514092"/>
+        <Change property="Velocity" old="67" new="64" id="514093"/>
+        <Change property="Velocity" old="88" new="64" id="514094"/>
+        <Change property="Velocity" old="72" new="64" id="514095"/>
+        <Change property="Velocity" old="62" new="64" id="514096"/>
+        <Change property="Velocity" old="74" new="64" id="514097"/>
+        <Change property="Velocity" old="88" new="64" id="514105"/>
+        <Change property="Velocity" old="87" new="64" id="514106"/>
+        <Change property="Velocity" old="91" new="64" id="514107"/>
+        <Change property="Velocity" old="78" new="64" id="514109"/>
+        <Change property="Velocity" old="61" new="64" id="514110"/>
+        <Change property="Velocity" old="68" new="64" id="514111"/>
+        <Change property="Velocity" old="93" new="64" id="514112"/>
+        <Change property="Velocity" old="83" new="64" id="514116"/>
+        <Change property="Velocity" old="84" new="64" id="514115"/>
+        <Change property="Velocity" old="86" new="64" id="514117"/>
+        <Change property="Velocity" old="86" new="64" id="514120"/>
+        <Change property="Velocity" old="78" new="64" id="514119"/>
+        <Change property="Velocity" old="94" new="64" id="514124"/>
+        <Change property="Velocity" old="82" new="64" id="514125"/>
+        <Change property="Velocity" old="86" new="64" id="514127"/>
+        <Change property="Velocity" old="84" new="64" id="514126"/>
+        <Change property="Velocity" old="84" new="64" id="514128"/>
+        <Change property="Velocity" old="74" new="64" id="514136"/>
+        <Change property="Velocity" old="82" new="64" id="514138"/>
+        <Change property="Velocity" old="68" new="64" id="514140"/>
+        <Change property="Velocity" old="71" new="64" id="514141"/>
+        <Change property="Velocity" old="85" new="64" id="514143"/>
+        <Change property="Velocity" old="69" new="64" id="514146"/>
+        <Change property="Velocity" old="73" new="64" id="514147"/>
+        <Change property="Velocity" old="69" new="64" id="514150"/>
+        <Change property="Velocity" old="79" new="64" id="514151"/>
+        <Change property="Velocity" old="66" new="64" id="514153"/>
+        <Change property="Velocity" old="52" new="64" id="514154"/>
+        <Change property="Velocity" old="73" new="64" id="514159"/>
+        <Change property="Velocity" old="54" new="64" id="514160"/>
+        <Change property="Velocity" old="74" new="64" id="514162"/>
+        <Change property="Velocity" old="54" new="64" id="514168"/>
+        <Change property="Velocity" old="49" new="64" id="514167"/>
+        <Change property="Velocity" old="59" new="64" id="514171"/>
+        <Change property="Velocity" old="40" new="64" id="514172"/>
+        <Change property="Velocity" old="44" new="64" id="514174"/>
+        <Change property="Velocity" old="40" new="64" id="514175"/>
+        <Change property="Velocity" old="29" new="64" id="514180"/>
+        <Change property="Velocity" old="54" new="64" id="514182"/>
+        <Change property="Velocity" old="44" new="64" id="514183"/>
+        <Change property="Velocity" old="49" new="64" id="514188"/>
+        <Change property="Velocity" old="39" new="64" id="514187"/>
+        <Change property="Velocity" old="40" new="64" id="514189"/>
+        <Change property="Velocity" old="32" new="64" id="514190"/>
+        <Change property="Velocity" old="44" new="64" id="514194"/>
+        <Change property="Velocity" old="35" new="64" id="514193"/>
+        <Change property="Velocity" old="34" new="64" id="514196"/>
+        <Change property="Velocity" old="33" new="64" id="514197"/>
+      </ChangedNotes>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1728" left-frame="0" y-origin="239">
+        <Selection>
+          <Regions>
+            <Region id="12463"/>
+          </Regions>
+          <MIDINotes region-id="12463">
+            <note note-id="513559"/>
+            <note note-id="514105"/>
+            <note note-id="514109"/>
+            <note note-id="514107"/>
+            <note note-id="514110"/>
+            <note note-id="514180"/>
+            <note note-id="513908"/>
+            <note note-id="513912"/>
+            <note note-id="514009"/>
+            <note note-id="514014"/>
+            <note note-id="513853"/>
+            <note note-id="513846"/>
+            <note note-id="513709"/>
+            <note note-id="513716"/>
+            <note note-id="513753"/>
+            <note note-id="514143"/>
+            <note note-id="514136"/>
+            <note note-id="514126"/>
+            <note note-id="514116"/>
+            <note note-id="514106"/>
+            <note note-id="513875"/>
+            <note note-id="513895"/>
+            <note note-id="513553"/>
+            <note note-id="513558"/>
+            <note note-id="513741"/>
+            <note note-id="513735"/>
+            <note note-id="513991"/>
+            <note note-id="513762"/>
+            <note note-id="513711"/>
+            <note note-id="513975"/>
+            <note note-id="513981"/>
+            <note note-id="513986"/>
+            <note note-id="513552"/>
+            <note note-id="513826"/>
+            <note note-id="513817"/>
+            <note note-id="513821"/>
+            <note note-id="513822"/>
+            <note note-id="514094"/>
+            <note note-id="513608"/>
+            <note note-id="514194"/>
+            <note note-id="514083"/>
+            <note note-id="514093"/>
+            <note note-id="514112"/>
+            <note note-id="514095"/>
+            <note note-id="513693"/>
+            <note note-id="513706"/>
+            <note note-id="513867"/>
+            <note note-id="513636"/>
+            <note note-id="513640"/>
+            <note note-id="513664"/>
+            <note note-id="513653"/>
+            <note note-id="513824"/>
+            <note note-id="513885"/>
+            <note note-id="513903"/>
+            <note note-id="513609"/>
+            <note note-id="513590"/>
+            <note note-id="514016"/>
+            <note note-id="513655"/>
+            <note note-id="513639"/>
+            <note note-id="513708"/>
+            <note note-id="513713"/>
+            <note note-id="513624"/>
+            <note note-id="513631"/>
+            <note note-id="514035"/>
+            <note note-id="514038"/>
+            <note note-id="513765"/>
+            <note note-id="513787"/>
+            <note note-id="513883"/>
+            <note note-id="513925"/>
+            <note note-id="513850"/>
+            <note note-id="513844"/>
+            <note note-id="514096"/>
+            <note note-id="514072"/>
+            <note note-id="514167"/>
+            <note note-id="514159"/>
+            <note note-id="514164"/>
+            <note note-id="514162"/>
+            <note note-id="513726"/>
+            <note note-id="513798"/>
+            <note note-id="513661"/>
+            <note note-id="513683"/>
+            <note note-id="513663"/>
+            <note note-id="514015"/>
+            <note note-id="513811"/>
+            <note note-id="513803"/>
+            <note note-id="513942"/>
+            <note note-id="513947"/>
+            <note note-id="513944"/>
+            <note note-id="513745"/>
+            <note note-id="513744"/>
+            <note note-id="514175"/>
+            <note note-id="514174"/>
+            <note note-id="513832"/>
+            <note note-id="513700"/>
+            <note note-id="513699"/>
+            <note note-id="513702"/>
+            <note note-id="513982"/>
+            <note note-id="513983"/>
+            <note note-id="513714"/>
+            <note note-id="513953"/>
+            <note note-id="513968"/>
+            <note note-id="513963"/>
+            <note note-id="513987"/>
+            <note note-id="514092"/>
+            <note note-id="513902"/>
+            <note note-id="513894"/>
+            <note note-id="514055"/>
+            <note note-id="514071"/>
+            <note note-id="513657"/>
+            <note note-id="513785"/>
+            <note note-id="513795"/>
+            <note note-id="513922"/>
+            <note note-id="513836"/>
+            <note note-id="513833"/>
+            <note note-id="514086"/>
+            <note note-id="514084"/>
+            <note note-id="514075"/>
+            <note note-id="513958"/>
+            <note note-id="513989"/>
+            <note note-id="514010"/>
+            <note note-id="514117"/>
+            <note note-id="514097"/>
+            <note note-id="514119"/>
+            <note note-id="513891"/>
+            <note note-id="513863"/>
+            <note note-id="513868"/>
+            <note note-id="513865"/>
+            <note note-id="514172"/>
+            <note note-id="514171"/>
+            <note note-id="513856"/>
+            <note note-id="513847"/>
+            <note note-id="514002"/>
+            <note note-id="513992"/>
+            <note note-id="513550"/>
+            <note note-id="514029"/>
+            <note note-id="514049"/>
+            <note note-id="514037"/>
+            <note note-id="514048"/>
+            <note note-id="513754"/>
+            <note note-id="514111"/>
+            <note note-id="514068"/>
+            <note note-id="514069"/>
+            <note note-id="513965"/>
+            <note note-id="513943"/>
+            <note note-id="513927"/>
+            <note note-id="513779"/>
+            <note note-id="513778"/>
+            <note note-id="513780"/>
+            <note note-id="513759"/>
+            <note note-id="513760"/>
+            <note note-id="513756"/>
+            <note note-id="513721"/>
+            <note note-id="513866"/>
+            <note note-id="513854"/>
+            <note note-id="513794"/>
+            <note note-id="513857"/>
+            <note note-id="513835"/>
+            <note note-id="513879"/>
+            <note note-id="514151"/>
+            <note note-id="514140"/>
+            <note note-id="514197"/>
+            <note note-id="513621"/>
+            <note note-id="513588"/>
+            <note note-id="513578"/>
+            <note note-id="513597"/>
+            <note note-id="513570"/>
+            <note note-id="513555"/>
+            <note note-id="513579"/>
+            <note note-id="513581"/>
+            <note note-id="513599"/>
+            <note note-id="513616"/>
+            <note note-id="513630"/>
+            <note note-id="513580"/>
+            <note note-id="513598"/>
+            <note note-id="513618"/>
+            <note note-id="513585"/>
+            <note note-id="513595"/>
+            <note note-id="513601"/>
+            <note note-id="513617"/>
+            <note note-id="513625"/>
+            <note note-id="513632"/>
+            <note note-id="513611"/>
+            <note note-id="513628"/>
+            <note note-id="513603"/>
+            <note note-id="513626"/>
+            <note note-id="513619"/>
+            <note note-id="513551"/>
+            <note note-id="513563"/>
+            <note note-id="514064"/>
+            <note note-id="514018"/>
+            <note note-id="514050"/>
+            <note note-id="513629"/>
+            <note note-id="513969"/>
+            <note note-id="513964"/>
+            <note note-id="514076"/>
+            <note note-id="514085"/>
+            <note note-id="514062"/>
+            <note note-id="513777"/>
+            <note note-id="513776"/>
+            <note note-id="513936"/>
+            <note note-id="513932"/>
+            <note note-id="513712"/>
+            <note note-id="513684"/>
+            <note note-id="513678"/>
+            <note note-id="513978"/>
+            <note note-id="513957"/>
+            <note note-id="513954"/>
+            <note note-id="513960"/>
+            <note note-id="514061"/>
+            <note note-id="514063"/>
+            <note note-id="514190"/>
+            <note note-id="514183"/>
+            <note note-id="513650"/>
+            <note note-id="513649"/>
+            <note note-id="513654"/>
+            <note note-id="513734"/>
+            <note note-id="513737"/>
+            <note note-id="513736"/>
+            <note note-id="513675"/>
+            <note note-id="513697"/>
+            <note note-id="513749"/>
+            <note note-id="513747"/>
+            <note note-id="513722"/>
+            <note note-id="513724"/>
+            <note note-id="513720"/>
+            <note note-id="513680"/>
+            <note note-id="513682"/>
+            <note note-id="513937"/>
+            <note note-id="513946"/>
+            <note note-id="513995"/>
+            <note note-id="514047"/>
+            <note note-id="514060"/>
+            <note note-id="514059"/>
+            <note note-id="514066"/>
+            <note note-id="514150"/>
+            <note note-id="514147"/>
+            <note note-id="513740"/>
+            <note note-id="513674"/>
+            <note note-id="513685"/>
+            <note note-id="513670"/>
+            <note note-id="514189"/>
+            <note note-id="514182"/>
+            <note note-id="514128"/>
+            <note note-id="514127"/>
+            <note note-id="514124"/>
+            <note note-id="514160"/>
+            <note note-id="514168"/>
+            <note note-id="514154"/>
+            <note note-id="514120"/>
+            <note note-id="514125"/>
+            <note note-id="514115"/>
+            <note note-id="514019"/>
+            <note note-id="514027"/>
+            <note note-id="514040"/>
+            <note note-id="513673"/>
+            <note note-id="513820"/>
+            <note note-id="513830"/>
+            <note note-id="513561"/>
+            <note note-id="513812"/>
+            <note note-id="513834"/>
+            <note note-id="513810"/>
+            <note note-id="513970"/>
+            <note note-id="514196"/>
+            <note note-id="513672"/>
+            <note note-id="513652"/>
+            <note note-id="513662"/>
+            <note note-id="514003"/>
+            <note note-id="514004"/>
+            <note note-id="513888"/>
+            <note note-id="513887"/>
+            <note note-id="513804"/>
+            <note note-id="513799"/>
+            <note note-id="513806"/>
+            <note note-id="513928"/>
+            <note note-id="513592"/>
+            <note note-id="513831"/>
+            <note note-id="513926"/>
+            <note note-id="513909"/>
+            <note note-id="513788"/>
+            <note note-id="513767"/>
+            <note note-id="513666"/>
+            <note note-id="513635"/>
+            <note note-id="513768"/>
+            <note note-id="513758"/>
+            <note note-id="513786"/>
+            <note note-id="513698"/>
+            <note note-id="513707"/>
+            <note note-id="513911"/>
+            <note note-id="513554"/>
+            <note note-id="513796"/>
+            <note note-id="514153"/>
+            <note note-id="514148"/>
+            <note note-id="514193"/>
+            <note note-id="513890"/>
+            <note note-id="513934"/>
+            <note note-id="513945"/>
+            <note note-id="513933"/>
+            <note note-id="514188"/>
+            <note note-id="514187"/>
+            <note note-id="513855"/>
+            <note note-id="513858"/>
+            <note note-id="513864"/>
+            <note note-id="513573"/>
+            <note note-id="513572"/>
+            <note note-id="513569"/>
+            <note note-id="513904"/>
+            <note note-id="513901"/>
+            <note note-id="513921"/>
+            <note note-id="513800"/>
+            <note note-id="513797"/>
+            <note note-id="514042"/>
+            <note note-id="513589"/>
+            <note note-id="514146"/>
+            <note note-id="514138"/>
+            <note note-id="513914"/>
+            <note note-id="513920"/>
+            <note note-id="513994"/>
+            <note note-id="514012"/>
+            <note note-id="514141"/>
+            <note note-id="513571"/>
+            <note note-id="514000"/>
+            <note note-id="514013"/>
+            <note note-id="514026"/>
+            <note note-id="514033"/>
+            <note note-id="514039"/>
+            <note note-id="513882"/>
+            <note note-id="513876"/>
+            <note note-id="513880"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="1728" left-frame="0" y-origin="239">
+        <Selection>
+          <Regions>
+            <Region id="12463"/>
+          </Regions>
+          <MIDINotes region-id="12463">
+            <note note-id="513559"/>
+            <note note-id="514105"/>
+            <note note-id="514109"/>
+            <note note-id="514107"/>
+            <note note-id="514110"/>
+            <note note-id="514180"/>
+            <note note-id="513908"/>
+            <note note-id="513912"/>
+            <note note-id="514009"/>
+            <note note-id="514014"/>
+            <note note-id="513853"/>
+            <note note-id="513846"/>
+            <note note-id="513709"/>
+            <note note-id="513716"/>
+            <note note-id="513753"/>
+            <note note-id="514143"/>
+            <note note-id="514136"/>
+            <note note-id="514126"/>
+            <note note-id="514116"/>
+            <note note-id="514106"/>
+            <note note-id="513875"/>
+            <note note-id="513895"/>
+            <note note-id="513553"/>
+            <note note-id="513558"/>
+            <note note-id="513741"/>
+            <note note-id="513735"/>
+            <note note-id="513991"/>
+            <note note-id="513762"/>
+            <note note-id="513711"/>
+            <note note-id="513975"/>
+            <note note-id="513981"/>
+            <note note-id="513986"/>
+            <note note-id="513552"/>
+            <note note-id="513826"/>
+            <note note-id="513817"/>
+            <note note-id="513821"/>
+            <note note-id="513822"/>
+            <note note-id="514094"/>
+            <note note-id="513608"/>
+            <note note-id="514194"/>
+            <note note-id="514083"/>
+            <note note-id="514093"/>
+            <note note-id="514112"/>
+            <note note-id="514095"/>
+            <note note-id="513693"/>
+            <note note-id="513706"/>
+            <note note-id="513867"/>
+            <note note-id="513636"/>
+            <note note-id="513640"/>
+            <note note-id="513664"/>
+            <note note-id="513653"/>
+            <note note-id="513824"/>
+            <note note-id="513885"/>
+            <note note-id="513903"/>
+            <note note-id="513609"/>
+            <note note-id="513590"/>
+            <note note-id="514016"/>
+            <note note-id="513655"/>
+            <note note-id="513639"/>
+            <note note-id="513708"/>
+            <note note-id="513713"/>
+            <note note-id="513624"/>
+            <note note-id="513631"/>
+            <note note-id="514035"/>
+            <note note-id="514038"/>
+            <note note-id="513765"/>
+            <note note-id="513787"/>
+            <note note-id="513883"/>
+            <note note-id="513925"/>
+            <note note-id="513850"/>
+            <note note-id="513844"/>
+            <note note-id="514096"/>
+            <note note-id="514072"/>
+            <note note-id="514167"/>
+            <note note-id="514159"/>
+            <note note-id="514164"/>
+            <note note-id="514162"/>
+            <note note-id="513726"/>
+            <note note-id="513798"/>
+            <note note-id="513661"/>
+            <note note-id="513683"/>
+            <note note-id="513663"/>
+            <note note-id="514015"/>
+            <note note-id="513811"/>
+            <note note-id="513803"/>
+            <note note-id="513942"/>
+            <note note-id="513947"/>
+            <note note-id="513944"/>
+            <note note-id="513745"/>
+            <note note-id="513744"/>
+            <note note-id="514175"/>
+            <note note-id="514174"/>
+            <note note-id="513832"/>
+            <note note-id="513700"/>
+            <note note-id="513699"/>
+            <note note-id="513702"/>
+            <note note-id="513982"/>
+            <note note-id="513983"/>
+            <note note-id="513714"/>
+            <note note-id="513953"/>
+            <note note-id="513968"/>
+            <note note-id="513963"/>
+            <note note-id="513987"/>
+            <note note-id="514092"/>
+            <note note-id="513902"/>
+            <note note-id="513894"/>
+            <note note-id="514055"/>
+            <note note-id="514071"/>
+            <note note-id="513657"/>
+            <note note-id="513785"/>
+            <note note-id="513795"/>
+            <note note-id="513922"/>
+            <note note-id="513836"/>
+            <note note-id="513833"/>
+            <note note-id="514086"/>
+            <note note-id="514084"/>
+            <note note-id="514075"/>
+            <note note-id="513958"/>
+            <note note-id="513989"/>
+            <note note-id="514010"/>
+            <note note-id="514117"/>
+            <note note-id="514097"/>
+            <note note-id="514119"/>
+            <note note-id="513891"/>
+            <note note-id="513863"/>
+            <note note-id="513868"/>
+            <note note-id="513865"/>
+            <note note-id="514172"/>
+            <note note-id="514171"/>
+            <note note-id="513856"/>
+            <note note-id="513847"/>
+            <note note-id="514002"/>
+            <note note-id="513992"/>
+            <note note-id="513550"/>
+            <note note-id="514029"/>
+            <note note-id="514049"/>
+            <note note-id="514037"/>
+            <note note-id="514048"/>
+            <note note-id="513754"/>
+            <note note-id="514111"/>
+            <note note-id="514068"/>
+            <note note-id="514069"/>
+            <note note-id="513965"/>
+            <note note-id="513943"/>
+            <note note-id="513927"/>
+            <note note-id="513779"/>
+            <note note-id="513778"/>
+            <note note-id="513780"/>
+            <note note-id="513759"/>
+            <note note-id="513760"/>
+            <note note-id="513756"/>
+            <note note-id="513721"/>
+            <note note-id="513866"/>
+            <note note-id="513854"/>
+            <note note-id="513794"/>
+            <note note-id="513857"/>
+            <note note-id="513835"/>
+            <note note-id="513879"/>
+            <note note-id="514151"/>
+            <note note-id="514140"/>
+            <note note-id="514197"/>
+            <note note-id="513621"/>
+            <note note-id="513588"/>
+            <note note-id="513578"/>
+            <note note-id="513597"/>
+            <note note-id="513570"/>
+            <note note-id="513555"/>
+            <note note-id="513579"/>
+            <note note-id="513581"/>
+            <note note-id="513599"/>
+            <note note-id="513616"/>
+            <note note-id="513630"/>
+            <note note-id="513580"/>
+            <note note-id="513598"/>
+            <note note-id="513618"/>
+            <note note-id="513585"/>
+            <note note-id="513595"/>
+            <note note-id="513601"/>
+            <note note-id="513617"/>
+            <note note-id="513625"/>
+            <note note-id="513632"/>
+            <note note-id="513611"/>
+            <note note-id="513628"/>
+            <note note-id="513603"/>
+            <note note-id="513626"/>
+            <note note-id="513619"/>
+            <note note-id="513551"/>
+            <note note-id="513563"/>
+            <note note-id="514064"/>
+            <note note-id="514018"/>
+            <note note-id="514050"/>
+            <note note-id="513629"/>
+            <note note-id="513969"/>
+            <note note-id="513964"/>
+            <note note-id="514076"/>
+            <note note-id="514085"/>
+            <note note-id="514062"/>
+            <note note-id="513777"/>
+            <note note-id="513776"/>
+            <note note-id="513936"/>
+            <note note-id="513932"/>
+            <note note-id="513712"/>
+            <note note-id="513684"/>
+            <note note-id="513678"/>
+            <note note-id="513978"/>
+            <note note-id="513957"/>
+            <note note-id="513954"/>
+            <note note-id="513960"/>
+            <note note-id="514061"/>
+            <note note-id="514063"/>
+            <note note-id="514190"/>
+            <note note-id="514183"/>
+            <note note-id="513650"/>
+            <note note-id="513649"/>
+            <note note-id="513654"/>
+            <note note-id="513734"/>
+            <note note-id="513737"/>
+            <note note-id="513736"/>
+            <note note-id="513675"/>
+            <note note-id="513697"/>
+            <note note-id="513749"/>
+            <note note-id="513747"/>
+            <note note-id="513722"/>
+            <note note-id="513724"/>
+            <note note-id="513720"/>
+            <note note-id="513680"/>
+            <note note-id="513682"/>
+            <note note-id="513937"/>
+            <note note-id="513946"/>
+            <note note-id="513995"/>
+            <note note-id="514047"/>
+            <note note-id="514060"/>
+            <note note-id="514059"/>
+            <note note-id="514066"/>
+            <note note-id="514150"/>
+            <note note-id="514147"/>
+            <note note-id="513740"/>
+            <note note-id="513674"/>
+            <note note-id="513685"/>
+            <note note-id="513670"/>
+            <note note-id="514189"/>
+            <note note-id="514182"/>
+            <note note-id="514128"/>
+            <note note-id="514127"/>
+            <note note-id="514124"/>
+            <note note-id="514160"/>
+            <note note-id="514168"/>
+            <note note-id="514154"/>
+            <note note-id="514120"/>
+            <note note-id="514125"/>
+            <note note-id="514115"/>
+            <note note-id="514019"/>
+            <note note-id="514027"/>
+            <note note-id="514040"/>
+            <note note-id="513673"/>
+            <note note-id="513820"/>
+            <note note-id="513830"/>
+            <note note-id="513561"/>
+            <note note-id="513812"/>
+            <note note-id="513834"/>
+            <note note-id="513810"/>
+            <note note-id="513970"/>
+            <note note-id="514196"/>
+            <note note-id="513672"/>
+            <note note-id="513652"/>
+            <note note-id="513662"/>
+            <note note-id="514003"/>
+            <note note-id="514004"/>
+            <note note-id="513888"/>
+            <note note-id="513887"/>
+            <note note-id="513804"/>
+            <note note-id="513799"/>
+            <note note-id="513806"/>
+            <note note-id="513928"/>
+            <note note-id="513592"/>
+            <note note-id="513831"/>
+            <note note-id="513926"/>
+            <note note-id="513909"/>
+            <note note-id="513788"/>
+            <note note-id="513767"/>
+            <note note-id="513666"/>
+            <note note-id="513635"/>
+            <note note-id="513768"/>
+            <note note-id="513758"/>
+            <note note-id="513786"/>
+            <note note-id="513698"/>
+            <note note-id="513707"/>
+            <note note-id="513911"/>
+            <note note-id="513554"/>
+            <note note-id="513796"/>
+            <note note-id="514153"/>
+            <note note-id="514148"/>
+            <note note-id="514193"/>
+            <note note-id="513890"/>
+            <note note-id="513934"/>
+            <note note-id="513945"/>
+            <note note-id="513933"/>
+            <note note-id="514188"/>
+            <note note-id="514187"/>
+            <note note-id="513855"/>
+            <note note-id="513858"/>
+            <note note-id="513864"/>
+            <note note-id="513573"/>
+            <note note-id="513572"/>
+            <note note-id="513569"/>
+            <note note-id="513904"/>
+            <note note-id="513901"/>
+            <note note-id="513921"/>
+            <note note-id="513800"/>
+            <note note-id="513797"/>
+            <note note-id="514042"/>
+            <note note-id="513589"/>
+            <note note-id="514146"/>
+            <note note-id="514138"/>
+            <note note-id="513914"/>
+            <note note-id="513920"/>
+            <note note-id="513994"/>
+            <note note-id="514012"/>
+            <note note-id="514141"/>
+            <note note-id="513571"/>
+            <note note-id="514000"/>
+            <note note-id="514013"/>
+            <note note-id="514026"/>
+            <note note-id="514033"/>
+            <note note-id="514039"/>
+            <note note-id="513882"/>
+            <note note-id="513876"/>
+            <note note-id="513880"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1615583920" tv-usec="771324" name="move notes">
+    <NoteDiffCommand midi-source="12456">
+      <ChangedNotes/>
+      <AddedNotes/>
+      <RemovedNotes/>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="43" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="1728" left-frame="0" y-origin="239">
+        <Selection>
+          <Regions>
+            <Region id="12463"/>
+          </Regions>
+          <MIDINotes region-id="12463">
+            <note note-id="513670"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="1728" left-frame="0" y-origin="239">
+        <Selection>
+          <Regions>
+            <Region id="12463"/>
+          </Regions>
+          <MIDINotes region-id="12463">
+            <note note-id="513670"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+</UndoHistory>

@@ -1,0 +1,1469 @@
+{
+    "ensemble": false,
+    "groups": ["all"],
+    "ground_truth": {
+        "all": {
+            "broad_alignment": 0,
+            "f0": 0,
+            "misaligned": 2,
+            "score": 1,
+            "precise_alignment": 1,
+            "soft": 1,
+            "sostenuto": 1,
+            "sustain": 1,
+            "velocities": 1
+        }
+    },
+    "install": {
+        "conversion": [
+            [
+                "from_midi_remove_player",
+                {
+                    "alignment": "score",
+                    "beats": true,
+                    "merge": true,
+                    "pitches": true,
+                    "velocities": false
+                }
+            ],
+            [
+                "from_midi",
+                {
+                    "alignment": "precise_alignment",
+                    "merge": true,
+                    "pitches": true,
+                    "velocities": true
+                }
+            ]
+        ],
+        "login": false,
+        "post-process": [
+            "wget http://repo.mdw.ac.at/projects/IWK/the_vienna_4x22_piano_corpus/data/midi.zip; unzip midi.zip -d vienna_corpus/; cp &asmd_dir/my_scores/*.mid vienna_corpus/; rm vienna_corpus/midi/Chopin_op38_1st-3rd_*; mv vienna_corpus/midi/*.mid vienna_corpus/; rm -r vienna_corpus/midi/",
+            "wget http://repo.mdw.ac.at/projects/IWK/the_vienna_4x22_piano_corpus/data/audio.zip; unzip audio.zip -d vienna_corpus/; rm -r vienna_corpus/audio/Chopin_Ballade_special-versions/; mv vienna_corpus/audio/*/*.wav vienna_corpus/; rm -r vienna_corpus/audio/",
+            "rm audio.zip midi.zip",
+            "mv vienna_corpus/ &install_dir"
+        ],
+        "unpack": false,
+        "url": "unknown"
+    },
+    "instruments": [
+        "piano"
+    ],
+    "name": "vienna_corpus",
+    "recording": {
+        "format": "wav"
+    },
+    "songs": [
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p01-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p01.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p01"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p02-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p02.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p02"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p03-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p03.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p03"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p04-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p04.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p04"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p05-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p05.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p05"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p06-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p06.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p06"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p07-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p07.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p07"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p08-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p08.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p08"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p09-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p09.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p09"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p10-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p10.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p10"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p11-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p11.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p11"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p12-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p12.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p12"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p13-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p13.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p13"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p14-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p14.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p14"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p15-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p15.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p15"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p16-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p16.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p16"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p17-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p17.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p17"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p18-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p18.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p18"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p19-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p19.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p19"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p20-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p20.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p20"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p21-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p21.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p21"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op10_no3_p22-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op10_no3_p22.wav"
+                ]
+            },
+            "title": "Chopin_op10_no3_p22"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p01-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p01.wav"
+                ]
+            },
+            "title": "Chopin_op38_p01"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p02-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p02.wav"
+                ]
+            },
+            "title": "Chopin_op38_p02"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p03-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p03.wav"
+                ]
+            },
+            "title": "Chopin_op38_p03"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p04-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p04.wav"
+                ]
+            },
+            "title": "Chopin_op38_p04"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p05-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p05.wav"
+                ]
+            },
+            "title": "Chopin_op38_p05"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p06-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p06.wav"
+                ]
+            },
+            "title": "Chopin_op38_p06"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p07-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p07.wav"
+                ]
+            },
+            "title": "Chopin_op38_p07"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p08-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p08.wav"
+                ]
+            },
+            "title": "Chopin_op38_p08"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p09-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p09.wav"
+                ]
+            },
+            "title": "Chopin_op38_p09"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p10-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p10.wav"
+                ]
+            },
+            "title": "Chopin_op38_p10"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p11-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p11.wav"
+                ]
+            },
+            "title": "Chopin_op38_p11"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p12-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p12.wav"
+                ]
+            },
+            "title": "Chopin_op38_p12"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p13-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p13.wav"
+                ]
+            },
+            "title": "Chopin_op38_p13"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p14-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p14.wav"
+                ]
+            },
+            "title": "Chopin_op38_p14"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p15-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p15.wav"
+                ]
+            },
+            "title": "Chopin_op38_p15"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p16-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p16.wav"
+                ]
+            },
+            "title": "Chopin_op38_p16"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p17-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p17.wav"
+                ]
+            },
+            "title": "Chopin_op38_p17"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p18-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p18.wav"
+                ]
+            },
+            "title": "Chopin_op38_p18"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p19-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p19.wav"
+                ]
+            },
+            "title": "Chopin_op38_p19"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p20-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p20.wav"
+                ]
+            },
+            "title": "Chopin_op38_p20"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p21-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p21.wav"
+                ]
+            },
+            "title": "Chopin_op38_p21"
+        },
+        {
+            "composer": "Friedriech Chopin",
+            "ground_truth": [
+                "vienna_corpus/Chopin_op38_p22-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Chopin_op38_p22.wav"
+                ]
+            },
+            "title": "Chopin_op38_p22"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p01-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p01.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p01"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p02-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p02.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p02"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p03-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p03.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p03"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p04-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p04.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p04"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p05-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p05.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p05"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p06-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p06.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p06"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p07-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p07.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p07"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p08-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p08.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p08"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p09-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p09.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p09"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p10-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p10.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p10"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p11-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p11.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p11"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p12-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p12.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p12"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p13-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p13.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p13"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p14-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p14.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p14"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p15-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p15.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p15"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p16-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p16.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p16"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p17-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p17.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p17"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p18-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p18.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p18"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p19-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p19.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p19"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p20-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p20.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p20"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p21-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p21.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p21"
+        },
+        {
+            "composer": "Franz Schubert",
+            "ground_truth": [
+                "vienna_corpus/Schubert_D783_no15_p22-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Schubert_D783_no15_p22.wav"
+                ]
+            },
+            "title": "Schubert_D783_no15_p22"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p01-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p01.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p01"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p02-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p02.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p02"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p03-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p03.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p03"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p04-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p04.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p04"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p05-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p05.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p05"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p06-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p06.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p06"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p07-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p07.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p07"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p08-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p08.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p08"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p09-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p09.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p09"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p10-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p10.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p10"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p11-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p11.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p11"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p12-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p12.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p12"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p13-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p13.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p13"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p14-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p14.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p14"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p15-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p15.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p15"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p16-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p16.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p16"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p17-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p17.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p17"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p18-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p18.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p18"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p19-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p19.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p19"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p20-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p20.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p20"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p21-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p21.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p21"
+        },
+        {
+            "composer": "Wolfang Amadeus Mozart",
+            "ground_truth": [
+                "vienna_corpus/Mozart_K331_1st-mov_p22-0.json.gz"
+            ],
+            "groups": ["all"],
+            "instruments": [
+                "piano"
+            ],
+            "recording": {
+                "path": [
+                    "vienna_corpus/Mozart_K331_1st-mov_p22.wav"
+                ]
+            },
+            "title": "Mozart_K331_1st-mov_p22"
+        }
+    ],
+    "sources": {
+        "format": "unknown"
+    }
+}

@@ -1,0 +1,154 @@
+"""
+Fast computation of distances supporting float32 (scipy always outputs
+float64). Distance matrix computed with thread parallelization using numba!
+
+Types are not hard-coded, so numba should infer them and you can use any type;
+however, you must use them coherently.
+"""
+
+import numpy as np
+from numba import njit, prange
+
+
+eps = 1e-15
+
+
+@njit
+def sub(A, c):
+    for i in range(len(A)):
+        A[i] -= c
+
+    return A
+
+
+@njit
+def norm(A):
+    return np.sqrt(np.sum(A**2))
+
+
+@njit
+def cosine(A, B):
+    return 1 - A @ B / (norm(A) * norm(B) + eps)
+
+
+@njit
+def hamming(A, B):
+    out = 0
+    for i in range(len(A)):
+        if A[i] != B[i]:
+            out += 1
+    return out
+
+
+@njit
+def minkowski(A, B, p):
+    out = 0
+    for i in range(len(A)):
+        out += abs(A[i] - B[i])**p
+    return out**(1.0/p)
+
+
+def euclidean(A, B):
+    return minkowski(A, B, 2)
+
+
+def manhattan(A, B):
+    return minkowski(A, B, 1)
+
+
+@njit
+def braycurtis(A, B):
+    num = 0
+    den = 0
+
+    for i in range(len(A)):
+        num += abs(A[i] - B[i])
+        den += abs(A[i] + B[i])
+
+    return num/(den + eps)
+
+
+@njit
+def canberra(A, B):
+    out = 0
+
+    for i in range(len(A)):
+        out += abs(A[i] - B[i]) / (abs(A[i]) + abs(B[i]) + eps)
+
+    return out
+
+
+@njit
+def chebyshev(A, B):
+    out = -1
+
+    for i in range(len(A)):
+        out = max(out, abs(A[i] - B[i]))
+
+    return out
+
+
+@njit
+def correlation(A, B):
+    A = sub(A, np.mean(A))
+    B = sub(B, np.mean(B))
+    return cosine(A, B)
+
+
+def cdist(A, B, metric='euclidean', p=1):
+    """
+    Compute distance matrix with parallel threading (without GIL).
+
+    Arguments
+    -- `A` : array of array (np.array)
+        First collection of samples. Dimensione are (samples, features)
+    * `B` : array of array (np.array)
+        Second collection of samples. Dimensione are (samples, features)
+    * `metric` : str
+        A string indicating the metric that should be used.
+        Available metrics:
+        - 'cosine' : 1 - cosine similarity
+        - 'minkowski' : minkowski normalized to 1
+        - 'manhattan' : minkowski with p = 1
+        - 'euclidean' : minkowski with p = 2
+        - 'hamming' : number of different entries
+        - 'braycurtis' : bray-curtis distance
+        - 'canberra' : canberra distance
+        - 'chebyshev' : chebyshev distance
+        - 'correlation' : correlation distance
+    * `p` : float32
+        A value representing the `p` used for minkowski
+
+    Returns
+    ---
+    * array of array :
+        shape: (A.shape[1], B.shape[1])
+    """
+    a_cols = A.shape[0]
+    b_cols = B.shape[0]
+    out = np.empty((a_cols, b_cols), dtype=np.float32)
+    i = 0
+    j = 0
+
+    for i in prange(a_cols):
+        for j in range(b_cols):
+            if metric == 'cosine':
+                out[i, j] = cosine(A[i], B[j])
+            elif metric == 'hamming':
+                out[i, j] = hamming(A[i], B[j])
+            elif metric == 'manhattan':
+                out[i, j] = minkowski(A[i], B[j], 1)
+            elif metric == 'euclidean':
+                out[i, j] = minkowski(A[i], B[j], 2)
+            elif metric == 'minkowski':
+                out[i, j] = minkowski(A[i], B[j], p)
+            elif metric == 'braycurtis':
+                out[i, j] = braycurtis(A[i], B[j])
+            elif metric == 'canberra':
+                out[i, j] = canberra(A[i], B[j])
+            elif metric == 'chebyshev':
+                out[i, j] = chebyshev(A[i], B[j])
+            elif metric == 'correlation':
+                out[i, j] = correlation(A[i], B[j])
+
+    return out

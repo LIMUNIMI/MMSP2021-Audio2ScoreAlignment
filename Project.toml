@@ -1,0 +1,13 @@
+[deps]
+Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
+Debugger = "31a5f54b-26ea-5ae9-a837-f05ce5417438"
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+Infiltrator = "5903a43b-9cc3-4c30-8d17-598619ec4e9b"
+LanguageServer = "2b0e0bc5-e4fd-59b4-8912-456d1b03d8d7"
+MixedModeDebugger = "363b73cf-3c9c-4803-b200-4b032d6ece30"
+PProf = "e4faabce-9ead-11e9-39d9-4379958e3056"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+ResultTypes = "08a2b407-ddc3-586a-afd6-c784ad1fffe2"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+StaticLint = "b3cc710f-9c33-5bdb-a03d-a94903873e97"
+SymbolServer = "cf896787-08d5-524d-9de7-132aaa0cb996"
