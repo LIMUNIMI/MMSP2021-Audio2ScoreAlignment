@@ -1,8 +1,8 @@
-====================================
-A DTW-based score2performance method
-====================================
+=================================================================
+Audio-to-Score Alignment Using Deep Automatic Music Transcription
+=================================================================
 
-Early development stage.
+This is the code connected with paper [reference is coming]
 
 Setup
 =====
@@ -29,6 +29,8 @@ Julia and C/CPP
 N.B. If Julia has troubles installing, try to install python with the command
 above, using ``PYTHON_CONFIGURE_OPTS`` environment variable; you may need to
 clean the Julia environmnet (``rm -r ~/.julia/environmnts``)
+
+Note that Julia is only needed for code not referenced in the paper.
 
 Other dependencies
 ------------------
@@ -84,15 +86,6 @@ When not sorting nor fixing offsets, the HMM worked better than Hist, but I
 only computed DTW normalized distance; results are in the ASMD repo (old
 commits).
 
-Midi-to-midi
-------------
-
-To evaluate midi-to-midi alignment, use: ``poetry run python -m
-alignment.evaluate_midi2midi``
-
-Results are shown in mlflow, so you need to run ``mlflow ui`` and access it from
-your browser.
-
 
 Audio-to-midi
 -------------
@@ -102,7 +95,12 @@ Audio-to-midi
    alignment.evaluate_audio2score``
 #. To simulate missing/extra notes use the flag ``--missing``
 #. To do the same tests on solo piano music, use the flag ``--piano``
-#. To do everything in one pass, use ``poetry run ./evaluate_audio2score.sh``
+#. You can select ASMD datasets by using option ``--dataset``
+#. To do experiments published in the paper in one pass, use ``poetry run ./evaluate_audio2score.sh``
 
 Results are shown in mlflow, so you need to run ``mlflow ui`` and access it from
 your browser.
+
+You can also see results from our evaluations by using ``mlflow ui``.
+
+Finally, you can see further statistics by reading the content of files with ``.notes`` extensions.
