@@ -115,13 +115,13 @@ class Evaluator:
         else:
             self.counters['evaluable'][self.i] = True
 
-        self.score -= np.min(self.score[:, 1:3])
+        self.score[:, 1:3] -= np.min(self.score[:, 1:3])
 
         self._ground_truth = dataset_utils.get_score_mat(
             self.dataset,
             self.i,
             score_type=['precise_alignment', 'broad_alignment'])
-        self._ground_truth -= np.min(self._ground_truth[:, 1:3])
+        self._ground_truth[:, 1:3] -= np.min(self._ground_truth[:, 1:3])
         self.ground_truth = self._ground_truth[:, 1:3]
 
         self.score = utils.onsets_clusterize(self.score, rng)
@@ -182,7 +182,7 @@ class Evaluator:
         self.transcr_err = False
         self.counters[transcr_method][self.i] = True
         self.transcr_method = transcr_method
-        self.perfm -= np.min(self.perfm[:, 1:3])
+        self.perfm[:, 1:3] -= np.min(self.perfm[:, 1:3])
 
         # evaluate and record the onset f-measure
         self.transcr_statistics[transcr_method] = transcr_eval(
