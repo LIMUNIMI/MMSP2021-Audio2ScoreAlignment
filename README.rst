@@ -2,7 +2,11 @@
 Audio-to-Score Alignment Using Deep Automatic Music Transcription
 =================================================================
 
-This is the code connected with paper [reference is coming]
+This is the code connected with paper:
+
+F. Simonetta, S. Ntalampiras, and F. Avanzini, “Audio-to-Score Alignment Using
+Deep Automatic Music Transcription,” in Proceeddings of the IEEE MMSP 2021,
+2021. `Link to PDF <https://arxiv.org/abs/2107.12854>`_
 
 Setup
 =====
