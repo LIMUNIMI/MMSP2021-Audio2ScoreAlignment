@@ -41,7 +41,7 @@ directory (see *Audio-to-midi* section):
 
 #. Multi w/ missing notes:
 
- * `Onsets <https://rawcdn.githack.com/LIMUNIMI/MMSP2021-Audio2ScoreAlignment/239e4b5b385115bf445c567049cdc23db17ac564/mlruns/1/71fd8329d43d47a69166a56375ba03e2/artifacts/macro_thresholds_ons.html>`_
+ * `Onsets <https://rawcdn.githack.com/LIMUNIMI/MMSP2021-Audio2ScoreAlignment/7a691eeb3ac3d2ddd754b7314678f55d78eb1e7a/mlruns/1/60057c58d2314841b4e88d57352e7a1f/artifacts/macro_thresholds_ons.html>`_
  * `Offsets <https://rawcdn.githack.com/LIMUNIMI/MMSP2021-Audio2ScoreAlignment/239e4b5b385115bf445c567049cdc23db17ac564/mlruns/1/71fd8329d43d47a69166a56375ba03e2/artifacts/macro_thresholds_offs.html>`_
 
 Setup
