@@ -25,17 +25,24 @@ The following are the updated images. They are contained in the `mlruns`
 directory (see *Audio-to-midi* section): 
 
 #. Piano w/o missing notes:
- #. `Onsets <./mlruns/1/c403cce1fb40408fa406b9ab0dd06df7/artifacts/macro_thresholds_ons.html>`
- #. `Offsets <./mlruns/1/c403cce1fb40408fa406b9ab0dd06df7/artifacts/macro_thresholds_offs.html>`
+
+ * `Onsets <./mlruns/1/ebda0e6e83d94ccf9b882b76bee52a8b/artifacts/macro_thresholds_ons.html>`_
+ * `Offsets <./mlruns/1/ebda0e6e83d94ccf9b882b76bee52a8b/artifacts/macro_thresholds_offs.html>`_
+
 #. Piano w/ missing notes:
- #. `Onsets <./mlruns/1/11b66bf591334793ae23aa853f52005a/artifacts/macro_thresholds_ons.html>`
- #. `Offsets <./mlruns/1/11b66bf591334793ae23aa853f52005a/artifacts/macro_thresholds_offs.html>`
+
+ * `Onsets <./mlruns/1/98840cd63a744f70b680099ffcf337e3/artifacts/macro_thresholds_ons.html>`_
+ * `Offsets <./mlruns/1/98840cd63a744f70b680099ffcf337e3/artifacts/macro_thresholds_offs.html>`_
+
 #. Multi w/o missing notes:
- #. `Onsets <./mlruns/1/3e8cc5f983134ec59131565ee8a83d86/artifacts/macro_thresholds_ons.html>`
- #. `Offsets <./mlruns/1/3e8cc5f983134ec59131565ee8a83d86/artifacts/macro_thresholds_offs.html>`
+
+ * `Onsets <./mlruns/1/60057c58d2314841b4e88d57352e7a1f/artifacts/macro_thresholds_ons.html>`_
+ * `Offsets <./mlruns/1/60057c58d2314841b4e88d57352e7a1f/artifacts/macro_thresholds_offs.html>`_
+
 #. Multi w/ missing notes:
- #. `Onsets <./mlruns/1/fb46155d453c4da8b8c84a1ea42d7c77/artifacts/macro_thresholds_ons.html>`
- #. `Offsets <./mlruns/1/fb46155d453c4da8b8c84a1ea42d7c77/artifacts/macro_thresholds_offs.html>`
+
+ * `Onsets <./mlruns/1/71fd8329d43d47a69166a56375ba03e2/artifacts/macro_thresholds_ons.html>`_
+ * `Offsets <./mlruns/1/71fd8329d43d47a69166a56375ba03e2/artifacts/macro_thresholds_offs.html>`_
 
 Setup
 =====
