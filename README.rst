@@ -8,6 +8,35 @@ F. Simonetta, S. Ntalampiras, and F. Avanzini, “Audio-to-Score Alignment Using
 Deep Automatic Music Transcription,” in Proceeddings of the IEEE MMSP 2021,
 2021. `Link to PDF <https://arxiv.org/abs/2107.12854>`_
 
+=====================
+!! Errata Corridge !!
+=====================
+
+After the publication at `MMSP2021 <https://attend.ieee.org/mmsp-2021/>`_, an
+`error <https://github.com/LIMUNIMI/MMSP2021-Audio2ScoreAlignment/issues/1>`_
+was found in the code. I have rerun all the experiments and updated the
+publication on `Arxiv <https://arxiv.org/abs/2107.12854>`_.
+
+In a few words, most of the conclusions of the original publication hold, but I
+found that in non-piano music, the *TAFE* and *Bytedance EIFE* are better than
+the old *SEBA* method, as published in the paper.
+
+The following are the updated images. They are contained in the `mlruns`
+directory (see *Audio-to-midi* section): 
+
+#. Piano w/o missing notes:
+ #. `Onsets <./mlruns/1/c403cce1fb40408fa406b9ab0dd06df7/artifacts/macro_thresholds_ons.html>`
+ #. `Offsets <./mlruns/1/c403cce1fb40408fa406b9ab0dd06df7/artifacts/macro_thresholds_offs.html>`
+#. Piano w/ missing notes:
+ #. `Onsets <./mlruns/1/11b66bf591334793ae23aa853f52005a/artifacts/macro_thresholds_ons.html>`
+ #. `Offsets <./mlruns/1/11b66bf591334793ae23aa853f52005a/artifacts/macro_thresholds_offs.html>`
+#. Multi w/o missing notes:
+ #. `Onsets <./mlruns/1/3e8cc5f983134ec59131565ee8a83d86/artifacts/macro_thresholds_ons.html>`
+ #. `Offsets <./mlruns/1/3e8cc5f983134ec59131565ee8a83d86/artifacts/macro_thresholds_offs.html>`
+#. Multi w/ missing notes:
+ #. `Onsets <./mlruns/1/fb46155d453c4da8b8c84a1ea42d7c77/artifacts/macro_thresholds_ons.html>`
+ #. `Offsets <./mlruns/1/fb46155d453c4da8b8c84a1ea42d7c77/artifacts/macro_thresholds_offs.html>`
+
 Setup
 =====
 

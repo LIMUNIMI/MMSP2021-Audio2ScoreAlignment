@@ -1,0 +1,15 @@
+artifact_uri: /home/federico/mlruns/1/60057c58d2314841b4e88d57352e7a1f/artifacts
+end_time: 1639899041763
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 60057c58d2314841b4e88d57352e7a1f
+run_uuid: 60057c58d2314841b4e88d57352e7a1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1639897969063
+status: 3
+tags: []
+user_id: federico
